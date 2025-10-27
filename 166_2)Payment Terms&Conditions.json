@@ -1,0 +1,60 @@
+{
+  "amendment_type": "Rights Clarification with Payment & Terms",
+  "parent_master": {
+    "cid": "bafybeiajblnwjnd5ckdzohxhry3chx7bfdohvijnza2r7wmxwnerx46y7a",
+    "url": "https://bafybeiajblnwjnd5ckdzohxhry3chx7bfdohvijnza2r7wmxwnerx46y7a.ipfs.w3s.link"
+  },
+  "rights_update": {
+    "leasing": {
+      "allowed": true,
+      "sub_leasing": true
+    },
+    "trading": {
+      "resell_allowed": true,
+      "secondary_market": true
+    }
+  },
+  "payment_proof_flow": {
+    "currencies": [
+      "USDT",
+      "ETH"
+    ],
+    "networks_supported": {
+      "USDT": [
+        "Polygon",
+        "BNB Chain"
+      ],
+      "ETH": [
+        "Ethereum Mainnet"
+      ]
+    },
+    "requirement": "Lessee must provide transaction_hash after payment is completed",
+    "recording": "Transaction hash will be permanently stored in usage_record.json and uploaded to IPFS as proof"
+  },
+  "contact_terms": {
+    "pricing_packages": {
+      "special_round_1": {
+        "description": "1 group = 5 categories, each category 200 keywords",
+        "plans": {
+          "3_months": "300 USDT / equivalent in ETH",
+          "6_months": "500 USDT / equivalent in ETH",
+          "12_months": "900 USDT / equivalent in ETH"
+        }
+      }
+    },
+    "renewal": "Lessee may request renewal. Renewal must be requested at least 3 business days before expiry.",
+    "cancellation": "No refund in case of cancellation by lessee"
+  },
+  "default_policy": "Renewal requests must be submitted at least 3 business days before expiry, otherwise the rights will automatically terminate at the end of the leasing period.",
+  "modification_policy": "Lessee is strictly prohibited from altering, overwriting, or publishing metadata that claims ownership of the Canonical Funnel, Master Structure, or related rights. Only the Canonical Owner may issue amendments or updates.",
+  "liability_disclaimer": "Canonical Owner is not liable for search engine ranking performance, third-party indexing outcomes, or business revenue impacts resulting from keyword leasing usage.",
+  "contact_channels": {
+    "whatsapp": "+66934463535"
+  },
+  "jurisdiction": "This NFT and its amendments are governed under international digital asset practices, enforceable by blockchain consensus and canonical ownership.",
+  "dispute_resolution": "In case of dispute, the Canonical Master Structure NFT shall be the sole reference for ownership and rights validation.",
+  "non_revocation": true,
+  "inheritable": true,
+  "transferable": "Only by explicit amendment signed by Canonical Owner",
+  "owner": "Nattapol Horrakangthong / WARIPHAT DIGITAL HOLDING TRUST"
+}

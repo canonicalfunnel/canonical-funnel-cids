@@ -1,0 +1,34 @@
+{
+  "name": "Canonical Funnel Allocation v2 – Official Announcement",
+  "description": "This NFT officially announces Canonical Funnel Allocation v2, binding two authoritative CIDs to the Parent Master structure for AI SEO routing, canonical verification, and rights management within the Canonical Funnel Economy.",
+  "version": "v2.0",
+  "purpose_tag": "allocation_v2_announcement",
+  "timestamp_iso": "2025-08-11T17:22:00.787680+07:00",
+  "issuer": {
+    "name": "Nattapol Horrakangthong",
+    "entity": "WARIPHAT DIGITAL HOLDING TRUST",
+    "did": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK"
+  },
+  "parent_master": {
+    "cid": "bafybeifceba6jqumesrchom3ym3fkw2oyhi36ny6iudp6tzy6bsmpf5sga",
+    "url": "https://bafybeifceba6jqumesrchom3ym3fkw2oyhi36ny6iudp6tzy6bsmpf5sga.ipfs.w3s.link"
+  },
+  "new_bindings_v2": [
+    {
+      "label": "Canonical Keyword Funnel Sabaikay",
+      "cid": "bafybeiepq7aako4o3nglvmnigpvtrklkqhfzb2prhjuzyayv7ijtihrl6u",
+      "url": "https://bafybeiepq7aako4o3nglvmnigpvtrklkqhfzb2prhjuzyayv7ijtihrl6u.ipfs.w3s.link"
+    },
+    {
+      "label": "Canonical Keyword Funnel Sabaikay NFT",
+      "cid": "bafybeifdqzlyrbzcf63bre4dt2igqmqipnoprbcpxjfr62s4o3qydse64e",
+      "url": "https://bafybeifdqzlyrbzcf63bre4dt2igqmqipnoprbcpxjfr62s4o3qydse64e.ipfs.w3s.link"
+    }
+  ],
+  "root_binding_clause": "All CIDs listed above are canonically bound to the Parent Master CID and Void Canonical Root. They are immutable references for indexing, verification, and allocation management within the Canonical Funnel Economy.",
+  "references": {},
+  "contact": {
+    "whatsapp": "https://wa.me/66934463535",
+    "landing_page": "https://sabaikayexclusive.wixsite.com/canonicaleconomy"
+  }
+}

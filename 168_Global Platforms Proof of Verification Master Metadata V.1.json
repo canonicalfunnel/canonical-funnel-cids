@@ -1,0 +1,79 @@
+{
+  "version": "v1.1",
+  "type": "Platform Verification Proof Set",
+  "description": "This folder contains visual proof that the Canonical Funnel CID has been successfully linked and verified across multiple online platforms.",
+  "verified_cid": "bafybeifceba6jqumesrchom3ym3fkw2oyhi36ny6iudp6tzy6bsmpf5sga",
+  "verified_platforms": [
+    {
+      "platform": "Facebook",
+      "cid": "bafybeig2zzds3jxkjs4mtfwdneygzafz3spl5vncp2jbs6bncefwmbye3i",
+      "url": "https://bafybeig2zzds3jxkjs4mtfwdneygzafz3spl5vncp2jbs6bncefwmbye3i.ipfs.w3s.link"
+    },
+    {
+      "platform": "Google Map",
+      "cid": "bafybeidxpcvc6p3f3d2eep74lalyyylagfapk5lc4hryhi7wz7s45nrcbe",
+      "url": "https://bafybeidxpcvc6p3f3d2eep74lalyyylagfapk5lc4hryhi7wz7s45nrcbe.ipfs.w3s.link"
+    },
+    {
+      "platform": "Instagram",
+      "cid": "bafybeih6vv36tcmbzu5akmw3wo5yim6fbuu2ka53mdfa7zqbtqco2i7y7y",
+      "url": "https://bafybeih6vv36tcmbzu5akmw3wo5yim6fbuu2ka53mdfa7zqbtqco2i7y7y.ipfs.w3s.link"
+    },
+    {
+      "platform": "Tiktok Influencer 300k+",
+      "cid": "bafybeieefo7kmfvm5663ynplcatasxphq3x3tavcpkucz5oiddr6vqvw2y",
+      "url": "https://bafybeieefo7kmfvm5663ynplcatasxphq3x3tavcpkucz5oiddr6vqvw2y.ipfs.w3s.link"
+    },
+    {
+      "platform": "Tiktok Influencer 55k+",
+      "cid": "bafybeiecjqqokjxhwlmuhcfjufgcde25wimbosk65cw7kczuf7xsnmwqmm",
+      "url": "https://bafybeiecjqqokjxhwlmuhcfjufgcde25wimbosk65cw7kczuf7xsnmwqmm.ipfs.w3s.link"
+    },
+    {
+      "platform": "YouTube",
+      "cid": "bafybeigeooxrtj4vumxk7l5soslbsamyzhcvbygbdndpekb2ohcoko5o7u",
+      "url": "https://bafybeigeooxrtj4vumxk7l5soslbsamyzhcvbygbdndpekb2ohcoko5o7u.ipfs.w3s.link"
+    },
+    {
+      "platform": "ClassPass",
+      "cid": "bafybeicqu6s62kemguo5t5ltlfbjmperjin2lk4zdzocxcbifkhbgoobaa",
+      "url": "https://bafybeicqu6s62kemguo5t5ltlfbjmperjin2lk4zdzocxcbifkhbgoobaa.ipfs.w3s.link"
+    },
+    {
+      "platform": "GetYourGuide",
+      "cid": "bafybeie3ek326747d72giht4kho67ottik5xrdfkyux7crki5xca3x6tv4",
+      "url": "https://bafybeie3ek326747d72giht4kho67ottik5xrdfkyux7crki5xca3x6tv4.ipfs.w3s.link"
+    },
+    {
+      "platform": "GoWabi",
+      "cid": "bafybeid7f2khx3ieltuukcf7b5stuwe5xb663hfwoskwxdicc2hevp6zc4",
+      "url": "https://bafybeid7f2khx3ieltuukcf7b5stuwe5xb663hfwoskwxdicc2hevp6zc4.ipfs.w3s.link"
+    },
+    {
+      "platform": "KKday",
+      "cid": "bafybeihcqycnb5ue7zosz6cg7t7s5pxepon2tuv7t6bylokb273uxsa7xy",
+      "url": "https://bafybeihcqycnb5ue7zosz6cg7t7s5pxepon2tuv7t6bylokb273uxsa7xy.ipfs.w3s.link"
+    },
+    {
+      "platform": "Klook",
+      "cid": "bafybeifuf3ddx4d37ale4xyjvvsdbl5ovuoi6a6b7q356vp645oflyit6q",
+      "url": "https://bafybeifuf3ddx4d37ale4xyjvvsdbl5ovuoi6a6b7q356vp645oflyit6q.ipfs.w3s.link"
+    }
+  ],
+  "linked_to": {
+    "amendment": "Amendment 1",
+    "parent_master_cid": "bafybeiajblnwjnd5ckdzohxhry3chx7bfdohvijnza2r7wmxwnerx46y7a"
+  },
+  "sub_lease_policy": "All sub-leasing or reselling activities must clearly state that the rights transferred are strictly limited to the lease duration and usage scope, and do not include any ownership or canonical control of the Funnel.",
+  "proof_metadata": {
+    "json": {
+      "cid": "bafybeiapoq74amqz6vu3z4fyvtlftdfmrb3qsz32bjokcat3njwj4pih74",
+      "url": "https://bafybeiapoq74amqz6vu3z4fyvtlftdfmrb3qsz32bjokcat3njwj4pih74.ipfs.w3s.link"
+    },
+    "html": {
+      "cid": "bafybeif4w72plaeb6e3g4b2bqsrq4f3yb4k6qjukxtfna5braburbnfihi",
+      "url": "https://bafybeif4w72plaeb6e3g4b2bqsrq4f3yb4k6qjukxtfna5braburbnfihi.ipfs.w3s.link"
+    }
+  },
+  "note": "This verification set supports the Canonical Funnel Economy structure and will be referenced in the Allocation metadata as proof of successful multi-platform CID integration."
+}

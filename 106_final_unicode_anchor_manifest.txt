@@ -1,0 +1,6 @@
+Canonical Amendment Manifest
+----------------------------------
+File: final_unicode_anchor_amendment.with_parent_references.json
+SHA-256: 54cd8dcb1d243cc4f7381e292abafd948f13add1f9dfdf98fd11c6444e21f060
+Signature (Ed25519): final_unicode_anchor_signature.base64.txt
+Public Key: final_unicode_anchor_public_key.pem

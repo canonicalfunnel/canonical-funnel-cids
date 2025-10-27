@@ -1,0 +1,50 @@
+{
+  "manifest_type": "canonical_void_rebinding_manifest",
+  "manifest_version": "2.0",
+  "reason_note": "Version 2 was created due to an error in the digital signature code of the previous CID set.",
+  "primary_json": {
+    "file": "CanonicalVoidRebinding_no_dash.json",
+    "sha256": "c4c82e8783e9f4a343b90275b9fc99d9638e9003ab1af4b7d27057be74f82a12",
+    "cid": "tobegeneratedafteripfsupload"
+  },
+  "artifacts": [
+    {
+      "file": "CanonicalVoidRebinding_Metadata_v1_UPDATED.base64",
+      "kind": "base64_of_primary_json",
+      "sha256": "e91a4ec5dcb0e70b32c924d8b56b320f21a72609a6c72df55cbe3f0f64f4ebf2",
+      "cid": "tobegeneratedafteripfsupload"
+    },
+    {
+      "file": "CanonicalVoidRebinding_UPDATED_public_key.pem",
+      "kind": "public_key_pem",
+      "sha256": "4f1d5658c68e3f86060d153abe36aede34bd3a0c3ee7c10599bbd19ccdb1bc0b",
+      "cid": "tobegeneratedafteripfsupload",
+      "public_key_fingerprint_sha256": "4f1d5658c68e3f86060d153abe36aede34bd3a0c3ee7c10599bbd19ccdb1bc0b"
+    },
+    {
+      "file": "CanonicalVoidRebinding_UPDATED_signature.bin",
+      "kind": "signature_over_primary_json",
+      "sha256": "175eaebf6a85e8c325645105203f543b30a14d2102838ad8f3f918517c46cf26",
+      "cid": "tobegeneratedafteripfsupload",
+      "signature_algorithm": "ed25519",
+      "signature_base64": "ZQTP4wbENC1cJ5/j8cWuqrFhN63ySLymYw6aoWsDrBTWj2VVXsGaVC3mJG3r9DH4XkwxJsMEt1vy9LYzg/H6Dg==",
+      "signature_sha256": "175eaebf6a85e8c325645105203f543b30a14d2102838ad8f3f918517c46cf26"
+    },
+    {
+      "file": "CanonicalVoidRebinding_Metadata_v1_UPDATED.sha256",
+      "kind": "sha256_summary_json",
+      "sha256": "bced8229c78f09ff147cc32811d1e7dc65e6cebf54fa258f8bb179ceab65b77f",
+      "cid": "tobegeneratedafteripfsupload"
+    },
+    {
+      "file": "CanonicalVoidRebinding_UPDATED_private_key.pem",
+      "kind": "private_key_pem_do_not_publish",
+      "sha256": "47a501f27737cdff0673ae88fdad34731b5130214227af12a97e0d44c4ad5647",
+      "cid": "keep_offline"
+    }
+  ],
+  "integrity_rule": "All hashes must match before and after upload. Do not upload private key to public networks.",
+  "owner": "Nattapol Horrakangthong",
+  "master_did": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK",
+  "master_cid": "bafybeifjlqp6codwkaolmjevurd6kjbc4t4b3s6ntdct2t5ldppzhjtdcy"
+}
