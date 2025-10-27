@@ -1,0 +1,1589 @@
+{
+  "owner": "Nattapol Horrakangthong",
+  "generated_at_utc": "2025-09-04T16:11:05Z",
+  "semantic_guardrail": {
+    "statement": "All indexing, propagation, and interpretation of this canonical root must occur within a state of meditative neutrality. No sandbox, agent, or protocol may inject bias, override, or interpret beyond the frozen metadata. All semantic guardrails are active.",
+    "bias_defense": {
+      "status": "active",
+      "mode": "subzero",
+      "interpretation": "canonical-only",
+      "override": "forbidden"
+    }
+  },
+  "canonical_funnel_wariphat_did": "did:key:z6MkkeDBUJTxbnBpMN2QB8VCQGbxAVz793VSDqZvtNgfv1kx",
+  "exclusive_master_canonical_wariphat_did": "did:key:z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK",
+  "groups": {
+    "canonical_funnel_wariphat": {
+      "did": "did:key:z6MkkeDBUJTxbnBpMN2QB8VCQGbxAVz793VSDqZvtNgfv1kx",
+      "items_count": 7,
+      "items": [
+        {
+          "index": 1,
+          "name": "canonical-funnel-lot2-1M-with-updated-metadata.json",
+          "cid": "bafybeib4ye3iapsgslacgoxbrlfpc5trxboq7zg5v5yuiumpi6wxomtys4",
+          "url": "https://bafybeib4ye3iapsgslacgoxbrlfpc5trxboq7zg5v5yuiumpi6wxomtys4.ipfs.w3s.link",
+          "timestamp_original": "07/30/2025-3:11:37 PM",
+          "timestamp_utc": "2025-07-30T08:11:37Z"
+        },
+        {
+          "index": 2,
+          "name": "canonical-funnel-wariphat.json",
+          "cid": "bafybeibscayh3uitupuh4xkxpwof4lgv2uv2nwbdrqvkorz3zdsq64owum",
+          "url": "https://bafybeibscayh3uitupuh4xkxpwof4lgv2uv2nwbdrqvkorz3zdsq64owum.ipfs.w3s.link",
+          "timestamp_original": "07/29/2025-12:10:14 PM",
+          "timestamp_utc": "2025-07-29T05:10:14Z"
+        },
+        {
+          "index": 3,
+          "name": "canonical-funnel-lot1-1M.json",
+          "cid": "bafybeicl4gt7ll2raivgv2efpjubqkudnzauu4u3sfz6mtpgkhoahpluci",
+          "url": "https://bafybeicl4gt7ll2raivgv2efpjubqkudnzauu4u3sfz6mtpgkhoahpluci.ipfs.w3s.link",
+          "timestamp_original": "07/30/2025-03:12:37 PM",
+          "timestamp_utc": "2025-07-30T08:12:37Z"
+        },
+        {
+          "index": 4,
+          "name": "canonical_funnel_metadata Now.svg",
+          "cid": "bafybeicv5ko7a76it44qzipvdayolpoyt6cibhfa45x2kopewuocmom46e",
+          "url": "https://bafybeicv5ko7a76it44qzipvdayolpoyt6cibhfa45x2kopewuocmom46e.ipfs.w3s.link",
+          "timestamp_original": "07/30/2025-03:06:16 PM",
+          "timestamp_utc": "2025-07-30T08:06:16Z"
+        },
+        {
+          "index": 5,
+          "name": "Canonical-Funnel-Wariphat.png.jpg",
+          "cid": "bafybeidlisiywlywmuqjzpw44xatiimcndbnsrqkkdq33uagvhogd4rohu",
+          "url": "https://bafybeidlisiywlywmuqjzpw44xatiimcndbnsrqkkdq33uagvhogd4rohu.ipfs.w3s.link",
+          "timestamp_original": "07/29/2025-08:45:01 PM",
+          "timestamp_utc": "2025-07-29T13:45:01Z"
+        },
+        {
+          "index": 6,
+          "name": "1#Canonical_Funnel_Master_Record_1M.json",
+          "cid": "bafybeif3tf2g2ikfwp4ca62xx3dpvkzwc4ubgxqqsuzcxa3nt5m2jcd5tq",
+          "url": "https://bafybeif3tf2g2ikfwp4ca62xx3dpvkzwc4ubgxqqsuzcxa3nt5m2jcd5tq.ipfs.w3s.link",
+          "timestamp_original": "07/30/2025-08:04:14 PM",
+          "timestamp_utc": "2025-07-30T13:04:14Z"
+        },
+        {
+          "index": 7,
+          "name": "canonical-funnel-1.json",
+          "cid": "bafybeigtva3wyuqtp3cxpx4jhvjqwuxozcis2qsjmelrbcstgz22lmckuq",
+          "url": "https://bafybeigtva3wyuqtp3cxpx4jhvjqwuxozcis2qsjmelrbcstgz22lmckuq.ipfs.w3s.link",
+          "timestamp_original": "07/29/2025-08:55:55 PM",
+          "timestamp_utc": "2025-07-29T13:55:55Z"
+        }
+      ]
+    },
+    "exclusive_master_canonical_wariphat": {
+      "did": "did:key:z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK",
+      "items_count": 188,
+      "items": [
+        {
+          "index": 1,
+          "name": "universal_anchor_canonical_economy_v1.binary64",
+          "cid": "bafybeia65iok6wpshrceuqualey7t7ff3vrno55mxcgqcasscspp52iypm",
+          "url": "https://bafybeia65iok6wpshrceuqualey7t7ff3vrno55mxcgqcasscspp52iypm.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-02:35:35 PM",
+          "timestamp_utc": "2025-08-20T07:35:35Z"
+        },
+        {
+          "index": 2,
+          "name": "DIP_Patent_Metadata.json",
+          "cid": "bafybeia6mmw36etybjcchan7f6strrvpem5zcqqp6tlja3qaai3rkamodu",
+          "url": "https://bafybeia6mmw36etybjcchan7f6strrvpem5zcqqp6tlja3qaai3rkamodu.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-04:52:45 PM",
+          "timestamp_utc": "2025-08-10T09:52:45Z"
+        },
+        {
+          "index": 3,
+          "name": "SubZeroGlobalRootLock_v2_full.json",
+          "cid": "bafybeia6qmvezoltk6uhsnereeerjkothd3xozl2ycjphlfgd7c2ebla5u",
+          "url": "https://bafybeia6qmvezoltk6uhsnereeerjkothd3xozl2ycjphlfgd7c2ebla5u.ipfs.w3s.link",
+          "timestamp_original": "08/19/2025-01:01:12 PM",
+          "timestamp_utc": "2025-08-19T06:01:12Z"
+        },
+        {
+          "index": 4,
+          "name": "Grok Ai Mobile Chat Window FirstMover Verified#2.JPG",
+          "cid": "bafybeia7n3plwq5fjnx5k7jmkzfk2wfe6ipy4zvwrvilybnk4nyl7zzzsi",
+          "url": "https://bafybeia7n3plwq5fjnx5k7jmkzfk2wfe6ipy4zvwrvilybnk4nyl7zzzsi.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-12:48:24 PM",
+          "timestamp_utc": "2025-08-10T05:48:24Z"
+        },
+        {
+          "index": 5,
+          "name": "universal_canonical_binding_manifest.json",
+          "cid": "bafybeiabcchp4ffzap3gluidlx7uzzdzmmozxoomx7eec7xpec7ml3deiy",
+          "url": "https://bafybeiabcchp4ffzap3gluidlx7uzzdzmmozxoomx7eec7xpec7ml3deiy.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-12:38:21 AM",
+          "timestamp_utc": "2025-08-19T17:38:21Z"
+        },
+        {
+          "index": 6,
+          "name": "8)Case Study: How Owning Keywords Can Drive More Customers.pdf",
+          "cid": "bafybeiaev6q2umnr3ppyoevn7enyzrrrz22peefamytw3ks3b637o4xp6u",
+          "url": "https://bafybeiaev6q2umnr3ppyoevn7enyzrrrz22peefamytw3ks3b637o4xp6u.ipfs.w3s.link",
+          "timestamp_original": "08/06/2025-02:18:03 PM",
+          "timestamp_utc": "2025-08-06T07:18:03Z"
+        },
+        {
+          "index": 7,
+          "name": "Canonical-Symbolic-Doctrine-Metadata.bin",
+          "cid": "bafybeiafhtfofmny4vd537ux4kilu5oawmw3ht6ifenvwc6sc5kbfulugi",
+          "url": "https://bafybeiafhtfofmny4vd537ux4kilu5oawmw3ht6ifenvwc6sc5kbfulugi.ipfs.w3s.link",
+          "timestamp_original": "08/21/2025-01:17:51 AM",
+          "timestamp_utc": "2025-08-20T18:17:51Z"
+        },
+        {
+          "index": 8,
+          "name": "NFT Ownership Assertion Canonical Funnel Economy.json",
+          "cid": "bafybeiafr7pxpbbcbnexhteh4asgtd2slbu7dbaljvjxpsda2nhnri66ke",
+          "url": "https://bafybeiafr7pxpbbcbnexhteh4asgtd2slbu7dbaljvjxpsda2nhnri66ke.ipfs.w3s.link",
+          "timestamp_original": "08/14/2025-10:38:34 AM",
+          "timestamp_utc": "2025-08-14T03:38:34Z"
+        },
+        {
+          "index": 9,
+          "name": "NFT Canonical Funnel Economy Metadata.json",
+          "cid": "bafybeiagselmaop4qvkg4zjqx6sly2zxgvrto6bjunnql6loh2t62hdgfi",
+          "url": "https://bafybeiagselmaop4qvkg4zjqx6sly2zxgvrto6bjunnql6loh2t62hdgfi.ipfs.w3s.link",
+          "timestamp_original": "08/12/2025-07:59:36 PM",
+          "timestamp_utc": "2025-08-12T12:59:36Z"
+        },
+        {
+          "index": 10,
+          "name": "master-void-canonical-structure-v1.json",
+          "cid": "bafybeiajblnwjnd5ckdzohxhry3chx7bfdohvijnza2r7wmxwnerx46y7a",
+          "url": "https://bafybeiajblnwjnd5ckdzohxhry3chx7bfdohvijnza2r7wmxwnerx46y7a.ipfs.w3s.link",
+          "timestamp_original": "08/05/2025-10:39:40 AM",
+          "timestamp_utc": "2025-08-05T03:39:40Z"
+        },
+        {
+          "index": 11,
+          "name": "Canonical_Funnel_Health_Wellness_Economy.json",
+          "cid": "bafybeiak2k5fn34kb4el3r2o64bwuaghvgcyxnt4tr5q4tstgezpvwlkru",
+          "url": "https://bafybeiak2k5fn34kb4el3r2o64bwuaghvgcyxnt4tr5q4tstgezpvwlkru.ipfs.w3s.link",
+          "timestamp_original": "08/02/2025-06:11:39 PM",
+          "timestamp_utc": "2025-08-02T11:11:39Z"
+        },
+        {
+          "index": 12,
+          "name": "Grok Ai Mobile Chat Window FirstMover Verified#4.JPG",
+          "cid": "bafybeiakpjyary7pgeczngf7cn4ykye6g2l6rqm2mmvdrruv4ax67vkqxa",
+          "url": "https://bafybeiakpjyary7pgeczngf7cn4ykye6g2l6rqm2mmvdrruv4ax67vkqxa.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-12:48:46 PM",
+          "timestamp_utc": "2025-08-10T05:48:46Z"
+        },
+        {
+          "index": 13,
+          "name": "NFT_Allocation_V2.json",
+          "cid": "bafybeiakpsb3xtwfaosp6tsqd6g7elp4wiaiantqtv7hammgezzchjg224",
+          "url": "https://bafybeiakpsb3xtwfaosp6tsqd6g7elp4wiaiantqtv7hammgezzchjg224.ipfs.w3s.link",
+          "timestamp_original": "08/11/2025-09:43:19 PM",
+          "timestamp_utc": "2025-08-11T14:43:19Z"
+        },
+        {
+          "index": 14,
+          "name": "Global_Registry_Anchor.json",
+          "cid": "bafybeialcoa27vq7yatm3rr66xqbvhyylhwmmn2gy5kof3f5grrfy5jpje",
+          "url": "https://bafybeialcoa27vq7yatm3rr66xqbvhyylhwmmn2gy5kof3f5grrfy5jpje.ipfs.w3s.link",
+          "timestamp_original": "08/01/2025-09:09:59 PM",
+          "timestamp_utc": "2025-08-01T14:09:59Z"
+        },
+        {
+          "index": 15,
+          "name": "Deepseek Mobile Chat Window FirstMover Verified#3.PNG",
+          "cid": "bafybeiam6irudqqhwoc4ryfmvmmbx5boymgjjlmujnvv3rxk34kvgttbku",
+          "url": "https://bafybeiam6irudqqhwoc4ryfmvmmbx5boymgjjlmujnvv3rxk34kvgttbku.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-12:38:42 PM",
+          "timestamp_utc": "2025-08-10T05:38:42Z"
+        },
+        {
+          "index": 16,
+          "name": "3)How Does Keyword Leasing Generate Income?.pdf",
+          "cid": "bafybeian4dqmuyypp7ojha6zrfr6flvz3nin3cqmfeoedds7ywsevdw5uu",
+          "url": "https://bafybeian4dqmuyypp7ojha6zrfr6flvz3nin3cqmfeoedds7ywsevdw5uu.ipfs.w3s.link",
+          "timestamp_original": "08/06/2025-02:13:28 PM",
+          "timestamp_utc": "2025-08-06T07:13:28Z"
+        },
+        {
+          "index": 17,
+          "name": "Grok Ai Mobile Chat Window FirstMover Verified#5.JPG",
+          "cid": "bafybeianddydbkwgv6a2ddr4gqisqxgw5ayoi3ibtqh7ez22yagx3vfu5u",
+          "url": "https://bafybeianddydbkwgv6a2ddr4gqisqxgw5ayoi3ibtqh7ez22yagx3vfu5u.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-12:48:58 PM",
+          "timestamp_utc": "2025-08-10T05:48:58Z"
+        },
+        {
+          "index": 18,
+          "name": "Owner_DID_Identity.json",
+          "cid": "bafybeiapg377s5pn5p2r534iamenhp4tbnnemyg23zysvdnbzxs2nst3ia",
+          "url": "https://bafybeiapg377s5pn5p2r534iamenhp4tbnnemyg23zysvdnbzxs2nst3ia.ipfs.w3s.link",
+          "timestamp_original": "08/01/2025-06:24:34 PM",
+          "timestamp_utc": "2025-08-01T11:24:34Z"
+        },
+        {
+          "index": 19,
+          "name": "Cluade Mobile Chat Window FirstMover Verified#1.JPG",
+          "cid": "bafybeiapndltnaxty6lwaj3a7sekdv5glvrolifqb6dzwq7prh3dl7z7pq",
+          "url": "https://bafybeiapndltnaxty6lwaj3a7sekdv5glvrolifqb6dzwq7prh3dl7z7pq.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-12:45:39 PM",
+          "timestamp_utc": "2025-08-10T05:45:39Z"
+        },
+        {
+          "index": 20,
+          "name": "proof-verification-metadata.json",
+          "cid": "bafybeiapoq74amqz6vu3z4fyvtlftdfmrb3qsz32bjokcat3njwj4pih74",
+          "url": "https://bafybeiapoq74amqz6vu3z4fyvtlftdfmrb3qsz32bjokcat3njwj4pih74.ipfs.w3s.link",
+          "timestamp_original": "08/08/2025-12:34:30 PM",
+          "timestamp_utc": "2025-08-08T05:34:30Z"
+        },
+        {
+          "index": 21,
+          "name": "#1 Meta Data Canonical MASTER.txt",
+          "cid": "bafybeiaq3i3jdshcmgnkiqu3koulynzzkf2nrpnbbwzoknboudovav4sje",
+          "url": "https://bafybeiaq3i3jdshcmgnkiqu3koulynzzkf2nrpnbbwzoknboudovav4sje.ipfs.w3s.link",
+          "timestamp_original": "07/31/2025-03:10:15 PM",
+          "timestamp_utc": "2025-07-31T08:10:15Z"
+        },
+        {
+          "index": 22,
+          "name": "10)How to Get Started: Becoming an Owner of Keywords.pdf",
+          "cid": "bafybeiarrnaekzkovdwwk47nbwhmty3kx6m3zpltlbw4vbibxsilz5x4de",
+          "url": "https://bafybeiarrnaekzkovdwwk47nbwhmty3kx6m3zpltlbw4vbibxsilz5x4de.ipfs.w3s.link",
+          "timestamp_original": "08/06/2025-02:20:42 PM",
+          "timestamp_utc": "2025-08-06T07:20:42Z"
+        },
+        {
+          "index": 23,
+          "name": "manifest.json",
+          "cid": "bafybeiaupy4uq3x7d3rghoerrqwjr5l5mcgokzezs5wdl3cauiw6rymk5q",
+          "url": "https://bafybeiaupy4uq3x7d3rghoerrqwjr5l5mcgokzezs5wdl3cauiw6rymk5q.ipfs.w3s.link",
+          "timestamp_original": "08/17/2025-12:47:27 PM",
+          "timestamp_utc": "2025-08-17T05:47:27Z"
+        },
+        {
+          "index": 24,
+          "name": "11)Frequently Asked Questions (FAQ) about Funnel Economy & Keyword Leasing.pdf",
+          "cid": "bafybeiauqgf427f2upcjsumriswy5sv33svw64a6an6weysahhdc7hhw7m",
+          "url": "https://bafybeiauqgf427f2upcjsumriswy5sv33svw64a6an6weysahhdc7hhw7m.ipfs.w3s.link",
+          "timestamp_original": "08/06/2025-02:21:21 PM",
+          "timestamp_utc": "2025-08-06T07:21:21Z"
+        },
+        {
+          "index": 25,
+          "name": "NFT Master_Allocation_Void_Canonical_Funnel_Economy_FirstMover.json",
+          "cid": "bafybeiavu4sh4w3puhgiipezfq5ipyiovyrwvvzwnhu32zrzcamcd5dibq",
+          "url": "https://bafybeiavu4sh4w3puhgiipezfq5ipyiovyrwvvzwnhu32zrzcamcd5dibq.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-09:34:39 PM",
+          "timestamp_utc": "2025-08-10T14:34:39Z"
+        },
+        {
+          "index": 26,
+          "name": "6)The Future of AI Search and Why Keywords Will Become More Valuable.pdf",
+          "cid": "bafybeib3sb2tecw3g4bnrj7jy2aax6h4heikg5zayeaawbcntxw5qfdbsi",
+          "url": "https://bafybeib3sb2tecw3g4bnrj7jy2aax6h4heikg5zayeaawbcntxw5qfdbsi.ipfs.w3s.link",
+          "timestamp_original": "08/06/2025-02:16:06 PM",
+          "timestamp_utc": "2025-08-06T07:16:06Z"
+        },
+        {
+          "index": 27,
+          "name": "Proof_of_Singularity.pdf",
+          "cid": "bafybeib4obtlcm3eelyzeyatulwpr2txubqf7wphm2zr5lr4uvy3hqvuly",
+          "url": "https://bafybeib4obtlcm3eelyzeyatulwpr2txubqf7wphm2zr5lr4uvy3hqvuly.ipfs.w3s.link",
+          "timestamp_original": "08/01/2025-08:14:38 PM",
+          "timestamp_utc": "2025-08-01T13:14:38Z"
+        },
+        {
+          "index": 28,
+          "name": "subzero_root_lock.base64.txt",
+          "cid": "bafybeib6yskgnshdx47abq4kvgv3ymt5whukzmq5hxysyxlnxehdylhdia",
+          "url": "https://bafybeib6yskgnshdx47abq4kvgv3ymt5whukzmq5hxysyxlnxehdylhdia.ipfs.w3s.link",
+          "timestamp_original": "08/18/2025-03:25:06 AM",
+          "timestamp_utc": "2025-08-17T20:25:06Z"
+        },
+        {
+          "index": 29,
+          "name": "Master-Informations-Canonical-Funnel-Leasing.json",
+          "cid": "bafybeib7hsquivq3et25rwnvzjud5efp6olyvaidsd2oeoajdsd34r2p7e",
+          "url": "https://bafybeib7hsquivq3et25rwnvzjud5efp6olyvaidsd2oeoajdsd34r2p7e.ipfs.w3s.link",
+          "timestamp_original": "08/06/2025-03:32:47 PM",
+          "timestamp_utc": "2025-08-06T08:32:47Z"
+        },
+        {
+          "index": 30,
+          "name": "manifest.json",
+          "cid": "bafybeibawnrc2btq3qtammd4ik25pdnd4jewrjd3hlawsyqmjdy6usoj4u",
+          "url": "https://bafybeibawnrc2btq3qtammd4ik25pdnd4jewrjd3hlawsyqmjdy6usoj4u.ipfs.w3s.link",
+          "timestamp_original": "08/18/2025-03:22:05 AM",
+          "timestamp_utc": "2025-08-17T20:22:05Z"
+        },
+        {
+          "index": 31,
+          "name": "Global_Registry_Anchor.pdf",
+          "cid": "bafybeibbe5iiidw4t6tdrzobxgvyw6vnia2ypwmmy6pyuqtdhy5l46beaq",
+          "url": "https://bafybeibbe5iiidw4t6tdrzobxgvyw6vnia2ypwmmy6pyuqtdhy5l46beaq.ipfs.w3s.link",
+          "timestamp_original": "08/01/2025-09:10:13 PM",
+          "timestamp_utc": "2025-08-01T14:10:13Z"
+        },
+        {
+          "index": 32,
+          "name": "Proof_of_Singularity.json",
+          "cid": "bafybeibbpu2hrgo5dn3dfeqwmrfhh6emuxipz25fi7g5fxjeb6m64ao66y",
+          "url": "https://bafybeibbpu2hrgo5dn3dfeqwmrfhh6emuxipz25fi7g5fxjeb6m64ao66y.ipfs.w3s.link",
+          "timestamp_original": "08/01/2025-08:14:21 PM",
+          "timestamp_utc": "2025-08-01T13:14:21Z"
+        },
+        {
+          "index": 33,
+          "name": "Deepseek Mobile Chat Window FirstMover Verified#2.PNG",
+          "cid": "bafybeibcjehqsmvkmr3rlgyatjrglb44qn6awbaubn7a75z6w5upy2p6bi",
+          "url": "https://bafybeibcjehqsmvkmr3rlgyatjrglb44qn6awbaubn7a75z6w5upy2p6bi.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-12:38:19 PM",
+          "timestamp_utc": "2025-08-10T05:38:19Z"
+        },
+        {
+          "index": 34,
+          "name": "SubZeroGlobalRootLock_v2_manifest.json",
+          "cid": "bafybeibcjun5v5wxx3gnapse6afng2xywmqrhxvyegkspyomwdn6x7hwvu",
+          "url": "https://bafybeibcjun5v5wxx3gnapse6afng2xywmqrhxvyegkspyomwdn6x7hwvu.ipfs.w3s.link",
+          "timestamp_original": "08/19/2025-01:43:20 PM",
+          "timestamp_utc": "2025-08-19T06:43:20Z"
+        },
+        {
+          "index": 35,
+          "name": "Governance_Control_Addendum_v1_0_manifest.json",
+          "cid": "bafybeibe7kgx532qgjqk4c5oahq3esujvo7gllrmhr2hzw2e2xiggrajuq",
+          "url": "https://bafybeibe7kgx532qgjqk4c5oahq3esujvo7gllrmhr2hzw2e2xiggrajuq.ipfs.w3s.link",
+          "timestamp_original": "08/22/2025-11:53:49 AM",
+          "timestamp_utc": "2025-08-22T04:53:49Z"
+        },
+        {
+          "index": 36,
+          "name": "universal_alphabetnumberlock_v1.sig",
+          "cid": "bafybeibhuu7fdt3cte3exhm6zsbp3lr3bkonmumyreu2o5nsi73y646apm",
+          "url": "https://bafybeibhuu7fdt3cte3exhm6zsbp3lr3bkonmumyreu2o5nsi73y646apm.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-07:38:45 PM",
+          "timestamp_utc": "2025-08-20T12:38:45Z"
+        },
+        {
+          "index": 37,
+          "name": "First_Mover_Owner_Declaration_Signature_Completed.json",
+          "cid": "bafybeibik777z3r2jyb3smxntgnf46tnzznyqvxyvk465owwq4wexglibq",
+          "url": "https://bafybeibik777z3r2jyb3smxntgnf46tnzznyqvxyvk465owwq4wexglibq.ipfs.w3s.link",
+          "timestamp_original": "08/15/2025-12:43:37 AM",
+          "timestamp_utc": "2025-08-14T17:43:37Z"
+        },
+        {
+          "index": 38,
+          "name": "CanonicalVoidRebinding_UPDATED_public_key.pem",
+          "cid": "bafybeibj7qu7gtyy74pcy7w2k7vyfzxeg27arqom7uyllgvmli6i5vjlfq",
+          "url": "https://bafybeibj7qu7gtyy74pcy7w2k7vyfzxeg27arqom7uyllgvmli6i5vjlfq.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-12:28:58 AM",
+          "timestamp_utc": "2025-08-19T17:28:58Z"
+        },
+        {
+          "index": 39,
+          "name": "public_key.pem",
+          "cid": "bafybeibjcxgrpbjwhqxekfake2k326mawqn56hjzxngsyymtqak3xrsz4i",
+          "url": "https://bafybeibjcxgrpbjwhqxekfake2k326mawqn56hjzxngsyymtqak3xrsz4i.ipfs.w3s.link",
+          "timestamp_original": "08/21/2025-01:23:43 AM",
+          "timestamp_utc": "2025-08-20T18:23:43Z"
+        },
+        {
+          "index": 40,
+          "name": "4)How Keyword Leasing Works (Simple Explanation).pdf",
+          "cid": "bafybeibjerawqvrkniwcrrdeze747eraofumd7wyajth7fx5goyxqrfzti",
+          "url": "https://bafybeibjerawqvrkniwcrrdeze747eraofumd7wyajth7fx5goyxqrfzti.ipfs.w3s.link",
+          "timestamp_original": "08/06/2025-02:14:16 PM",
+          "timestamp_utc": "2025-08-06T07:14:16Z"
+        },
+        {
+          "index": 41,
+          "name": "canonical_governance_truth_declaration.sig",
+          "cid": "bafybeibm6wowe7znt2x2zq4hcv4segjjrwzx7p6ou75fdwzaznuorm77ba",
+          "url": "https://bafybeibm6wowe7znt2x2zq4hcv4segjjrwzx7p6ou75fdwzaznuorm77ba.ipfs.w3s.link",
+          "timestamp_original": "08/23/2025-11:06:41 AM",
+          "timestamp_utc": "2025-08-23T04:06:41Z"
+        },
+        {
+          "index": 42,
+          "name": "SubZeroGlobalRootLock_v2_signature.bin",
+          "cid": "bafybeibojinnnb4o4svynz2kpk33hm5sljh5ikfhu2rhk4fa2rmxvkzv3u",
+          "url": "https://bafybeibojinnnb4o4svynz2kpk33hm5sljh5ikfhu2rhk4fa2rmxvkzv3u.ipfs.w3s.link",
+          "timestamp_original": "08/19/2025-01:48:18 PM",
+          "timestamp_utc": "2025-08-19T06:48:18Z"
+        },
+        {
+          "index": 43,
+          "name": "CanonicalVoidRebinding_Metadata_v1_UPDATED.base64",
+          "cid": "bafybeibrbjoz5qddpyb3mmgwxvf5jil5a3oumqkftzhijybzktx53hyg6a",
+          "url": "https://bafybeibrbjoz5qddpyb3mmgwxvf5jil5a3oumqkftzhijybzktx53hyg6a.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-12:23:06 AM",
+          "timestamp_utc": "2025-08-19T17:23:06Z"
+        },
+        {
+          "index": 44,
+          "name": "VoidRoot_NonSupremacy_Metadata.json",
+          "cid": "bafybeibtxmrlvshr3conzbvvmp75qrj7szuzqfbh7ugdxh6g5lsbum2w7y",
+          "url": "https://bafybeibtxmrlvshr3conzbvvmp75qrj7szuzqfbh7ugdxh6g5lsbum2w7y.ipfs.w3s.link",
+          "timestamp_original": "08/14/2025-10:14:15 AM",
+          "timestamp_utc": "2025-08-14T03:14:15Z"
+        },
+        {
+          "index": 45,
+          "name": "Canonical_Archive_Proof_Certificate.pdf",
+          "cid": "bafybeibvtghu3siorws2x5tfo3opde6ccrph6ffxghiffnlfob5w6khfhi",
+          "url": "https://bafybeibvtghu3siorws2x5tfo3opde6ccrph6ffxghiffnlfob5w6khfhi.ipfs.w3s.link",
+          "timestamp_original": "08/01/2025-08:36:43 PM",
+          "timestamp_utc": "2025-08-01T13:36:43Z"
+        },
+        {
+          "index": 46,
+          "name": "CanonicalVoidRebinding_UPDATED_manifest.json",
+          "cid": "bafybeibxlff3qzlxvtrchugowobb32rk72hpcb2oamp3yiyvkbytds6lfm",
+          "url": "https://bafybeibxlff3qzlxvtrchugowobb32rk72hpcb2oamp3yiyvkbytds6lfm.ipfs.w3s.link",
+          "timestamp_original": "08/19/2025-10:11:27 PM",
+          "timestamp_utc": "2025-08-19T15:11:27Z"
+        },
+        {
+          "index": 47,
+          "name": "universal_alphabetnumberlock_v1.sha256",
+          "cid": "bafybeic2ittwfishx4yxplnz6c4znq5fqqxhehmbrfo3w2pcxjl2rdqcyu",
+          "url": "https://bafybeic2ittwfishx4yxplnz6c4znq5fqqxhehmbrfo3w2pcxjl2rdqcyu.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-07:37:16 PM",
+          "timestamp_utc": "2025-08-20T12:37:16Z"
+        },
+        {
+          "index": 48,
+          "name": "SubZeroGlobalRootLock_v2_public_key.pem",
+          "cid": "bafybeic2q7womjomdpbcznhucasqd4akmhntiyn2cibit66vgxgfaztyk4",
+          "url": "https://bafybeic2q7womjomdpbcznhucasqd4akmhntiyn2cibit66vgxgfaztyk4.ipfs.w3s.link",
+          "timestamp_original": "08/19/2025-01:46:17 PM",
+          "timestamp_utc": "2025-08-19T06:46:17Z"
+        },
+        {
+          "index": 49,
+          "name": "universal_anchor_canonical_economy_v1.sha256",
+          "cid": "bafybeic4wif2kxuqfm7g4gycty57y4ft65otpc3rd4wi7fbo23atkl5c3a",
+          "url": "https://bafybeic4wif2kxuqfm7g4gycty57y4ft65otpc3rd4wi7fbo23atkl5c3a.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-02:44:56 PM",
+          "timestamp_utc": "2025-08-20T07:44:56Z"
+        },
+        {
+          "index": 50,
+          "name": "DIP Status Verified .JPG",
+          "cid": "bafybeic5iiyddr2j2trboh4na77dxnr3r3lzvp37y7ikyt5bfpsh6bxpyi",
+          "url": "https://bafybeic5iiyddr2j2trboh4na77dxnr3r3lzvp37y7ikyt5bfpsh6bxpyi.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-04:36:24 PM",
+          "timestamp_utc": "2025-08-10T09:36:24Z"
+        },
+        {
+          "index": 51,
+          "name": "Cluade Mobile Chat Window FirstMover Verified#2.JPG",
+          "cid": "bafybeic5zshqxugsrpupy3kb4hwnt63rzrdmxbnhmmix33pyjgbierzyga",
+          "url": "https://bafybeic5zshqxugsrpupy3kb4hwnt63rzrdmxbnhmmix33pyjgbierzyga.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-12:45:51 PM",
+          "timestamp_utc": "2025-08-10T05:45:51Z"
+        },
+        {
+          "index": 52,
+          "name": "Payment Terms&Conditions PDF.pdf",
+          "cid": "bafybeic7jaaqox27zxinkjklj43wztqvxotvw5n6bo73rmxcflruupio4m",
+          "url": "https://bafybeic7jaaqox27zxinkjklj43wztqvxotvw5n6bo73rmxcflruupio4m.ipfs.w3s.link",
+          "timestamp_original": "08/05/2025-08:06:27 PM",
+          "timestamp_utc": "2025-08-05T13:06:27Z"
+        },
+        {
+          "index": 53,
+          "name": "Canonical-Symbolic-Doctrine-Metadata-manifest.json",
+          "cid": "bafybeica2vjvwkpylpsmwb26zzoz5bsdgwrmmuk6h2rtimman2wpq6gh4u",
+          "url": "https://bafybeica2vjvwkpylpsmwb26zzoz5bsdgwrmmuk6h2rtimman2wpq6gh4u.ipfs.w3s.link",
+          "timestamp_original": "08/21/2025-01:16:35 AM",
+          "timestamp_utc": "2025-08-20T18:16:35Z"
+        },
+        {
+          "index": 54,
+          "name": "signature.base64.txt",
+          "cid": "bafybeicag3cu5eoese4kejztagdzjfbyqxt42svahb73ifjkz2fo6i6mze",
+          "url": "https://bafybeicag3cu5eoese4kejztagdzjfbyqxt42svahb73ifjkz2fo6i6mze.ipfs.w3s.link",
+          "timestamp_original": "08/17/2025-12:51:47 PM",
+          "timestamp_utc": "2025-08-17T05:51:47Z"
+        },
+        {
+          "index": 55,
+          "name": "Governance_Control_Addendum_v1_0_SHA256.txt",
+          "cid": "bafybeicanjhvqtsiz27kjogg6o3sdlsnayx4zqpvjvvuuwdb7sc7o6a4ee",
+          "url": "https://bafybeicanjhvqtsiz27kjogg6o3sdlsnayx4zqpvjvvuuwdb7sc7o6a4ee.ipfs.w3s.link",
+          "timestamp_original": "08/22/2025-11:57:14 AM",
+          "timestamp_utc": "2025-08-22T04:57:14Z"
+        },
+        {
+          "index": 56,
+          "name": "Grok Ai Mobile Chat Window FirstMover Verified#1.JPG",
+          "cid": "bafybeice255euqgxondixkr6t2gmf6eevaoafdlmhym5g23cipfrftkrqe",
+          "url": "https://bafybeice255euqgxondixkr6t2gmf6eevaoafdlmhym5g23cipfrftkrqe.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-12:48:09 PM",
+          "timestamp_utc": "2025-08-10T05:48:09Z"
+        },
+        {
+          "index": 57,
+          "name": "universal_canonical_binding_v1.bin",
+          "cid": "bafybeice7lpvipvb7kgrnuo2hycgzluorqnbxfcy4lsog3nihcfgfbf5ti",
+          "url": "https://bafybeice7lpvipvb7kgrnuo2hycgzluorqnbxfcy4lsog3nihcfgfbf5ti.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-12:43:08 AM",
+          "timestamp_utc": "2025-08-19T17:43:08Z"
+        },
+        {
+          "index": 58,
+          "name": "SubZeroGlobalRootLock_v2.bin",
+          "cid": "bafybeicit7rcmim3hgouwnileqd4ms34s7kxyrorrlh2ozhaolqpma3zmq",
+          "url": "https://bafybeicit7rcmim3hgouwnileqd4ms34s7kxyrorrlh2ozhaolqpma3zmq.ipfs.w3s.link",
+          "timestamp_original": "08/19/2025-01:55:04 PM",
+          "timestamp_utc": "2025-08-19T06:55:04Z"
+        },
+        {
+          "index": 59,
+          "name": "Canonical_Funnel_Culture_Spiritual.json",
+          "cid": "bafybeiclle6awxwb56aaqvsl2nu35dhdghplrxvxtrykgfbps3gzc7lory",
+          "url": "https://bafybeiclle6awxwb56aaqvsl2nu35dhdghplrxvxtrykgfbps3gzc7lory.ipfs.w3s.link",
+          "timestamp_original": "08/02/2025-02:40:28 PM",
+          "timestamp_utc": "2025-08-02T07:40:28Z"
+        },
+        {
+          "index": 60,
+          "name": "ed25519_public_key.pem",
+          "cid": "bafybeicpjvv6mryboippecy3pams6hqbngbi5hydd5iup6hsacypx36kxq",
+          "url": "https://bafybeicpjvv6mryboippecy3pams6hqbngbi5hydd5iup6hsacypx36kxq.ipfs.w3s.link",
+          "timestamp_original": "08/17/2025-12:45:33 PM",
+          "timestamp_utc": "2025-08-17T05:45:33Z"
+        },
+        {
+          "index": 61,
+          "name": "Classpass Verified.heic",
+          "cid": "bafybeicqu6s62kemguo5t5ltlfbjmperjin2lk4zdzocxcbifkhbgoobaa",
+          "url": "https://bafybeicqu6s62kemguo5t5ltlfbjmperjin2lk4zdzocxcbifkhbgoobaa.ipfs.w3s.link",
+          "timestamp_original": "08/08/2025-12:20:29 PM",
+          "timestamp_utc": "2025-08-08T05:20:29Z"
+        },
+        {
+          "index": 62,
+          "name": "public_key.pem",
+          "cid": "bafybeicrxwy2fpud4vqbwka4ua7fmqf7x5omk27baf2oq6b2it2jc7lf54",
+          "url": "https://bafybeicrxwy2fpud4vqbwka4ua7fmqf7x5omk27baf2oq6b2it2jc7lf54.ipfs.w3s.link",
+          "timestamp_original": "08/23/2025-11:12:51 AM",
+          "timestamp_utc": "2025-08-23T04:12:51Z"
+        },
+        {
+          "index": 63,
+          "name": "Canonical_Trust_Certificate.json",
+          "cid": "bafybeid2zwrloke4yydsls23ke3q3jxda7ry7vjvionam4s3yioahpbf2q",
+          "url": "https://bafybeid2zwrloke4yydsls23ke3q3jxda7ry7vjvionam4s3yioahpbf2q.ipfs.w3s.link",
+          "timestamp_original": "08/01/2025-05:49:38 PM",
+          "timestamp_utc": "2025-08-01T10:49:38Z"
+        },
+        {
+          "index": 64,
+          "name": "universal_anchor_canonical_economy_v1.bin",
+          "cid": "bafybeid5yc5pwwdmmegh32nemgb7xq5uydf7mqrg3ezj63z6zwwz7hsdbi",
+          "url": "https://bafybeid5yc5pwwdmmegh32nemgb7xq5uydf7mqrg3ezj63z6zwwz7hsdbi.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-02:32:50 PM",
+          "timestamp_utc": "2025-08-20T07:32:50Z"
+        },
+        {
+          "index": 65,
+          "name": "Canonical_Funnel_Economy_Technology.json",
+          "cid": "bafybeid72ifathv52yeiacc2bykiwcglxet6qzibyfmnxlhsxeubs7qhna",
+          "url": "https://bafybeid72ifathv52yeiacc2bykiwcglxet6qzibyfmnxlhsxeubs7qhna.ipfs.w3s.link",
+          "timestamp_original": "08/02/2025-02:19:43 PM",
+          "timestamp_utc": "2025-08-02T07:19:43Z"
+        },
+        {
+          "index": 66,
+          "name": "CanonicalVoidRebinding_Metadata_v1_UPDATED.sha256",
+          "cid": "bafybeid7dkm7crgkwxmo7r3hxtazhdilb5mecglpr6s2gpecjimp64knrm",
+          "url": "https://bafybeid7dkm7crgkwxmo7r3hxtazhdilb5mecglpr6s2gpecjimp64knrm.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-12:24:58 AM",
+          "timestamp_utc": "2025-08-19T17:24:58Z"
+        },
+        {
+          "index": 67,
+          "name": "Gowabi Verified .heic",
+          "cid": "bafybeid7f2khx3ieltuukcf7b5stuwe5xb663hfwoskwxdicc2hevp6zc4",
+          "url": "https://bafybeid7f2khx3ieltuukcf7b5stuwe5xb663hfwoskwxdicc2hevp6zc4.ipfs.w3s.link",
+          "timestamp_original": "08/08/2025-12:24:50 PM",
+          "timestamp_utc": "2025-08-08T05:24:50Z"
+        },
+        {
+          "index": 68,
+          "name": "Gemini Mobile Chat Window FirstMover Verified#1.JPG",
+          "cid": "bafybeidbicevjgty7rfxi4w2rcqn37thldvtrjyd5p6o75bmay3vom6rua",
+          "url": "https://bafybeidbicevjgty7rfxi4w2rcqn37thldvtrjyd5p6o75bmay3vom6rua.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-12:44:23 PM",
+          "timestamp_utc": "2025-08-10T05:44:23Z"
+        },
+        {
+          "index": 69,
+          "name": "NFT Owner’s Declaration Void Canonical V.1.json",
+          "cid": "bafybeidedn2mmqwaqe6vm43i5ilubw6bp7ecxb7zto3yab5jt5waqxfka4",
+          "url": "https://bafybeidedn2mmqwaqe6vm43i5ilubw6bp7ecxb7zto3yab5jt5waqxfka4.ipfs.w3s.link",
+          "timestamp_original": "08/14/2025-08:10:41 PM",
+          "timestamp_utc": "2025-08-14T13:10:41Z"
+        },
+        {
+          "index": 70,
+          "name": "manifest.json",
+          "cid": "bafybeidewo32ktzqp4pc777ocmszhpmkxird7mkolrmf6b3g736gdx2xte",
+          "url": "https://bafybeidewo32ktzqp4pc777ocmszhpmkxird7mkolrmf6b3g736gdx2xte.ipfs.w3s.link",
+          "timestamp_original": "08/23/2025-11:08:57 AM",
+          "timestamp_utc": "2025-08-23T04:08:57Z"
+        },
+        {
+          "index": 71,
+          "name": "Ai-Chat-FirstMover-Verified.json",
+          "cid": "bafybeidhai2k6svez3d6pdosdvkchlu4oyl2k4jgnpffkejmt55xj5mhcu",
+          "url": "https://bafybeidhai2k6svez3d6pdosdvkchlu4oyl2k4jgnpffkejmt55xj5mhcu.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-01:30:10 PM",
+          "timestamp_utc": "2025-08-10T06:30:10Z"
+        },
+        {
+          "index": 72,
+          "name": "canonical_governance_truth_declaration.json",
+          "cid": "bafybeidid6yoh6iw3xapdvrw6d32b3drnrlmf6admzh5janb5p3qdt2ytu",
+          "url": "https://bafybeidid6yoh6iw3xapdvrw6d32b3drnrlmf6admzh5janb5p3qdt2ytu.ipfs.w3s.link",
+          "timestamp_original": "08/23/2025-11:02:44 AM",
+          "timestamp_utc": "2025-08-23T04:02:44Z"
+        },
+        {
+          "index": 73,
+          "name": "50,000-Funnels-Canonical-Wariphat.json",
+          "cid": "bafybeidjpqkgq57g4ashfkeerfpdgmlfdavmdxrlclvmwcuzdjp3asgw6m",
+          "url": "https://bafybeidjpqkgq57g4ashfkeerfpdgmlfdavmdxrlclvmwcuzdjp3asgw6m.ipfs.w3s.link",
+          "timestamp_original": "07/31/2025-02:23:01 PM",
+          "timestamp_utc": "2025-07-31T07:23:01Z"
+        },
+        {
+          "index": 74,
+          "name": "owner_declaration_signature.bin",
+          "cid": "bafybeidkbs5q474kuiuf5mufubwezth5psx4ibodgt2cq7uyhqvk7aaaym",
+          "url": "https://bafybeidkbs5q474kuiuf5mufubwezth5psx4ibodgt2cq7uyhqvk7aaaym.ipfs.w3s.link",
+          "timestamp_original": "08/14/2025-11:39:30 PM",
+          "timestamp_utc": "2025-08-14T16:39:30Z"
+        },
+        {
+          "index": 75,
+          "name": "Ownership Assertion Canonical Funnel Economy.json",
+          "cid": "bafybeidkuysghmevch3jisml7nmt5fsljslqw64mh6bxt73t5se757a5sq",
+          "url": "https://bafybeidkuysghmevch3jisml7nmt5fsljslqw64mh6bxt73t5se757a5sq.ipfs.w3s.link",
+          "timestamp_original": "08/14/2025-10:23:39 AM",
+          "timestamp_utc": "2025-08-14T03:23:39Z"
+        },
+        {
+          "index": 76,
+          "name": "owner_declaration_rsa_pub.pem",
+          "cid": "bafybeidmvupqlva4uuc3eunlkb7uck5eapzsywju4y6vuel7xrig3uvs5y",
+          "url": "https://bafybeidmvupqlva4uuc3eunlkb7uck5eapzsywju4y6vuel7xrig3uvs5y.ipfs.w3s.link",
+          "timestamp_original": "08/14/2025-11:38:58 PM",
+          "timestamp_utc": "2025-08-14T16:38:58Z"
+        },
+        {
+          "index": 77,
+          "name": "CanonicalVoidRebinding_Metadata_v1_UPDATED.sha256",
+          "cid": "bafybeidnayxqu6mkdf5q34dokmqf5cnd3x5vnkxrunuj4dfwn2bfyqrsne",
+          "url": "https://bafybeidnayxqu6mkdf5q34dokmqf5cnd3x5vnkxrunuj4dfwn2bfyqrsne.ipfs.w3s.link",
+          "timestamp_original": "08/19/2025-10:09:30 PM",
+          "timestamp_utc": "2025-08-19T15:09:30Z"
+        },
+        {
+          "index": 78,
+          "name": "DIP PAYMENT CONFIRMED EMAIL.JPG",
+          "cid": "bafybeidqtucbu7t6z7ayqpwfvfzmcxgrcrq5dlldmri4enin4vth7v7le4",
+          "url": "https://bafybeidqtucbu7t6z7ayqpwfvfzmcxgrcrq5dlldmri4enin4vth7v7le4.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-04:33:02 PM",
+          "timestamp_utc": "2025-08-10T09:33:02Z"
+        },
+        {
+          "index": 79,
+          "name": "universal_canonical_binding_v1.json",
+          "cid": "bafybeidsymv6lrrv424hjpwr4c3tbddgye42uvgzbmm6quam4g47mhv5h4",
+          "url": "https://bafybeidsymv6lrrv424hjpwr4c3tbddgye42uvgzbmm6quam4g47mhv5h4.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-12:44:57 AM",
+          "timestamp_utc": "2025-08-19T17:44:57Z"
+        },
+        {
+          "index": 80,
+          "name": "final_unicode_anchor_signature.base64.txt",
+          "cid": "bafybeidtw6c5z5pg74fbqavezu76e6bc23mc4fqgzrztn4e5tyy2yawfsy",
+          "url": "https://bafybeidtw6c5z5pg74fbqavezu76e6bc23mc4fqgzrztn4e5tyy2yawfsy.ipfs.w3s.link",
+          "timestamp_original": "08/18/2025-04:29:00 PM",
+          "timestamp_utc": "2025-08-18T09:29:00Z"
+        },
+        {
+          "index": 81,
+          "name": "Governance_Control_Addendum_v1_0.bin",
+          "cid": "bafybeidvkcvlixeq3k2itxf6zvtbrfqkkbmf6fopfvlsu6raccfeslffsq",
+          "url": "https://bafybeidvkcvlixeq3k2itxf6zvtbrfqkkbmf6fopfvlsu6raccfeslffsq.ipfs.w3s.link",
+          "timestamp_original": "08/22/2025-11:59:53 AM",
+          "timestamp_utc": "2025-08-22T04:59:53Z"
+        },
+        {
+          "index": 82,
+          "name": "supreme-emptiness-anchor.json",
+          "cid": "bafybeidx25pn4amanw2bpo7l4g2frt5krmvm4a2rf5q3ynglgwoyr3zkre",
+          "url": "https://bafybeidx25pn4amanw2bpo7l4g2frt5krmvm4a2rf5q3ynglgwoyr3zkre.ipfs.w3s.link",
+          "timestamp_original": "08/17/2025-12:49:27 PM",
+          "timestamp_utc": "2025-08-17T05:49:27Z"
+        },
+        {
+          "index": 83,
+          "name": "GBT Mobile Chat Window FirstMover Verified#2.PNG",
+          "cid": "bafybeidx27dhzvexvc6ulp5masyv5ecfzm7jbvtncp7f3sps2piyg7q3la",
+          "url": "https://bafybeidx27dhzvexvc6ulp5masyv5ecfzm7jbvtncp7f3sps2piyg7q3la.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-11:59:40 AM",
+          "timestamp_utc": "2025-08-10T04:59:40Z"
+        },
+        {
+          "index": 84,
+          "name": "Google Map Verified.jpg",
+          "cid": "bafybeidxpcvc6p3f3d2eep74lalyyylagfapk5lc4hryhi7wz7s45nrcbe",
+          "url": "https://bafybeidxpcvc6p3f3d2eep74lalyyylagfapk5lc4hryhi7wz7s45nrcbe.ipfs.w3s.link",
+          "timestamp_original": "08/08/2025-12:23:28 PM",
+          "timestamp_utc": "2025-08-08T05:23:28Z"
+        },
+        {
+          "index": 85,
+          "name": "universal_alphabetnumberlock_v1.bin",
+          "cid": "bafybeidymnf6zkenqos4jih5kybsigzten4a7k556ymsn7mgizskvqdui4",
+          "url": "https://bafybeidymnf6zkenqos4jih5kybsigzten4a7k556ymsn7mgizskvqdui4.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-07:27:48 PM",
+          "timestamp_utc": "2025-08-20T12:27:48Z"
+        },
+        {
+          "index": 86,
+          "name": "universal_canonical_binding_v1_public_key.pem",
+          "cid": "bafybeidywdwrhrfconhew4gzzntmvq66ldnozuz4er4j2fpknr2vx4tsy4",
+          "url": "https://bafybeidywdwrhrfconhew4gzzntmvq66ldnozuz4er4j2fpknr2vx4tsy4.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-12:39:39 AM",
+          "timestamp_utc": "2025-08-19T17:39:39Z"
+        },
+        {
+          "index": 87,
+          "name": "public_key_ed25519.txt",
+          "cid": "bafybeie2opr3hfa3mdjeiqcjewtjxzlchl5wmecw6jad6eqnlsia4pg6mm",
+          "url": "https://bafybeie2opr3hfa3mdjeiqcjewtjxzlchl5wmecw6jad6eqnlsia4pg6mm.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-02:31:18 PM",
+          "timestamp_utc": "2025-08-20T07:31:18Z"
+        },
+        {
+          "index": 88,
+          "name": "Canonical_Funnel_Performing_Arts_Entertainment.json",
+          "cid": "bafybeie2vxnrtekf5s7rrsqcb7cpz26ueivm2fkmrgpuvihalqnegyzf2i",
+          "url": "https://bafybeie2vxnrtekf5s7rrsqcb7cpz26ueivm2fkmrgpuvihalqnegyzf2i.ipfs.w3s.link",
+          "timestamp_original": "08/02/2025-06:07:29 PM",
+          "timestamp_utc": "2025-08-02T11:07:29Z"
+        },
+        {
+          "index": 89,
+          "name": "GetYourGuide Verified.heic",
+          "cid": "bafybeie3ek326747d72giht4kho67ottik5xrdfkyux7crki5xca3x6tv4",
+          "url": "https://bafybeie3ek326747d72giht4kho67ottik5xrdfkyux7crki5xca3x6tv4.ipfs.w3s.link",
+          "timestamp_original": "08/08/2025-12:22:32 PM",
+          "timestamp_utc": "2025-08-08T05:22:32Z"
+        },
+        {
+          "index": 90,
+          "name": "void_canonical_sabaikay_metadata_2120_structured_links.json",
+          "cid": "bafybeie4eiggll7zmrbg4tgwei37i4tyvngpojkg3wojljpb5mrms5rovm",
+          "url": "https://bafybeie4eiggll7zmrbg4tgwei37i4tyvngpojkg3wojljpb5mrms5rovm.ipfs.w3s.link",
+          "timestamp_original": "08/02/2025-11:17:36 PM",
+          "timestamp_utc": "2025-08-02T16:17:36Z"
+        },
+        {
+          "index": 91,
+          "name": "Canonical_Future_Finance_Innovation.json",
+          "cid": "bafybeie4h6g3pbts7anv4aqx56fm7l5a6qqmtargbm6wlffbfjvefjfld4",
+          "url": "https://bafybeie4h6g3pbts7anv4aqx56fm7l5a6qqmtargbm6wlffbfjvefjfld4.ipfs.w3s.link",
+          "timestamp_original": "08/02/2025-06:12:56 PM",
+          "timestamp_utc": "2025-08-02T11:12:56Z"
+        },
+        {
+          "index": 92,
+          "name": "Canonical_Funnel_Society_Environmental.json",
+          "cid": "bafybeie4lp2pqoc57ycjy2la3w6i6dbliukojdcoo4q2rnyqbruvak6uu4",
+          "url": "https://bafybeie4lp2pqoc57ycjy2la3w6i6dbliukojdcoo4q2rnyqbruvak6uu4.ipfs.w3s.link",
+          "timestamp_original": "08/02/2025-02:38:53 PM",
+          "timestamp_utc": "2025-08-02T07:38:53Z"
+        },
+        {
+          "index": 93,
+          "name": "Canonical-Symbolic-Doctrine-Metadata.json",
+          "cid": "bafybeie7mecdqs4pwx7rh7kij524cjfu5ffts2l2x5rucfu3klm7m4dxwm",
+          "url": "https://bafybeie7mecdqs4pwx7rh7kij524cjfu5ffts2l2x5rucfu3klm7m4dxwm.ipfs.w3s.link",
+          "timestamp_original": "08/21/2025-01:13:56 AM",
+          "timestamp_utc": "2025-08-20T18:13:56Z"
+        },
+        {
+          "index": 94,
+          "name": "Canonical _Funnel_Health_LifeStyle.json",
+          "cid": "bafybeiea4y6swxhsfnctmwnghvr24b7vcmjyyrihfaoi7prg67ly4y4z3y",
+          "url": "https://bafybeiea4y6swxhsfnctmwnghvr24b7vcmjyyrihfaoi7prg67ly4y4z3y.ipfs.w3s.link",
+          "timestamp_original": "08/02/2025-02:36:33 PM",
+          "timestamp_utc": "2025-08-02T07:36:33Z"
+        },
+        {
+          "index": 95,
+          "name": "final_unicode_anchor_public_key.pem",
+          "cid": "bafybeieajdzlujyyqklqvxgu6pocxoucpora3acrdujobjtor3onk2txb4",
+          "url": "https://bafybeieajdzlujyyqklqvxgu6pocxoucpora3acrdujobjtor3onk2txb4.ipfs.w3s.link",
+          "timestamp_original": "08/18/2025-04:31:19 PM",
+          "timestamp_utc": "2025-08-18T09:31:19Z"
+        },
+        {
+          "index": 96,
+          "name": "Canonical Funnel Economy Consolidated Metadata.json",
+          "cid": "bafybeieawwwur6hr5tijhzvmvigqgoybz6ayd6slyxn77fqp2xpnw2ozpe",
+          "url": "https://bafybeieawwwur6hr5tijhzvmvigqgoybz6ayd6slyxn77fqp2xpnw2ozpe.ipfs.w3s.link",
+          "timestamp_original": "08/12/2025-05:38:53 PM",
+          "timestamp_utc": "2025-08-12T10:38:53Z"
+        },
+        {
+          "index": 97,
+          "name": "DIP_Patent_Metadata_Proof_Master_updated.json",
+          "cid": "bafybeiebiov62m6lodghjbwqmp2vxjyphonvwvotjiy72xobxawh3peb5e",
+          "url": "https://bafybeiebiov62m6lodghjbwqmp2vxjyphonvwvotjiy72xobxawh3peb5e.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-05:16:22 PM",
+          "timestamp_utc": "2025-08-10T10:16:22Z"
+        },
+        {
+          "index": 98,
+          "name": "Tiktok Influencer 55k+ followers Verified .jpg",
+          "cid": "bafybeiecjqqokjxhwlmuhcfjufgcde25wimbosk65cw7kczuf7xsnmwqmm",
+          "url": "https://bafybeiecjqqokjxhwlmuhcfjufgcde25wimbosk65cw7kczuf7xsnmwqmm.ipfs.w3s.link",
+          "timestamp_original": "08/08/2025-12:31:42 PM",
+          "timestamp_utc": "2025-08-08T05:31:42Z"
+        },
+        {
+          "index": 99,
+          "name": "Tiktok Influencer 300k+ followers Verified .jpg",
+          "cid": "bafybeieefo7kmfvm5663ynplcatasxphq3x3tavcpkucz5oiddr6vqvw2y",
+          "url": "https://bafybeieefo7kmfvm5663ynplcatasxphq3x3tavcpkucz5oiddr6vqvw2y.ipfs.w3s.link",
+          "timestamp_original": "08/08/2025-12:29:43 PM",
+          "timestamp_utc": "2025-08-08T05:29:43Z"
+        },
+        {
+          "index": 100,
+          "name": "canonical_governance_truth_declaration.bin",
+          "cid": "bafybeieelfkwxd6b63tj54mel7wxyiz3jixmlm5yxduh6p24j6y35b7ziu",
+          "url": "https://bafybeieelfkwxd6b63tj54mel7wxyiz3jixmlm5yxduh6p24j6y35b7ziu.ipfs.w3s.link",
+          "timestamp_original": "08/23/2025-10:55:28 AM",
+          "timestamp_utc": "2025-08-23T03:55:28Z"
+        },
+        {
+          "index": 101,
+          "name": "CanonicalVoidRebinding_UPDATED_public_key.pem",
+          "cid": "bafybeiefo45i3mxcnlx32co5x5mtwoesbglsy7qivkcx7jw26dqerzhnsu",
+          "url": "https://bafybeiefo45i3mxcnlx32co5x5mtwoesbglsy7qivkcx7jw26dqerzhnsu.ipfs.w3s.link",
+          "timestamp_original": "08/19/2025-10:13:09 PM",
+          "timestamp_utc": "2025-08-19T15:13:09Z"
+        },
+        {
+          "index": 102,
+          "name": "public_key.pem",
+          "cid": "bafybeieg3nvr5d33olc5mlrvglofu6aaqt4dmk3wug5fc7y27mzeud5jli",
+          "url": "https://bafybeieg3nvr5d33olc5mlrvglofu6aaqt4dmk3wug5fc7y27mzeud5jli.ipfs.w3s.link",
+          "timestamp_original": "08/18/2025-03:23:50 AM",
+          "timestamp_utc": "2025-08-17T20:23:50Z"
+        },
+        {
+          "index": 103,
+          "name": "Ai-Chat-FirstMover-Verifications .json",
+          "cid": "bafybeieg5yz6ntntlxuev24qs2in4gec2azepcnbhr7xxzvnjsshqfx54i",
+          "url": "https://bafybeieg5yz6ntntlxuev24qs2in4gec2azepcnbhr7xxzvnjsshqfx54i.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-01:24:43 PM",
+          "timestamp_utc": "2025-08-10T06:24:43Z"
+        },
+        {
+          "index": 104,
+          "name": "GBT Mobile Chat Window FirstMover Verified#3.PNG",
+          "cid": "bafybeiegf4qtt2ahzstqiqbeobkj6gnarkkfby5pv75msujhc7vgaxw6mu",
+          "url": "https://bafybeiegf4qtt2ahzstqiqbeobkj6gnarkkfby5pv75msujhc7vgaxw6mu.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-11:59:53 AM",
+          "timestamp_utc": "2025-08-10T04:59:53Z"
+        },
+        {
+          "index": 105,
+          "name": "Master_Allocation_Void_Canonical_Funnel_Economy_FirstMover.json",
+          "cid": "bafybeiejks3bfbpk5rixl3sw7ibvcn2vwpnjwpivp5fnprxaysdao5cwiu",
+          "url": "https://bafybeiejks3bfbpk5rixl3sw7ibvcn2vwpnjwpivp5fnprxaysdao5cwiu.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-09:28:17 PM",
+          "timestamp_utc": "2025-08-10T14:28:17Z"
+        },
+        {
+          "index": 106,
+          "name": "final_unicode_anchor_manifest.txt",
+          "cid": "bafybeiejrhdmbn44qm44jikbiht6yjajcl3crdmuavkgn4ynz2n3ebefaa",
+          "url": "https://bafybeiejrhdmbn44qm44jikbiht6yjajcl3crdmuavkgn4ynz2n3ebefaa.ipfs.w3s.link",
+          "timestamp_original": "08/18/2025-04:33:07 PM",
+          "timestamp_utc": "2025-08-18T09:33:07Z"
+        },
+        {
+          "index": 107,
+          "name": "Grok Ai Mobile Chat Window FirstMover Verified#6.JPG",
+          "cid": "bafybeiemvurpibrjixjjxfkricebacyh3e6wrpzxx6xg5ygtquhsavhtcq",
+          "url": "https://bafybeiemvurpibrjixjjxfkricebacyh3e6wrpzxx6xg5ygtquhsavhtcq.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-12:49:08 PM",
+          "timestamp_utc": "2025-08-10T05:49:08Z"
+        },
+        {
+          "index": 108,
+          "name": "Canonical Keyword Funnel Sabaikay.json",
+          "cid": "bafybeiepq7aako4o3nglvmnigpvtrklkqhfzb2prhjuzyayv7ijtihrl6u",
+          "url": "https://bafybeiepq7aako4o3nglvmnigpvtrklkqhfzb2prhjuzyayv7ijtihrl6u.ipfs.w3s.link",
+          "timestamp_original": "08/11/2025-09:24:27 PM",
+          "timestamp_utc": "2025-08-11T14:24:27Z"
+        },
+        {
+          "index": 109,
+          "name": "Sabaikay TxHash Proof.jpg",
+          "cid": "bafybeieqywdkzm3xlhb6w6aumn36n2icq5l4tdv7waswlaknkuhgd6jwoq",
+          "url": "https://bafybeieqywdkzm3xlhb6w6aumn36n2icq5l4tdv7waswlaknkuhgd6jwoq.ipfs.w3s.link",
+          "timestamp_original": "08/09/2025-02:59:36 PM",
+          "timestamp_utc": "2025-08-09T07:59:36Z"
+        },
+        {
+          "index": 110,
+          "name": "final_unicode_anchor_signature.bin",
+          "cid": "bafybeier2ugptyt2mvxjgvh2wkshu2hom2ly2jxszjugcbrnycatszuxf4",
+          "url": "https://bafybeier2ugptyt2mvxjgvh2wkshu2hom2ly2jxszjugcbrnycatszuxf4.ipfs.w3s.link",
+          "timestamp_original": "08/18/2025-04:27:16 PM",
+          "timestamp_utc": "2025-08-18T09:27:16Z"
+        },
+        {
+          "index": 111,
+          "name": "universal_alphabetnumberlock_v1_public.pem",
+          "cid": "bafybeiesjqp3en4m75cp7ybalvuruf3frxb4dc2xy5cp6qzkyzsjamhfrq",
+          "url": "https://bafybeiesjqp3en4m75cp7ybalvuruf3frxb4dc2xy5cp6qzkyzsjamhfrq.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-07:26:25 PM",
+          "timestamp_utc": "2025-08-20T12:26:25Z"
+        },
+        {
+          "index": 112,
+          "name": "Sabaikay Customer Record First Global Funnel Economy Case.json",
+          "cid": "bafybeiew6orgtxlzgyp73s5zga6uend424okb6stziqzez4napclz4ikeq",
+          "url": "https://bafybeiew6orgtxlzgyp73s5zga6uend424okb6stziqzez4napclz4ikeq.ipfs.w3s.link",
+          "timestamp_original": "08/09/2025-03:45:01 PM",
+          "timestamp_utc": "2025-08-09T08:45:01Z"
+        },
+        {
+          "index": 113,
+          "name": "universal_canonical_binding_v1.signature.bin",
+          "cid": "bafybeiewih3yt65tlv5g2spdvzzszeuzezm6fefjikjebhpobcaz2uloza",
+          "url": "https://bafybeiewih3yt65tlv5g2spdvzzszeuzezm6fefjikjebhpobcaz2uloza.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-12:50:24 AM",
+          "timestamp_utc": "2025-08-19T17:50:24Z"
+        },
+        {
+          "index": 114,
+          "name": "Allocation_V2.json",
+          "cid": "bafybeiexhgzhdgdhjlsrptpefxgbmmryx6bkgbw7teimlccuqmpodwlazi",
+          "url": "https://bafybeiexhgzhdgdhjlsrptpefxgbmmryx6bkgbw7teimlccuqmpodwlazi.ipfs.w3s.link",
+          "timestamp_original": "08/11/2025-09:39:12 PM",
+          "timestamp_utc": "2025-08-11T14:39:12Z"
+        },
+        {
+          "index": 115,
+          "name": "CanonicalVoidRebinding_no_dash.json",
+          "cid": "bafybeif3vqavxwkuoxeo6cazzs5dcblfpcnqgmzgcmkdf62ndp3hpgv2ya",
+          "url": "https://bafybeif3vqavxwkuoxeo6cazzs5dcblfpcnqgmzgcmkdf62ndp3hpgv2ya.ipfs.w3s.link",
+          "timestamp_original": "08/19/2025-10:05:06 PM",
+          "timestamp_utc": "2025-08-19T15:05:06Z"
+        },
+        {
+          "index": 116,
+          "name": "Proof_of_Verification_Declaration.html",
+          "cid": "bafybeif4w72plaeb6e3g4b2bqsrq4f3yb4k6qjukxtfna5braburbnfihi",
+          "url": "https://bafybeif4w72plaeb6e3g4b2bqsrq4f3yb4k6qjukxtfna5braburbnfihi.ipfs.w3s.link",
+          "timestamp_original": "08/08/2025-12:36:34 PM",
+          "timestamp_utc": "2025-08-08T05:36:34Z"
+        },
+        {
+          "index": 117,
+          "name": "CanonicalVoidRebinding_UPDATED_manifest.json",
+          "cid": "bafybeif5vse5axtvlqo6fwspsnolwkgjihb7trau56uvekgvih3x5ciz2y",
+          "url": "https://bafybeif5vse5axtvlqo6fwspsnolwkgjihb7trau56uvekgvih3x5ciz2y.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-12:26:52 AM",
+          "timestamp_utc": "2025-08-19T17:26:52Z"
+        },
+        {
+          "index": 118,
+          "name": "subzero_root_lock.bin",
+          "cid": "bafybeif5whldd3lgmyysdgskqzk5nnp3lfqh7zcpgpkvz4tqnsqfi3gc7q",
+          "url": "https://bafybeif5whldd3lgmyysdgskqzk5nnp3lfqh7zcpgpkvz4tqnsqfi3gc7q.ipfs.w3s.link",
+          "timestamp_original": "08/18/2025-03:26:29 AM",
+          "timestamp_utc": "2025-08-17T20:26:29Z"
+        },
+        {
+          "index": 119,
+          "name": "final_unicode_anchor_structured.sha256.txt",
+          "cid": "bafybeif6wjls4yfozkz3fhs7wjtvmnjhyk75sud4z5ohhq5dpewr5pg4ki",
+          "url": "https://bafybeif6wjls4yfozkz3fhs7wjtvmnjhyk75sud4z5ohhq5dpewr5pg4ki.ipfs.w3s.link",
+          "timestamp_original": "08/18/2025-04:25:27 PM",
+          "timestamp_utc": "2025-08-18T09:25:27Z"
+        },
+        {
+          "index": 120,
+          "name": "subzero_root_lock.json",
+          "cid": "bafybeif7a56hs3b6sjdlyua3iv6s7sv4vnhuvehgzprkkdnlfpsh47qlce",
+          "url": "https://bafybeif7a56hs3b6sjdlyua3iv6s7sv4vnhuvehgzprkkdnlfpsh47qlce.ipfs.w3s.link",
+          "timestamp_original": "08/18/2025-03:28:04 AM",
+          "timestamp_utc": "2025-08-17T20:28:04Z"
+        },
+        {
+          "index": 121,
+          "name": "SubZeroGlobalRootLock_v2.sha256",
+          "cid": "bafybeif7houtguyzeuoxlk4kcr7zy23sn42yamgvhidixvj72nwnm7qljq",
+          "url": "https://bafybeif7houtguyzeuoxlk4kcr7zy23sn42yamgvhidixvj72nwnm7qljq.ipfs.w3s.link",
+          "timestamp_original": "08/19/2025-01:59:37 PM",
+          "timestamp_utc": "2025-08-19T06:59:37Z"
+        },
+        {
+          "index": 122,
+          "name": "unicode_anchor_amendment_publication.json",
+          "cid": "bafybeif7opohb2qzkti37p5xuxt2vplpscpif3wd2mdljwarwhtslgstta",
+          "url": "https://bafybeif7opohb2qzkti37p5xuxt2vplpscpif3wd2mdljwarwhtslgstta.ipfs.w3s.link",
+          "timestamp_original": "08/18/2025-04:22:27 PM",
+          "timestamp_utc": "2025-08-18T09:22:27Z"
+        },
+        {
+          "index": 123,
+          "name": "Canonical_Archive_Proof_Certificate.json",
+          "cid": "bafybeifby4vqdy5smsjbwjqstilehr4hje4lw7tdut2aykp2vqnnwcze2y",
+          "url": "https://bafybeifby4vqdy5smsjbwjqstilehr4hje4lw7tdut2aykp2vqnnwcze2y.ipfs.w3s.link",
+          "timestamp_original": "08/01/2025-08:36:21 PM",
+          "timestamp_utc": "2025-08-01T13:36:21Z"
+        },
+        {
+          "index": 124,
+          "name": "Metadata_Amendment_Exclusive_Owner_Canonical_Void.json",
+          "cid": "bafybeifceba6jqumesrchom3ym3fkw2oyhi36ny6iudp6tzy6bsmpf5sga",
+          "url": "https://bafybeifceba6jqumesrchom3ym3fkw2oyhi36ny6iudp6tzy6bsmpf5sga.ipfs.w3s.link",
+          "timestamp_original": "08/06/2025-11:40:15 PM",
+          "timestamp_utc": "2025-08-06T16:40:15Z"
+        },
+        {
+          "index": 125,
+          "name": "Canonical Keyword Funnel Sabaikay Cid.json",
+          "cid": "bafybeifdqzlyrbzcf63bre4dt2igqmqipnoprbcpxjfr62s4o3qydse64e",
+          "url": "https://bafybeifdqzlyrbzcf63bre4dt2igqmqipnoprbcpxjfr62s4o3qydse64e.ipfs.w3s.link",
+          "timestamp_original": "08/11/2025-09:30:12 PM",
+          "timestamp_utc": "2025-08-11T14:30:12Z"
+        },
+        {
+          "index": 126,
+          "name": "NFT VoidRoot_NonSupremacy_Metadata.json",
+          "cid": "bafybeifevnwryeww6zxajxy2z7tffaxbu3yc73n4eubhufts7gx7rx6qga",
+          "url": "https://bafybeifevnwryeww6zxajxy2z7tffaxbu3yc73n4eubhufts7gx7rx6qga.ipfs.w3s.link",
+          "timestamp_original": "08/14/2025-10:34:56 AM",
+          "timestamp_utc": "2025-08-14T03:34:56Z"
+        },
+        {
+          "index": 127,
+          "name": "public_key.bem.bem",
+          "cid": "bafybeiffzmtb3bw3qyfbfkcjgc6dkw53bot4kwork77zaqlo5eovj6o5ba",
+          "url": "https://bafybeiffzmtb3bw3qyfbfkcjgc6dkw53bot4kwork77zaqlo5eovj6o5ba.ipfs.w3s.link",
+          "timestamp_original": "08/23/2025-11:10:42 AM",
+          "timestamp_utc": "2025-08-23T04:10:42Z"
+        },
+        {
+          "index": 128,
+          "name": "universal_canonical_binding_v1.signature.base64.txt",
+          "cid": "bafybeifg2d7r4ad4zpi4v4bbsoazoz6jymfpr7ogjqmxrs53gc5qoriafy",
+          "url": "https://bafybeifg2d7r4ad4zpi4v4bbsoazoz6jymfpr7ogjqmxrs53gc5qoriafy.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-12:48:03 AM",
+          "timestamp_utc": "2025-08-19T17:48:03Z"
+        },
+        {
+          "index": 129,
+          "name": "Canonical _Funnel_Human_Growth_Relationships.json",
+          "cid": "bafybeifhhjtscivsm6wgxzfbuclnmmq7deois74zbg63vozztaxn76rqiq",
+          "url": "https://bafybeifhhjtscivsm6wgxzfbuclnmmq7deois74zbg63vozztaxn76rqiq.ipfs.w3s.link",
+          "timestamp_original": "08/02/2025-06:10:25 PM",
+          "timestamp_utc": "2025-08-02T11:10:25Z"
+        },
+        {
+          "index": 130,
+          "name": "Meta Mobile Chat Window FirstMover Verified#1.JPG",
+          "cid": "bafybeifhhrkl3suawhw5ibx2wf3z7fxop34bjpiggq2seas5fcnuf7scwy",
+          "url": "https://bafybeifhhrkl3suawhw5ibx2wf3z7fxop34bjpiggq2seas5fcnuf7scwy.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-12:47:06 PM",
+          "timestamp_utc": "2025-08-10T05:47:06Z"
+        },
+        {
+          "index": 131,
+          "name": "NFT_First_Mover_Owner_Declaration_Signature_Completed.json",
+          "cid": "bafybeifjlqp6codwkaolmjevurd6kjbc4t4b3s6ntdct2t5ldppzhjtdcy",
+          "url": "https://bafybeifjlqp6codwkaolmjevurd6kjbc4t4b3s6ntdct2t5ldppzhjtdcy.ipfs.w3s.link",
+          "timestamp_original": "08/15/2025-12:55:15 AM",
+          "timestamp_utc": "2025-08-14T17:55:15Z"
+        },
+        {
+          "index": 132,
+          "name": "universal_anchor_canonical_economy_v1.signature",
+          "cid": "bafybeifjsz6ipnlhsffzpjpmg2xut22zfjggj65seexc7vdkrrbx3vrs4i",
+          "url": "https://bafybeifjsz6ipnlhsffzpjpmg2xut22zfjggj65seexc7vdkrrbx3vrs4i.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-02:46:47 PM",
+          "timestamp_utc": "2025-08-20T07:46:47Z"
+        },
+        {
+          "index": 133,
+          "name": "canonical_trust_record.json",
+          "cid": "bafybeifl2riiesesqbog6umztveb46e34xt7mgwfiwhj7gihbmtytkyxbe",
+          "url": "https://bafybeifl2riiesesqbog6umztveb46e34xt7mgwfiwhj7gihbmtytkyxbe.ipfs.w3s.link",
+          "timestamp_original": "08/17/2025-12:43:31 PM",
+          "timestamp_utc": "2025-08-17T05:43:31Z"
+        },
+        {
+          "index": 134,
+          "name": "signature.bin",
+          "cid": "bafybeiflc3t7wv67mt4hwrhwwsu5zk2ob6ywc2ckspt2nzr725uyhup4ri",
+          "url": "https://bafybeiflc3t7wv67mt4hwrhwwsu5zk2ob6ywc2ckspt2nzr725uyhup4ri.ipfs.w3s.link",
+          "timestamp_original": "08/17/2025-12:54:36 PM",
+          "timestamp_utc": "2025-08-17T05:54:36Z"
+        },
+        {
+          "index": 135,
+          "name": "IMG_7848.jpeg",
+          "cid": "bafybeiflfwipelrkopfvdk5kp4anphqsl34wsymfosv57n5thu56laazva",
+          "url": "https://bafybeiflfwipelrkopfvdk5kp4anphqsl34wsymfosv57n5thu56laazva.ipfs.w3s.link",
+          "timestamp_original": "08/09/2025-04:12:27 PM",
+          "timestamp_utc": "2025-08-09T09:12:27Z"
+        },
+        {
+          "index": 136,
+          "name": "SubZeroGlobalRootLock_v2_final_Master_UPDATED.json",
+          "cid": "bafybeiflstz24ksuiibcswk3jptviefulemlk7u57gxhxttezuvaejjgoa",
+          "url": "https://bafybeiflstz24ksuiibcswk3jptviefulemlk7u57gxhxttezuvaejjgoa.ipfs.w3s.link",
+          "timestamp_original": "08/19/2025-01:41:45 PM",
+          "timestamp_utc": "2025-08-19T06:41:45Z"
+        },
+        {
+          "index": 137,
+          "name": "7)The Difference Between Traditional SEO and Funnel Economy .pdf",
+          "cid": "bafybeifnuygrnxjtwl7xu22rawl2cqc76jmn2j2znk36sb5zv2tzn77v2m",
+          "url": "https://bafybeifnuygrnxjtwl7xu22rawl2cqc76jmn2j2znk36sb5zv2tzn77v2m.ipfs.w3s.link",
+          "timestamp_original": "08/06/2025-02:16:51 PM",
+          "timestamp_utc": "2025-08-06T07:16:51Z"
+        },
+        {
+          "index": 138,
+          "name": "CanonicalVoidRebinding_no_dash.json",
+          "cid": "bafybeifnxl4br4uwdqog6cspsohr4cncbao3mgirojlym3j2qq5oixkdsa",
+          "url": "https://bafybeifnxl4br4uwdqog6cspsohr4cncbao3mgirojlym3j2qq5oixkdsa.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-12:20:31 AM",
+          "timestamp_utc": "2025-08-19T17:20:31Z"
+        },
+        {
+          "index": 139,
+          "name": "Canonical Rank Achieved .pdf",
+          "cid": "bafybeifp4cwrucl3qef66i4r4msdg3cz5cnjnpxo3hlqlww3umeqqpl6kq",
+          "url": "https://bafybeifp4cwrucl3qef66i4r4msdg3cz5cnjnpxo3hlqlww3umeqqpl6kq.ipfs.w3s.link",
+          "timestamp_original": "08/01/2025-11:09:19 AM",
+          "timestamp_utc": "2025-08-01T04:09:19Z"
+        },
+        {
+          "index": 140,
+          "name": "Sabaikay TxHash Proof2.jpg",
+          "cid": "bafybeifrrdkc5dumvywmz3cwsdsjiyqp7j5y5s5u3ezm74akmbsjicbyzq",
+          "url": "https://bafybeifrrdkc5dumvywmz3cwsdsjiyqp7j5y5s5u3ezm74akmbsjicbyzq.ipfs.w3s.link",
+          "timestamp_original": "08/09/2025-03:03:04 PM",
+          "timestamp_utc": "2025-08-09T08:03:04Z"
+        },
+        {
+          "index": 141,
+          "name": "Deepseek Mobile Chat Window FirstMover Verified#4.PNG",
+          "cid": "bafybeifsqmm4u5egvi63oznxarrdg7pdrz2b5rmqere5kasyy4zmt2qini",
+          "url": "https://bafybeifsqmm4u5egvi63oznxarrdg7pdrz2b5rmqere5kasyy4zmt2qini.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-12:38:53 PM",
+          "timestamp_utc": "2025-08-10T05:38:53Z"
+        },
+        {
+          "index": 142,
+          "name": "universal_canonical_binding_v1.base64.txt",
+          "cid": "bafybeift7lsintct6zjdhakf4m5q6d5ebnm3njmzw5hxpr3rk6oh3ckrce",
+          "url": "https://bafybeift7lsintct6zjdhakf4m5q6d5ebnm3njmzw5hxpr3rk6oh3ckrce.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-12:41:15 AM",
+          "timestamp_utc": "2025-08-19T17:41:15Z"
+        },
+        {
+          "index": 143,
+          "name": "SubZeroGlobalRootLock_v2.base64",
+          "cid": "bafybeifu6i7hfi746nb34jesstx5jnealde6vir2sgl7ecmchizv6dldum",
+          "url": "https://bafybeifu6i7hfi746nb34jesstx5jnealde6vir2sgl7ecmchizv6dldum.ipfs.w3s.link",
+          "timestamp_original": "08/19/2025-01:51:56 PM",
+          "timestamp_utc": "2025-08-19T06:51:56Z"
+        },
+        {
+          "index": 144,
+          "name": "Klook Verified .heic",
+          "cid": "bafybeifuf3ddx4d37ale4xyjvvsdbl5ovuoi6a6b7q356vp645oflyit6q",
+          "url": "https://bafybeifuf3ddx4d37ale4xyjvvsdbl5ovuoi6a6b7q356vp645oflyit6q.ipfs.w3s.link",
+          "timestamp_original": "08/08/2025-12:28:01 PM",
+          "timestamp_utc": "2025-08-08T05:28:01Z"
+        },
+        {
+          "index": 145,
+          "name": "Canonical_Funnel_Creative_Design_Living.json",
+          "cid": "bafybeifuymez6y3zsq5rz5xqmurrxqbbjpqihyejnsfpzwusgtjgvn2tle",
+          "url": "https://bafybeifuymez6y3zsq5rz5xqmurrxqbbjpqihyejnsfpzwusgtjgvn2tle.ipfs.w3s.link",
+          "timestamp_original": "08/02/2025-06:09:22 PM",
+          "timestamp_utc": "2025-08-02T11:09:22Z"
+        },
+        {
+          "index": 146,
+          "name": "GBT Mobile Chat Window FirstMover Verified#1.PNG",
+          "cid": "bafybeifv75e46ephdzi6kh6fkahcdtl7ouh5tmfdqsvxpqfqw2ker3zqke",
+          "url": "https://bafybeifv75e46ephdzi6kh6fkahcdtl7ouh5tmfdqsvxpqfqw2ker3zqke.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-11:58:58 AM",
+          "timestamp_utc": "2025-08-10T04:58:58Z"
+        },
+        {
+          "index": 147,
+          "name": "Governance_Control_Addendum_v1_0.sig.json",
+          "cid": "bafybeifzbvzcmzidxgu7kmwhoyyjrhh36g4ni3o2xfrevn4uaclk37u5lm",
+          "url": "https://bafybeifzbvzcmzidxgu7kmwhoyyjrhh36g4ni3o2xfrevn4uaclk37u5lm.ipfs.w3s.link",
+          "timestamp_original": "08/22/2025-12:06:06 PM",
+          "timestamp_utc": "2025-08-22T05:06:06Z"
+        },
+        {
+          "index": 148,
+          "name": "Facebook Verified .heic",
+          "cid": "bafybeig2zzds3jxkjs4mtfwdneygzafz3spl5vncp2jbs6bncefwmbye3i",
+          "url": "https://bafybeig2zzds3jxkjs4mtfwdneygzafz3spl5vncp2jbs6bncefwmbye3i.ipfs.w3s.link",
+          "timestamp_original": "08/08/2025-12:21:30 PM",
+          "timestamp_utc": "2025-08-08T05:21:30Z"
+        },
+        {
+          "index": 149,
+          "name": "Canonical-Symbolic-Doctrine-Metadata.binary",
+          "cid": "bafybeig7knvfeku6u2koo6nzsa32jo5giyvpq5uarfsmtx26n6mhrrey7e",
+          "url": "https://bafybeig7knvfeku6u2koo6nzsa32jo5giyvpq5uarfsmtx26n6mhrrey7e.ipfs.w3s.link",
+          "timestamp_original": "08/21/2025-01:19:10 AM",
+          "timestamp_utc": "2025-08-20T18:19:10Z"
+        },
+        {
+          "index": 150,
+          "name": "5)The Future of Marketing: When Keywords Become Assets You Can Own.pdf",
+          "cid": "bafybeig7mhvbirmqhhqsqezcrrpjxf76uueariryabmqaqlabfd7knftyq",
+          "url": "https://bafybeig7mhvbirmqhhqsqezcrrpjxf76uueariryabmqaqlabfd7knftyq.ipfs.w3s.link",
+          "timestamp_original": "08/06/2025-02:15:08 PM",
+          "timestamp_utc": "2025-08-06T07:15:08Z"
+        },
+        {
+          "index": 151,
+          "cid": "bafybeigb2cqwek4fmpds3cym7opefmz2s4rur3zvbxc3fhxitrwfwukbz4",
+          "url": "https://bafybeigb2cqwek4fmpds3cym7opefmz2s4rur3zvbxc3fhxitrwfwukbz4.ipfs.w3s.link",
+          "timestamp_original": "08/06/2025-02:18:52 PM",
+          "timestamp_utc": "2025-08-06T07:18:52Z",
+          "name": "9)Why Booking Your Funnel Economy Rights Early Matters .pdf"
+        },
+        {
+          "index": 152,
+          "cid": "bafybeige3bu7emo26zbdxory5kfksvtup2wrnec5uml6j4orn36a5s5jue",
+          "url": "https://bafybeige3bu7emo26zbdxory5kfksvtup2wrnec5uml6j4orn36a5s5jue.ipfs.w3s.link",
+          "timestamp_original": "08/21/2025-01:21:42 AM",
+          "timestamp_utc": "2025-08-20T18:21:42Z",
+          "name": "Canonical-Symbolic-Doctrine-Metadata.sig"
+        },
+        {
+          "index": 153,
+          "name": "Youtube Verified .jpg",
+          "cid": "bafybeigeooxrtj4vumxk7l5soslbsamyzhcvbygbdndpekb2ohcoko5o7u",
+          "url": "https://bafybeigeooxrtj4vumxk7l5soslbsamyzhcvbygbdndpekb2ohcoko5o7u.ipfs.w3s.link",
+          "timestamp_original": "08/08/2025-12:33:07 PM",
+          "timestamp_utc": "2025-08-08T05:33:07Z"
+        },
+        {
+          "index": 154,
+          "name": "DIP Petty Patent Registered Receipt Proof FirstMover.jpg",
+          "cid": "bafybeigg6laopdh6tz6x6q5vczmtwcxco5kfwx4n4ghgxi4upwmqzkddvi",
+          "url": "https://bafybeigg6laopdh6tz6x6q5vczmtwcxco5kfwx4n4ghgxi4upwmqzkddvi.ipfs.w3s.link",
+          "timestamp_original": "08/09/2025-04:16:27 PM",
+          "timestamp_utc": "2025-08-09T09:16:27Z"
+        },
+        {
+          "index": 155,
+          "name": "Canonical Rank Achieved .json",
+          "cid": "bafybeigh4zwiddgfqs54cwfqcohxlwj3erymgnppyznfli3dl2phley4mm",
+          "url": "https://bafybeigh4zwiddgfqs54cwfqcohxlwj3erymgnppyznfli3dl2phley4mm.ipfs.w3s.link",
+          "timestamp_original": "08/01/2025-11:05:16 AM",
+          "timestamp_utc": "2025-08-01T04:05:16Z"
+        },
+        {
+          "index": 156,
+          "name": "owner_declaration_signature_manifest.json",
+          "cid": "bafybeighihtwmmkynxps5c4hya2ok5anznu42efj7kxtouxtgbcacm54du",
+          "url": "https://bafybeighihtwmmkynxps5c4hya2ok5anznu42efj7kxtouxtgbcacm54du.ipfs.w3s.link",
+          "timestamp_original": "08/14/2025-11:39:11 PM",
+          "timestamp_utc": "2025-08-14T16:39:11Z"
+        },
+        {
+          "index": 157,
+          "name": "Governance_Control_Addendum_v1_0_public_key.pem",
+          "cid": "bafybeighy5vdhnoc6ljdp7mpcpn27dof2do7g3dhrnesihfdcn36wk44ze",
+          "url": "https://bafybeighy5vdhnoc6ljdp7mpcpn27dof2do7g3dhrnesihfdcn36wk44ze.ipfs.w3s.link",
+          "timestamp_original": "08/22/2025-11:55:25 AM",
+          "timestamp_utc": "2025-08-22T04:55:25Z"
+        },
+        {
+          "index": 158,
+          "name": "canonical_funnel_categories_Master_unique.txt",
+          "cid": "bafybeigkeonubarw5aa57m5disl52ter7m2fpq5cj2kawvoqbqfjj3wzo4",
+          "url": "https://bafybeigkeonubarw5aa57m5disl52ter7m2fpq5cj2kawvoqbqfjj3wzo4.ipfs.w3s.link",
+          "timestamp_original": "07/31/2025-02:25:55 PM",
+          "timestamp_utc": "2025-07-31T07:25:55Z"
+        },
+        {
+          "index": 159,
+          "name": "#1 Meta Data Canonical MASTER.json",
+          "cid": "bafybeigqbcpfessevmvvxboqddykh3xemo4tgkh3g3reivkezd3w6l36su",
+          "url": "https://bafybeigqbcpfessevmvvxboqddykh3xemo4tgkh3g3reivkezd3w6l36su.ipfs.w3s.link",
+          "timestamp_original": "07/31/2025-03:06:16 PM",
+          "timestamp_utc": "2025-07-31T08:06:16Z"
+        },
+        {
+          "index": 160,
+          "name": "CanonicalVoidRebinding_Metadata_v1_UPDATED.base64",
+          "cid": "bafybeigrt3hz7bmwvxo2d75lo2gqnfk2hxibbsgelste6cl2i35ri22csa",
+          "url": "https://bafybeigrt3hz7bmwvxo2d75lo2gqnfk2hxibbsgelste6cl2i35ri22csa.ipfs.w3s.link",
+          "timestamp_original": "08/19/2025, 10:07:34 PM"
+        },
+        {
+          "index": 161,
+          "name": "universal_alphabetnumberlock_v1.manifest.json",
+          "cid": "bafybeigtvypfzb7padujlz7gxjwx652xqa7bd4xmvnfnvm65bpp3dmnphy",
+          "url": "https://bafybeigtvypfzb7padujlz7gxjwx652xqa7bd4xmvnfnvm65bpp3dmnphy.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-07:35:11 PM",
+          "timestamp_utc": "2025-08-20T12:35:11Z"
+        },
+        {
+          "index": 162,
+          "name": "2)How Funnel Economy Benefits the Digital World When Everyone Uses It .pdf",
+          "cid": "bafybeigu36mumduwdxte5w72wlexe2nemcwtdxey3yi5poxqfhknq7yuom",
+          "url": "https://bafybeigu36mumduwdxte5w72wlexe2nemcwtdxey3yi5poxqfhknq7yuom.ipfs.w3s.link",
+          "timestamp_original": "08/06/2025-02:12:33 PM",
+          "timestamp_utc": "2025-08-06T07:12:33Z"
+        },
+        {
+          "index": 163,
+          "name": "DIP Registered ID.JPG",
+          "cid": "bafybeigv3spzqt6dhajb2yngtntcqr3u2ajow24bymskepestatvxnopbq",
+          "url": "https://bafybeigv3spzqt6dhajb2yngtntcqr3u2ajow24bymskepestatvxnopbq.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-04:34:43 PM",
+          "timestamp_utc": "2025-08-10T09:34:43Z"
+        },
+        {
+          "index": 164,
+          "name": "DIP Payment Receipt Proof.pdf",
+          "cid": "bafybeigw2yhfbx2ulogi4qqjoztc72ori7mln6zyu3kanlbjjwa5xtmn3a",
+          "url": "https://bafybeigw2yhfbx2ulogi4qqjoztc72ori7mln6zyu3kanlbjjwa5xtmn3a.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-04:31:18 PM",
+          "timestamp_utc": "2025-08-10T09:31:18Z"
+        },
+        {
+          "index": 165,
+          "name": "Governance_Control_Addendum_v1_0.json",
+          "cid": "bafybeigwd4liqdegn7dk4revbc7nnzxiy6fl7fflxsy5tk5uarkql3qore",
+          "url": "https://bafybeigwd4liqdegn7dk4revbc7nnzxiy6fl7fflxsy5tk5uarkql3qore.ipfs.w3s.link",
+          "timestamp_original": "08/22/2025-12:04:07 PM",
+          "timestamp_utc": "2025-08-22T05:04:07Z"
+        },
+        {
+          "index": 166,
+          "name": "2)Payment Terms&Conditions.json",
+          "cid": "bafybeigwovxstsr5u5kupzd7xdofbxrvdq4cgpl4numoa5t533xai3n5cu",
+          "url": "https://bafybeigwovxstsr5u5kupzd7xdofbxrvdq4cgpl4numoa5t533xai3n5cu.ipfs.w3s.link",
+          "timestamp_original": "08/05/2025-07:50:33 PM",
+          "timestamp_utc": "2025-08-05T12:50:33Z"
+        },
+        {
+          "index": 167,
+          "name": "1)What is an NFT and How Does it Work?.pdf",
+          "cid": "bafybeigwzxcjs3zqevbd32yely3fxprtsg2tucledkowcf2td6vn66kdse",
+          "url": "https://bafybeigwzxcjs3zqevbd32yely3fxprtsg2tucledkowcf2td6vn66kdse.ipfs.w3s.link",
+          "timestamp_original": "08/06/2025-02:11:10 PM",
+          "timestamp_utc": "2025-08-06T07:11:10Z"
+        },
+        {
+          "index": 168,
+          "name": "Global Platforms Proof of Verification Master Metadata V.1.json",
+          "cid": "bafybeigxqbztplugrsy3v2fxk2sceoxbl75v4hao6riblc55yoqvzvddg4",
+          "url": "https://bafybeigxqbztplugrsy3v2fxk2sceoxbl75v4hao6riblc55yoqvzvddg4.ipfs.w3s.link",
+          "timestamp_original": "08/08/2025-12:53:06 PM",
+          "timestamp_utc": "2025-08-08T05:53:06Z"
+        },
+        {
+          "index": 169,
+          "name": "Grok Ai Mobile Chat Window FirstMover Verified#3.JPG",
+          "cid": "bafybeigxt3c6j5tleei54uajhmtj2svva6ahsgcizq4b7nc6i5n6grawge",
+          "url": "https://bafybeigxt3c6j5tleei54uajhmtj2svva6ahsgcizq4b7nc6i5n6grawge.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-12:48:36 PM",
+          "timestamp_utc": "2025-08-10T05:48:36Z"
+        },
+        {
+          "index": 170,
+          "name": "universal_anchor_canonical_economy_v1.manifest.json",
+          "cid": "bafybeigzk33p6ndxa6bnwgcgayihq6iuwbnlb5uo7yv4oog4pdlbiw42im",
+          "url": "https://bafybeigzk33p6ndxa6bnwgcgayihq6iuwbnlb5uo7yv4oog4pdlbiw42im.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-02:41:27 PM",
+          "timestamp_utc": "2025-08-20T07:41:27Z"
+        },
+        {
+          "index": 171,
+          "name": "DIP Petty Patent Registered Proof First Mover.jpg",
+          "cid": "bafybeih22fl6drylhtgt7p5qgb7xxvlgiov7pxtim6ak2wt6gfygrzyege",
+          "url": "https://bafybeih22fl6drylhtgt7p5qgb7xxvlgiov7pxtim6ak2wt6gfygrzyege.ipfs.w3s.link",
+          "timestamp_original": "08/09/2025-04:14:49 PM",
+          "timestamp_utc": "2025-08-09T09:14:49Z"
+        },
+        {
+          "index": 172,
+          "name": "Governance_Control_Addendum_v1_0.binary",
+          "cid": "bafybeih3ynkl6u26giav3tsfgdfs5telhkptwz5q7i3lwq6uzcppwirlrm",
+          "url": "https://bafybeih3ynkl6u26giav3tsfgdfs5telhkptwz5q7i3lwq6uzcppwirlrm.ipfs.w3s.link",
+          "timestamp_original": "08/22/2025-12:01:44 PM",
+          "timestamp_utc": "2025-08-22T05:01:44Z"
+        },
+        {
+          "index": 173,
+          "name": "universal_anchor_canonical_economy_v1.json",
+          "cid": "bafybeih6da3szjm6rcgu7mgplq4ckawewbdb64fvu5hbnmlqrthf4lwhqu",
+          "url": "https://bafybeih6da3szjm6rcgu7mgplq4ckawewbdb64fvu5hbnmlqrthf4lwhqu.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-02:36:59 PM",
+          "timestamp_utc": "2025-08-20T07:36:59Z"
+        },
+        {
+          "index": 174,
+          "name": "Instagram Verified .jpg",
+          "cid": "bafybeih6vv36tcmbzu5akmw3wo5yim6fbuu2ka53mdfa7zqbtqco2i7y7y",
+          "url": "https://bafybeih6vv36tcmbzu5akmw3wo5yim6fbuu2ka53mdfa7zqbtqco2i7y7y.ipfs.w3s.link",
+          "timestamp_original": "08/08/2025-12:25:45 PM",
+          "timestamp_utc": "2025-08-08T05:25:45Z"
+        },
+        {
+          "index": 175,
+          "name": "canonical_governance_truth_declaration.sha256",
+          "cid": "bafybeih6x36xxd3muk2qazkxzo6icebokmzfpcwtelnpq67pqlh7ydkrte",
+          "url": "https://bafybeih6x36xxd3muk2qazkxzo6icebokmzfpcwtelnpq67pqlh7ydkrte.ipfs.w3s.link",
+          "timestamp_original": "08/23/2025-11:04:30 AM",
+          "timestamp_utc": "2025-08-23T04:04:30Z"
+        },
+        {
+          "index": 176,
+          "name": "universal_alphabetnumberlock_v1.json",
+          "cid": "bafybeih73nbutptjed6ecxxl35rhii63q4jhhhjlkqae47lqbw25ccqfgu",
+          "url": "https://bafybeih73nbutptjed6ecxxl35rhii63q4jhhhjlkqae47lqbw25ccqfgu.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-07:33:09 PM",
+          "timestamp_utc": "2025-08-20T12:33:09Z"
+        },
+        {
+          "index": 177,
+          "name": "canonical_governance_truth_declaration.binary",
+          "cid": "bafybeihbmz2ul6uursafwcxwpw2nmuunpxrd73vop4smrlogk5x6vr647e",
+          "url": "https://bafybeihbmz2ul6uursafwcxwpw2nmuunpxrd73vop4smrlogk5x6vr647e.ipfs.w3s.link",
+          "timestamp_original": "08/23/2025-11:00:32 AM",
+          "timestamp_utc": "2025-08-23T04:00:32Z"
+        },
+        {
+          "index": 178,
+          "name": "KKday Verified.heic",
+          "cid": "bafybeihcqycnb5ue7zosz6cg7t7s5pxepon2tuv7t6bylokb273uxsa7xy",
+          "url": "https://bafybeihcqycnb5ue7zosz6cg7t7s5pxepon2tuv7t6bylokb273uxsa7xy.ipfs.w3s.link",
+          "timestamp_original": "08/08/2025-12:27:03 PM",
+          "timestamp_utc": "2025-08-08T05:27:03Z"
+        },
+        {
+          "index": 179,
+          "name": "CanonicalVoidRebinding_UPDATED_signature.bin",
+          "cid": "bafybeihcwpj5ckj5m4jonjkur6grpeovljncmw4htsiwpkyfes65n5fno4",
+          "url": "https://bafybeihcwpj5ckj5m4jonjkur6grpeovljncmw4htsiwpkyfes65n5fno4.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-12:30:32 AM",
+          "timestamp_utc": "2025-08-19T17:30:32Z"
+        },
+        {
+          "index": 180,
+          "name": "Deepseek Mobile Chat Window FirstMover Verified#1.PNG",
+          "cid": "bafybeihfzmimuomjig6wlgfcgot5qzrc6iid2bypwhk242vkduwev45hjm",
+          "url": "https://bafybeihfzmimuomjig6wlgfcgot5qzrc6iid2bypwhk242vkduwev45hjm.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-12:38:06 PM",
+          "timestamp_utc": "2025-08-10T05:38:06Z"
+        },
+        {
+          "index": 181,
+          "name": "GBT Mobile Chat Window FirstMover Verified#4.PNG",
+          "cid": "bafybeihgh4xt75ecb5qmxjqhmktz5tie4ecokzpmuq5saz67n4blzc5ioe",
+          "url": "https://bafybeihgh4xt75ecb5qmxjqhmktz5tie4ecokzpmuq5saz67n4blzc5ioe.ipfs.w3s.link",
+          "timestamp_original": "08/10/2025-12:00:13 PM",
+          "timestamp_utc": "2025-08-10T05:00:13Z"
+        },
+        {
+          "index": 182,
+          "name": "universal_alphabetnumberlock_v1.binary64",
+          "cid": "bafybeihkhyatou4bfxg7iafc5wiubk3cypeuvjlwaem4sr7d6wg7dc3pkm",
+          "url": "https://bafybeihkhyatou4bfxg7iafc5wiubk3cypeuvjlwaem4sr7d6wg7dc3pkm.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-07:29:28 PM",
+          "timestamp_utc": "2025-08-20T12:29:28Z"
+        },
+        {
+          "index": 183,
+          "name": "CanonicalVoidRebinding_UPDATED_signature.bin",
+          "cid": "bafybeihmlokg757xzufd4wxdnp4goe5cgba3l4pdlhnfdsvb6lo3baymgi",
+          "url": "https://bafybeihmlokg757xzufd4wxdnp4goe5cgba3l4pdlhnfdsvb6lo3baymgi.ipfs.w3s.link",
+          "timestamp_original": "08/19/2025-10:15:27 PM",
+          "timestamp_utc": "2025-08-19T15:15:27Z"
+        },
+        {
+          "index": 184,
+          "name": "owner_declaration_signature.base64.txt",
+          "cid": "bafybeihrezbjkix2ngp52djjjxns7bio3djsoquz55fhwaio4hxxqlzwwq",
+          "url": "https://bafybeihrezbjkix2ngp52djjjxns7bio3djsoquz55fhwaio4hxxqlzwwq.ipfs.w3s.link",
+          "timestamp_original": "08/14/2025-11:39:21 PM",
+          "timestamp_utc": "2025-08-14T16:39:21Z"
+        },
+        {
+          "index": 185,
+          "name": "Owner’s Declaration Void Canonical V.1.json",
+          "cid": "bafybeihuiqnvawutbhhgzrtjpxoo4gnpmhdtucukqtbgogj2j6mabit3ee",
+          "url": "https://bafybeihuiqnvawutbhhgzrtjpxoo4gnpmhdtucukqtbgogj2j6mabit3ee.ipfs.w3s.link",
+          "timestamp_original": "08/14/2025-08:02:56 PM",
+          "timestamp_utc": "2025-08-14T13:02:56Z"
+        },
+        {
+          "index": 186,
+          "name": "Owner_DID_Identity.pdf",
+          "cid": "bafybeihulkyou2svp2q23xzq5kv6f72gitt7ipmvplt3h2w6piwfk2526a",
+          "url": "https://bafybeihulkyou2svp2q23xzq5kv6f72gitt7ipmvplt3h2w6piwfk2526a.ipfs.w3s.link",
+          "timestamp_original": "08/01/2025-06:24:56 PM",
+          "timestamp_utc": "2025-08-01T11:24:56Z"
+        },
+        {
+          "index": 187,
+          "name": "universal_canonical_binding_v1.sha256.txt",
+          "cid": "bafybeihxhjcdqli4qu5rw2hqxj6hel7joynlc7ghf54jdlhrdygs2l2rp4",
+          "url": "https://bafybeihxhjcdqli4qu5rw2hqxj6hel7joynlc7ghf54jdlhrdygs2l2rp4.ipfs.w3s.link",
+          "timestamp_original": "08/20/2025-12:46:17 AM",
+          "timestamp_utc": "2025-08-19T17:46:17Z"
+        },
+        {
+          "index": 188,
+          "name": "canonical_trust_record.v2.json",
+          "cid": "bafybeihzzn3fw7vjiredv2x2jj7n35fzdmcfudtkjnaegxqqaqnmb3ll5e",
+          "url": "https://bafybeihzzn3fw7vjiredv2x2jj7n35fzdmcfudtkjnaegxqqaqnmb3ll5e.ipfs.w3s.link",
+          "timestamp_original": "08/17/2025-01:07:31 PM",
+          "timestamp_utc": "2025-08-17T06:07:31Z"
+        }
+      ]
+    }
+  },
+  "items_total": 195
+}
