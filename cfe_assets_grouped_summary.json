@@ -1,0 +1,220 @@
+{
+  "dict_11_Environment_12_Science_13_Politics_14_Law_15_Entertainment": [
+    "092_Canonical_Funnel_Society_Environmental.json"
+  ],
+  "dict_16_Religion_17_Philosophy_18_History_19_Literature_20_Art": [
+    "059_Canonical_Funnel_Culture_Spiritual.json"
+  ],
+  "dict_6_Health_7_Food_8_Fashion_9_Travel_10_Sports": [
+    "094_Canonical_Funnel_Health_LifeStyle.json"
+  ],
+  "dict_CanonicalArchiveIndex": [
+    "123_Canonical_Archive_Proof_Certificate.json"
+  ],
+  "dict_CanonicalFunnelConsolidatedMetadata": [
+    "009_NFT_Canonical_Funnel_Economy_Metadata.json",
+    "096_Canonical_Funnel_Economy_Consolidated_Metadata.json"
+  ],
+  "dict_CanonicalFunnelEconomyArchiveProofCertificate": [
+    "018_Owner_DID_Identity.json"
+  ],
+  "dict_CanonicalFunnelOwnershipAssertion": [
+    "075_Ownership_Assertion_Canonical_Funnel_Economy.json"
+  ],
+  "dict_CanonicalFunnelOwnershipAssertion_sha256": [
+    "008_NFT_Ownership_Assertion_Canonical_Funnel_Economy.json"
+  ],
+  "dict_CanonicalTrustRecord": [
+    "133_canonical_trust_record.json",
+    "188_canonical_trust_record_v2.json"
+  ],
+  "dict_Canonical_Roadmap_Timeline": [
+    "155_Canonical_Rank_Achieved.json"
+  ],
+  "dict_Certificate": [
+    "032_Proof_of_Singularity.json"
+  ],
+  "dict_GlobalRegistryAnchor": [
+    "014_Global_Registry_Anchor.json"
+  ],
+  "dict_OWNER_MASTER_DID_MASTER_CID_ROOT_BINDING_TRUST_ANCHOR_plus11": [
+    "037_First_Mover_Owner_Declaration_Signature_Completed.json"
+  ],
+  "dict_OWNER_MASTER_DID_MASTER_CID_ROOT_BINDING_TRUST_ANCHOR_plus13": [
+    "131_NFT_First_Mover_Owner_Declaration_Signature_Completed.json"
+  ],
+  "dict_OWNER_MASTER_DID_MASTER_CID_ROOT_BINDING_TRUST_ANCHOR_plus8": [
+    "185_Owner_s_Declaration_Void_Canonical_V_1.json"
+  ],
+  "dict_OWNER_MASTER_DID_MASTER_CID_ROOT_BINDING_TRUST_ANCHOR_plus9": [
+    "069_NFT_Owner_s_Declaration_Void_Canonical_V_1.json"
+  ],
+  "dict_Technology_Business_Finance_Real_Estate_Education": [
+    "065_Canonical_Funnel_Economy_Technology.json"
+  ],
+  "dict_VoidRoot_NonSupremacy_Metadata_sha256": [
+    "044_VoidRoot_NonSupremacy_Metadata.json",
+    "126_NFT_VoidRoot_NonSupremacy_Metadata.json"
+  ],
+  "dict_about_timestamp_utc_primary_json_companion_files_signature_plus1": [
+    "170_universal_anchor_canonical_economy_v1_manifest.json"
+  ],
+  "dict_alg_signed_file_signature_b64": [
+    "147_Governance_Control_Addendum_v1_0_sig.json"
+  ],
+  "dict_amendment_type_parent_master_rights_update_payment_proof_flow_contact_terms": [
+    "166_2_Payment_Terms_Conditions.json"
+  ],
+  "dict_canonical_funnel_economy_archive_proof_certificate": [
+    "159_1_Meta_Data_Canonical_MASTER.json"
+  ],
+  "dict_canonical_metadata_Funnel_Category_00001_Funnel_Category_00002_Funnel_Categ": [
+    "002_canonical-funnel-wariphat.json",
+    "003_canonical-funnel-lot1-1M.json"
+  ],
+  "dict_certificate_title_certificate_id_date_issued_owner_trust_entity_plus5": [
+    "063_Canonical_Trust_Certificate.json"
+  ],
+  "dict_customer_record_canonical_funnel_agreement": [
+    "112_Sabaikay_Customer_Record_First_Global_Funnel_Economy_Case.json"
+  ],
+  "dict_customer_record_canonical_funnel_allocation_all_cid_reference_proof": [
+    "105_Master_Allocation_Void_Canonical_Funnel_Economy_FirstMover.json"
+  ],
+  "dict_customer_record_canonical_funnel_allocation_all_cid_reference_proof_allocat": [
+    "025_NFT_Master_Allocation_Void_Canonical_Funnel_Economy_FirstMover.json"
+  ],
+  "dict_file_sha256_base64_file_bin_file_public_key_pem_plus2": [
+    "034_SubZeroGlobalRootLock_v2_manifest.json"
+  ],
+  "dict_file_sha256_signature_file_public_key_file_private_key_file_plus2": [
+    "053_Canonical-Symbolic-Doctrine-Metadata-manifest.json"
+  ],
+  "dict_file_signed_file_size_bytes_file_sha256_hex_signature_scheme_hash_algorithm": [
+    "156_owner_declaration_signature_manifest.json"
+  ],
+  "dict_json_file_sha256_file_bin_file_binary64_file_public_key_file_plus1": [
+    "161_universal_alphabetnumberlock_v1_manifest.json"
+  ],
+  "dict_json_sha256_signature_base64_public_key_pem": [
+    "030_manifest.json"
+  ],
+  "dict_manifest_type_manifest_version_reason_note_primary_json_artifacts_plus4": [
+    "117_CanonicalVoidRebinding_UPDATED_manifest.json"
+  ],
+  "dict_manifest_type_timestamp_utc_owner_files_cross_chain_commit_plus1": [
+    "070_manifest.json"
+  ],
+  "dict_manifest_type_version_created_utc_amended_utc_owner_plus3": [
+    "035_Governance_Control_Addendum_v1_0_manifest.json"
+  ],
+  "dict_manifest_version_owner_master_did_master_cid_payload_file_plus5": [
+    "023_manifest.json"
+  ],
+  "dict_master_informations_metadata_update": [
+    "124_Metadata_Amendment_Exclusive_Owner_Canonical_Void.json"
+  ],
+  "dict_metadata_categories": [
+    "011_Canonical_Funnel_Health_Wellness_Economy.json",
+    "088_Canonical_Funnel_Performing_Arts_Entertainment.json",
+    "091_Canonical_Future_Finance_Innovation.json",
+    "129_Canonical_Funnel_Human_Growth_Relationships.json",
+    "145_Canonical_Funnel_Creative_Design_Living.json"
+  ],
+  "dict_metadata_filename_sha256_checksum_base64_file_signature_file_public_key_fil": [
+    "046_CanonicalVoidRebinding_UPDATED_manifest.json"
+  ],
+  "dict_metadata_funnels": [
+    "006_1_Canonical_Funnel_Master_Record_1M.json"
+  ],
+  "dict_metadata_keywords": [
+    "001_canonical-funnel-lot2-1M-with-updated-metadata.json"
+  ],
+  "dict_metadata_type_anchor_name_description_properties_status_plus5": [
+    "082_supreme-emptiness-anchor.json"
+  ],
+  "dict_metadata_type_timestamp_utc_owner_canonical_status_tier_ranking_plus5": [
+    "072_canonical_governance_truth_declaration.json"
+  ],
+  "dict_metadata_type_title_description_version_author_plus3": [
+    "122_unicode_anchor_amendment_publication.json"
+  ],
+  "dict_metadata_type_version_issued_by_subzero_binding_lock_scope_plus12": [
+    "136_SubZeroGlobalRootLock_v2_final_Master_UPDATED.json"
+  ],
+  "dict_metadata_type_version_issued_by_subzero_binding_lock_scope_plus13": [
+    "003_SubZeroGlobalRootLock_v2_full.json"
+  ],
+  "dict_metadata_type_version_issued_by_subzero_binding_lock_scope_plus5": [
+    "120_subzero_root_lock.json"
+  ],
+  "dict_metadata_type_version_note_owner_master_did_plus4": [
+    "138_CanonicalVoidRebinding_no_dash.json"
+  ],
+  "dict_metadata_type_version_owner_master_did_master_cid_plus5": [
+    "115_CanonicalVoidRebinding_no_dash.json"
+  ],
+  "dict_metadata_type_version_timestamp_utc_owner_anchors_plus5": [
+    "079_universal_canonical_binding_v1.json"
+  ],
+  "dict_metadata_type_version_timestamp_utc_owner_exclusive_rule_plus4": [
+    "173_universal_anchor_canonical_economy_v1.json"
+  ],
+  "dict_metadata_type_version_timestamp_utc_owner_parent_reference_plus4": [
+    "176_universal_alphabetnumberlock_v1.json"
+  ],
+  "dict_metadata_type_version_timestamp_utc_owner_policy_plus3": [
+    "165_Governance_Control_Addendum_v1_0.json"
+  ],
+  "dict_metadata_type_version_timestamp_utc_owner_unicode-definitions_plus2": [
+    "093_Canonical-Symbolic-Doctrine-Metadata.json"
+  ],
+  "dict_name_description_canonical_id_cid_owner_plus7": [
+    "090_void_canonical_sabaikay_metadata_2120_structured_links.json"
+  ],
+  "dict_name_description_owner_trust_canonical_id_plus2": [
+    "007_canonical-funnel-1.json"
+  ],
+  "dict_name_description_version_purpose_tag_timestamp_iso_plus6": [
+    "114_Allocation_V2.json"
+  ],
+  "dict_name_description_version_purpose_tag_timestamp_iso_plus7": [
+    "013_NFT_Allocation_V2.json"
+  ],
+  "dict_name_owner_did_parent_master_cid_recognition_plus1": [
+    "103_Ai-Chat-FirstMover-Verifications.json"
+  ],
+  "dict_owner_did_parent_master_landing_page_branches_plus5": [
+    "108_Canonical_Keyword_Funnel_Sabaikay.json"
+  ],
+  "dict_owner_did_parent_master_landing_page_branches_plus6": [
+    "125_Canonical_Keyword_Funnel_Sabaikay_Cid.json"
+  ],
+  "dict_parent_master_documents_payment_terms_conditions": [
+    "029_Master-Informations-Canonical-Funnel-Leasing.json"
+  ],
+  "dict_title_name_did_parent_master_cid_declaration_plus3": [
+    "071_Ai-Chat-FirstMover-Verified.json"
+  ],
+  "dict_title_version_generated_at_owner_parent_master_plus8": [
+    "097_DIP_Patent_Metadata_Proof_Master_updated.json"
+  ],
+  "dict_title_version_generated_at_utc_notes_files_plus1": [
+    "005_universal_canonical_binding_manifest.json"
+  ],
+  "dict_title_version_owner_parent_master_trust_anchor_plus5": [
+    "002_DIP_Patent_Metadata.json"
+  ],
+  "dict_version_canonical_id_owner_trust_entity_did_plus5": [
+    "010_master-void-canonical-structure-v1.json"
+  ],
+  "dict_version_type_description_verified_cid_verified_platforms_plus3": [
+    "020_proof-verification-metadata.json"
+  ],
+  "dict_version_type_description_verified_cid_verified_platforms_plus4": [
+    "168_Global_Platforms_Proof_of_Verification_Master_Metadata_V_1.json"
+  ],
+  "list": [
+    "073_50_000-Funnels-Canonical-Wariphat.json"
+  ]
+}
