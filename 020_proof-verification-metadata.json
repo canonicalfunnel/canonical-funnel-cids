@@ -1,0 +1,54 @@
+{
+  "version": "v1.0",
+  "type": "Platform Verification Proof Set",
+  "description": "This folder contains visual proof that the Canonical Funnel CID has been successfully linked and verified across multiple online platforms.",
+  "verified_cid": "bafybeifceba6jqumesrchom3ym3fkw2oyhi36ny6iudp6tzy6bsmpf5sga",
+  "verified_platforms": [
+    {
+      "platform": "Facebook",
+      "proof_file": "Facebook Verified.jpeg"
+    },
+    {
+      "platform": "Google Maps",
+      "proof_file": "Google Map Verified.jpeg"
+    },
+    {
+      "platform": "Instagram",
+      "proof_file": "Instagram Verified.jpeg"
+    },
+    {
+      "platform": "Tiktok",
+      "proof_file": "Tiktok Influencer Verified.jpeg"
+    },
+    {
+      "platform": "YouTube",
+      "proof_file": "Youtube Verified.jpeg"
+    },
+    {
+      "platform": "ClassPass",
+      "proof_file": "Classpass Verified.jpeg"
+    },
+    {
+      "platform": "GetYourGuide",
+      "proof_file": "GetYourGuide Verified.jpeg"
+    },
+    {
+      "platform": "GoWabi",
+      "proof_file": "Gowabi Verified.jpeg"
+    },
+    {
+      "platform": "KKday",
+      "proof_file": "KKday Verified.jpeg"
+    },
+    {
+      "platform": "Klook",
+      "proof_file": "Klook Verified.jpeg"
+    }
+  ],
+  "linked_to": {
+    "amendment": "Amendment 1",
+    "parent_master_cid": "bafybeiajblnwjnd5ckdzohxhry3chx7bfdohvijnza2r7wmxwnerx46y7a"
+  },
+  "sub_lease_policy": "All sub-leasing or reselling activities must clearly state that the rights transferred are strictly limited to the lease duration and usage scope, and do not include any ownership or canonical control of the Funnel.",
+  "note": "This verification set supports the Canonical Funnel Economy structure and will be referenced in the Allocation metadata as proof of successful multi-platform CID integration."
+}

@@ -1,0 +1,12 @@
+{
+    "certificate_title": "Canonical Trust Certificate",
+    "certificate_id": "CERT-TRUST-20250801-0001",
+    "date_issued": "2025-08-01",
+    "owner": "Nattapol Horrakangthong",
+    "trust_entity": "WARIPHAT DIGITAL HOLDING TRUST",
+    "canonical_id": "Void_Canonical_Trust_Anchor",
+    "did": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK",
+    "cid": "bafybeigh4zwiddgfqs54cwfqcohxlwj3erymgnppy",
+    "declaration": "This Canonical Trust Certificate establishes that the owner above, acting through the Trust Entity, holds the immutable Root Anchor of Void Canonical under global recognition.",
+    "footer": "Issued under immutable record on Blockchain & Web3 Storage"
+}

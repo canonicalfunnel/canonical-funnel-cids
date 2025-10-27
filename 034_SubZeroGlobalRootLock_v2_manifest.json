@@ -1,0 +1,9 @@
+{
+  "file": "SubZeroGlobalRootLock_v2_final_Master.json",
+  "sha256": "535af8fb11d1f6bbf2a6f5d9c84c5642e553d9dabef3c31da1e290506953d65d",
+  "base64_file": "SubZeroGlobalRootLock_v2.base64",
+  "bin_file": "SubZeroGlobalRootLock_v2.bin",
+  "public_key_pem": "SubZeroGlobalRootLock_v2_public_key.pem",
+  "private_key_pem": "SubZeroGlobalRootLock_v2_private_key.pem",
+  "signature_bin": "SubZeroGlobalRootLock_v2_signature.bin"
+}

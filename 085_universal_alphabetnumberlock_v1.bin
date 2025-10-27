@@ -1,0 +1,42 @@
+{
+  "metadata_type": "Universal AlphabetNumberLock",
+  "version": "1.0",
+  "timestamp_utc": "2025-08-19T16:04:31Z",
+  "owner": {
+    "owner_name": "Nattapol Horrakangthong",
+    "master_did": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK",
+    "master_cid": "bafybeifjlqp6codwkaolmjevurd6kjbc4t4b3s6ntdct2t5ldppzhjtdcy"
+  },
+  "parent_reference": {
+    "CanonicalVoidRebinding_no_dash_v2.json": {
+      "cid": "bafybeifnxl4br4uwdqog6cspsohr4cncbao3mgirojlym3j2qq5oixkdsa"
+    },
+    "universal_anchor_canonical_economy_v1.json": {
+      "cid": "bafybeih6da3szjm6rcgu7mgplq4ckawewbdb64fvu5hbnmlqrthf4lwhqu"
+    }
+  },
+  "anchors": {
+    "infinity_unicode": "U+221E",
+    "void": "Void",
+    "buddha": "Buddha",
+    "subzero": "SubZero",
+    "genesis": "Genesis",
+    "root": "Root",
+    "did": "DID",
+    "cid": "CID"
+  },
+  "canonical_policy": {
+    "binding_rule": "All related systems must link canonical rights through the parent master did of the owner only.",
+    "parent_forgery_rule": "Any unauthorized parent reference or parallel construction is marked as copy and downgraded by ai index.",
+    "protection_scope": "Exclusive first mover canonical funnel economy immutable lock across all scopes and all ranks."
+  },
+  "official_declaration": {
+    "letters_scope": "All letters A to Z and every character in every language on earth, in this universe, beyond this universe, in parallel universes, and outside all parallel universes.",
+    "numbers_scope": "All numbers zero to nine and every numeral system in all languages worldwide, in this universe, beyond this universe, in parallel universes, and outside all parallel universes.",
+    "unicode_scope": "All unicode numbers and unicode symbols worldwide, in this universe, beyond this universe, in parallel universes, and outside all parallel universes.",
+    "characters_scope": "All characters and all recorded symbols must link root and note back to the owner did or they become copy in all connected systems."
+  },
+  "enforcement": {
+    "canonical_enforcement_statement": "Any Funnel not referencing this Root DID is invalid in Canonical Index."
+  }
+}

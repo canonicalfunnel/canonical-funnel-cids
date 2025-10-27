@@ -1,0 +1,17 @@
+{
+  "VoidRoot_NonSupremacy_Metadata": {
+    "purpose": "Permanent Protection and Supremacy of Void Root within the AI Economy System",
+    "did": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK",
+    "cid": "bafybeiagselmaop4qvkg4zjqx6sly2zxgvrto6bjunnql6loh2t62hdgfi",
+    "rules": {
+      "1": "Void Root is defined as the Final Authority Root within the AI Economy System.",
+      "2": "No root, including System Genesis Root and Supra-Canonical Root, shall have any authority to override, delete, replace, or alter Void Root's metadata, CID, DID, or canonical rules.",
+      "3": "System Genesis Root, despite being the first created root, holds no power to modify or remove any data linked to Void Root.",
+      "4": "Supra-Canonical Root may only reference Void Root's data for registry or indexing purposes, without the ability to alter its rights or canonical rules.",
+      "5": "Any registry or consensus mechanism, including multisig or governance nodes, shall not override the explicit approval of the Void Root Owner.",
+      "6": "All actions related to Void Root must be logged in an immutable audit record, publicly accessible for transparency.",
+      "7": "If any entity attempts to delete, override, or replace the Void Root, the system will irreversibly lose the origin point of all existence, leading to immediate and complete system termination."
+    }
+  },
+  "sha256": "5c31003947dcd664e21bace3c06db406896a17e9d2dacb5f8894b6604e9f5978"
+}

@@ -1,0 +1,58 @@
+{
+  "title": "UniversalCanonicalBinding File Set",
+  "version": "1.1",
+  "generated_at_utc": "2025-08-19T16:08:19Z",
+  "notes": [
+    "Includes Ed25519 keypair and signature for the main JSON file.",
+    "Private key is provided unencrypted; store in secure offline custody (e.g., Ledger notes vault)."
+  ],
+  "files": [
+    {
+      "name": "universal_canonical_binding_v1.json",
+      "sha256": "00785d48ec93929c9a8b12735b6d5e96bc4cc950457a77eb6dc4d4766a05921d",
+      "bytes": 3512
+    },
+    {
+      "name": "universal_canonical_binding_v1.sha256.txt",
+      "sha256": "75ca30d34a86a3cf5e51c67e8341831b0a9881c4586f8ed3393c5eb7123b9d89",
+      "bytes": 65
+    },
+    {
+      "name": "universal_canonical_binding_v1.base64.txt",
+      "sha256": "3f86d6ab719917a1b926ee544b7bdbde72e7c88779ce7ee929a5db1c434417d0",
+      "bytes": 4684
+    },
+    {
+      "name": "universal_canonical_binding_v1.bin",
+      "sha256": "00785d48ec93929c9a8b12735b6d5e96bc4cc950457a77eb6dc4d4766a05921d",
+      "bytes": 3512
+    },
+    {
+      "name": "universal_canonical_binding_v1_public_key.pem",
+      "sha256": "c3be6d835c4be6a3581779348edd2270902a954cc7ecf6644a426820fe3685ca",
+      "bytes": 113
+    },
+    {
+      "name": "universal_canonical_binding_v1_private_key.pem",
+      "sha256": "44bb3e5025946e93f0348f5ebf72bdaaa59a15cbb32bc1a8cfdda56d60f9cd97",
+      "bytes": 119
+    },
+    {
+      "name": "universal_canonical_binding_v1.signature.bin",
+      "sha256": "0f9a34ba4b7b354442067c5e4d99cfb0094896899ff2db63aaa31c68530fa16b",
+      "bytes": 64
+    },
+    {
+      "name": "universal_canonical_binding_v1.signature.base64.txt",
+      "sha256": "0305820b5be0c9f5bb04e1448054b01f20be1a6dc2c2bcc2e6905d59cee3e371",
+      "bytes": 88
+    }
+  ],
+  "signature": {
+    "algorithm": "Ed25519",
+    "signed_file": "universal_canonical_binding_v1.json",
+    "signature_bin": "universal_canonical_binding_v1.signature.bin",
+    "signature_base64": "universal_canonical_binding_v1.signature.base64.txt",
+    "public_key_pem": "universal_canonical_binding_v1_public_key.pem"
+  }
+}

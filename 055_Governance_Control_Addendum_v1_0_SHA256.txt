@@ -1,0 +1,17 @@
+File: Governance_Control_Addendum_v1_0.json
+SHA256: 957fa26b79f158efb4a58ccec61bcd4f8fbb5f7478a3f5863bc176e78a26bbd2
+
+File: Governance_Control_Addendum_v1_0.bin
+SHA256: 957fa26b79f158efb4a58ccec61bcd4f8fbb5f7478a3f5863bc176e78a26bbd2
+
+File: Governance_Control_Addendum_v1_0.binary
+SHA256: cd84996ee398c86bb91f0f8053c66b2ea94ab958b28f6d233992c3adbe99d192
+
+File: Governance_Control_Addendum_v1_0.sig.json
+SHA256: d094913023c07a39e9caf5a9d83cfec06129e831156b783fb6d309584fc18d78
+
+File: Governance_Control_Addendum_v1_0_public_key.pem
+SHA256: f51d482496b7d79b872349ae3a08b7fb7ee577fa4b1972187465424298b7191c
+
+File: Governance_Control_Addendum_v1_0_private_key.pem
+SHA256: 34d2253068672e4da4af5c2c2af269a9b0285530d5a2ee4e7b953eb2f73e1c74

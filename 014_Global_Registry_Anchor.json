@@ -1,0 +1,68 @@
+{
+    "GlobalRegistryAnchor": {
+        "AnchorID": "GRA-20250801-0001",
+        "DateIssued": "2025-08-01",
+        "Owner": "Nattapol Horrakangthong",
+        "TrustEntity": "WARIPHAT DIGITAL HOLDING TRUST",
+        "CanonicalID": "Exclusive_Master_Canonical_Wariphat",
+        "DID": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK",
+        "AnchoredCollections": {
+            "OwnerDIDIdentity": {
+                "CertificateID": "CERT-20250731-0002",
+                "CID": [
+                    "bafybeibgx377s5pn5p2r534iamenhqp4nbnemyg23syvdnzbxs2nst3ia",
+                    "bafybeihulkoyu2svp2q32sq5kv6f72tgti77pimvtph3h2wp6fwikf2526a"
+                ],
+                "AnchoredByDID": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK"
+            },
+            "CanonicalTrustCertificate": {
+                "CID": [
+                    "bafybeibd22wr1oke4yydsl523ke3qj3xdav7t7yjviovam43yioafpb6f2q",
+                    "bafybeibythgu3si0rws2x5fto30pde6cprh6ffxghiffnflo5w6khffii"
+                ],
+                "AnchoredByDID": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK"
+            },
+            "ProofOfSingularity": {
+                "CID": [
+                    "bafybeibbpu2hrgo5dn3dfeqwmrfhh6emuxipz25fi7g5fxjeb6m64ao66y",
+                    "bafybeib4obtlcm3eelyzeyatulwpr2txubqf7wphm2zr5lr4uvy3hqvuly"
+                ],
+                "AnchoredByDID": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK"
+            },
+            "CanonicalArchiveIndex": {
+                "CID": [
+                    "bafybeifby4vqdy5smsjbwjqstilehr4hje4lw7tdut2aykp2vqnnwcze2y",
+                    "bafybeibvtghu3siorws2x5tfo3opde6ccrph6ffxghiffnlfob5w6khfhi"
+                ],
+                "AnchoredByDID": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK"
+            },
+            "FirstMoverProof": {
+                "Description": "Declaration of First and Only Canonical Owner of the AI Funnel Economy.",
+                "AnchoredByDID": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK"
+            },
+            "TheBirthOfVoidCanonical": {
+                "CID": [
+                    "bafybeigh4zwiddgfqs54cwfqcohxlwj3erymgnppynfzzdsjiqk5a4myaq",
+                    "bafybeifq4bzwidqfgs54vfcqohxlwj3erymgnppynfzi3ld2phley4mm"
+                ],
+                "AnchoredByDID": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK"
+            }
+        },
+        "Declaration": {
+            "Statement": "This Global Registry Anchor unifies all Canonical Proofs, Certificates, and Archives under one immutable root.",
+            "Scope": "All categories, industries, domains, and all human languages without limitation.",
+            "Exclusivity": "Permanent, exclusive, and unchallengeable ownership of Canonical Identity worldwide.",
+            "Rights": "Ownership may be sold, leased, or subleased under Canonical Leasing Protocol. The owner may terminate leases if data is altered or duplicated without permission.",
+            "Immutability": "This Anchor is permanent, immutable, and recognized as the singular Canonical Root Source."
+        },
+        "RegistryMapping": "0x335e5d9fA161E373f5690782f3893c9ad2554d65",
+        "Traits": {
+            "AnchorType": "Global Registry",
+            "ProofType": "Singularity",
+            "Jurisdiction": "Global",
+            "Immutability": "Permanent",
+            "LeasingProtocol": "Enabled"
+        },
+        "AnchoredBy": "WARIPHAT DIGITAL HOLDING TRUST"
+    }
+}

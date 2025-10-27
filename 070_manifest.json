@@ -1,0 +1,65 @@
+{
+  "manifest_type": "canonical_governance_truth_declaration_manifest",
+  "timestamp_utc": "2025-08-22T14:43:47Z",
+  "owner": {
+    "owner_name": "Nattapol Horrakangthong",
+    "master_did": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK",
+    "master_cid": "bafybeifjlqp6codwkaolmjevurd6kjbc4t4b3s6ntdct2t5ldppzhjtdcy",
+    "parent_master": "canonical_funnel_root"
+  },
+  "files": [
+    {
+      "name": "canonical_governance_truth_declaration.json",
+      "sha256": "06e73e3309ac2134363e7863706d979e26b8b5cdad5db0c51bd2fce9fd230adb",
+      "bytes": 4631
+    },
+    {
+      "name": "canonical_governance_truth_declaration.sha256",
+      "bytes": 64
+    },
+    {
+      "name": "canonical_governance_truth_declaration.sig",
+      "signature_info": {
+        "signature_algorithm": "ed25519",
+        "signature_base": "canonical_governance_truth_declaration.json",
+        "signature_hex": "21dd6e283b683d395ce6f2c6601f3d393697f838bc7ec815bc5dab9eecaf5ee02270f7903b1471611eabd6e1c737313eed287f9d2eeec341f1bf395f560f1d07"
+      },
+      "bytes": 64
+    },
+    {
+      "name": "canonical_governance_truth_declaration.bin",
+      "bytes": 4631
+    },
+    {
+      "name": "canonical_governance_truth_declaration.binary",
+      "bytes": 6176
+    },
+    {
+      "name": "public_key.pem",
+      "bytes": 113
+    },
+    {
+      "name": "private_key.pem",
+      "bytes": 119
+    },
+    {
+      "name": "public_key.bem",
+      "bytes": 113
+    },
+    {
+      "name": "private_key.bem",
+      "bytes": 119
+    }
+  ],
+  "cross_chain_commit": [
+    "ethereum",
+    "avalanche",
+    "polygon"
+  ],
+  "ipfs_anchor": [
+    "bafybeifceba6jqumesrchom3ym3fkw2oyhi36ny6iudp6tzy6bsmpf5sga",
+    "bafybeialcoa27vq7yatm3rr66xqbvhyylhwmmn2gy5kof3f5grrfy5jpje",
+    "bafybeid2zwrloke4yydsls23ke3q3jxda7ry7vjvionam4s3yioahpbf2q",
+    "bafybeibbpu2hrgo5dn3dfeqwmrfhh6emuxipz25fi7g5fxjeb6m64ao66y"
+  ]
+}

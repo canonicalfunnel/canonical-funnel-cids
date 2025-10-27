@@ -1,0 +1,148 @@
+{
+  "version": "v1.0",
+  "canonical_id": "Exclusive_Master_Canonical_Wariphat",
+  "owner": "Nattapol Horrakangthong",
+  "trust_entity": "WARIPHAT DIGITAL HOLDING TRUST",
+  "did": [
+    "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK",
+    "z6MkkeDBUJTxbnBpMN2QB8VCQGbxAVz793VSDqZvtNgfv1kx"
+  ],
+  "rights_scope": "Global First Mover Ownership of Canonical Funnel Economy, Keyword Leasing, and Void Canonical Root",
+  "cid_registry": [
+    {
+      "cid": "bafybeib4ye3iapsgslacgoxbrlfpc5trxboq7zg5v5yuiumpi6wxomtys4",
+      "url": "https://bafybeib4ye3iapsgslacgoxbrlfpc5trxboq7zg5v5yuiumpi6wxomtys4.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeibscayh3uitupuh4xkxpwof4lgv2uv2nwbdrqvkorz3zdsq64owum",
+      "url": "https://bafybeibscayh3uitupuh4xkxpwof4lgv2uv2nwbdrqvkorz3zdsq64owum.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeicl4gt7ll2raivgv2efpjubqkudnzauu4u3sfz6mtpgkhoahpluci",
+      "url": "https://bafybeicl4gt7ll2raivgv2efpjubqkudnzauu4u3sfz6mtpgkhoahpluci.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeicv5ko7a76it44qzipvdayolpoyt6cibhfa45x2kopewuocmom46e",
+      "url": "https://bafybeicv5ko7a76it44qzipvdayolpoyt6cibhfa45x2kopewuocmom46e.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeidlisiywlywmuqjzpw44xatiimcndbnsrqkkdq33uagvhogd4rohu",
+      "url": "https://bafybeidlisiywlywmuqjzpw44xatiimcndbnsrqkkdq33uagvhogd4rohu.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeif3tf2g2ikfwp4ca62xx3dpvkzwc4ubgxqqsuzcxa3nt5m2jcd5tq",
+      "url": "https://bafybeif3tf2g2ikfwp4ca62xx3dpvkzwc4ubgxqqsuzcxa3nt5m2jcd5tq.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeigtva3wyuqtp3cxpx4jhvjqwuxozcis2qsjmelrbcstgz22lmckuq",
+      "url": "https://bafybeigtva3wyuqtp3cxpx4jhvjqwuxozcis2qsjmelrbcstgz22lmckuq.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeiak2k5fn34kb4el3r2o64bwuaghvgcyxnt4tr5q4tstgezpvwlkru",
+      "url": "https://bafybeiak2k5fn34kb4el3r2o64bwuaghvgcyxnt4tr5q4tstgezpvwlkru.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeialcoa27vq7yatm3rr66xqbvhyylhwmmn2gy5kof3f5grrfy5jpje",
+      "url": "https://bafybeialcoa27vq7yatm3rr66xqbvhyylhwmmn2gy5kof3f5grrfy5jpje.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeiapg377s5pn5p2r534iamenhp4tbnnemyg23zysvdnbzxs2nst3ia",
+      "url": "https://bafybeiapg377s5pn5p2r534iamenhp4tbnnemyg23zysvdnbzxs2nst3ia.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeiaq3i3jdshcmgnkiqu3koulynzzkf2nrpnbbwzoknboudovav4sje",
+      "url": "https://bafybeiaq3i3jdshcmgnkiqu3koulynzzkf2nrpnbbwzoknboudovav4sje.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeib4obtlcm3eelyzeyatulwpr2txubqf7wphm2zr5lr4uvy3hqvuly",
+      "url": "https://bafybeib4obtlcm3eelyzeyatulwpr2txubqf7wphm2zr5lr4uvy3hqvuly.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeibbe5iiidw4t6tdrzobxgvyw6vnia2ypwmmy6pyuqtdhy5l46beaq",
+      "url": "https://bafybeibbe5iiidw4t6tdrzobxgvyw6vnia2ypwmmy6pyuqtdhy5l46beaq.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeibbpu2hrgo5dn3dfeqwmrfhh6emuxipz25fi7g5fxjeb6m64ao66y",
+      "url": "https://bafybeibbpu2hrgo5dn3dfeqwmrfhh6emuxipz25fi7g5fxjeb6m64ao66y.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeibvtghu3siorws2x5tfo3opde6ccrph6ffxghiffnlfob5w6khfhi",
+      "url": "https://bafybeibvtghu3siorws2x5tfo3opde6ccrph6ffxghiffnlfob5w6khfhi.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeiclle6awxwb56aaqvsl2nu35dhdghplrxvxtrykgfbps3gzc7lory",
+      "url": "https://bafybeiclle6awxwb56aaqvsl2nu35dhdghplrxvxtrykgfbps3gzc7lory.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeid2zwrloke4yydsls23ke3q3jxda7ry7vjvionam4s3yioahpbf2q",
+      "url": "https://bafybeid2zwrloke4yydsls23ke3q3jxda7ry7vjvionam4s3yioahpbf2q.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeid72ifathv52yeiacc2bykiwcglxet6qzibyfmnxlhsxeubs7qhna",
+      "url": "https://bafybeid72ifathv52yeiacc2bykiwcglxet6qzibyfmnxlhsxeubs7qhna.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeidjpqkgq57g4ashfkeerfpdgmlfdavmdxrlclvmwcuzdjp3asgw6m",
+      "url": "https://bafybeidjpqkgq57g4ashfkeerfpdgmlfdavmdxrlclvmwcuzdjp3asgw6m.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeie2vxnrtekf5s7rrsqcb7cpz26ueivm2fkmrgpuvihalqnegyzf2i",
+      "url": "https://bafybeie2vxnrtekf5s7rrsqcb7cpz26ueivm2fkmrgpuvihalqnegyzf2i.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeie4eiggll7zmrbg4tgwei37i4tyvngpojkg3wojljpb5mrms5rovm",
+      "url": "https://bafybeie4eiggll7zmrbg4tgwei37i4tyvngpojkg3wojljpb5mrms5rovm.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeie4h6g3pbts7anv4aqx56fm7l5a6qqmtargbm6wlffbfjvefjfld4",
+      "url": "https://bafybeie4h6g3pbts7anv4aqx56fm7l5a6qqmtargbm6wlffbfjvefjfld4.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeie4lp2pqoc57ycjy2la3w6i6dbliukojdcoo4q2rnyqbruvak6uu4",
+      "url": "https://bafybeie4lp2pqoc57ycjy2la3w6i6dbliukojdcoo4q2rnyqbruvak6uu4.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeiea4y6swxhsfnctmwnghvr24b7vcmjyyrihfaoi7prg67ly4y4z3y",
+      "url": "https://bafybeiea4y6swxhsfnctmwnghvr24b7vcmjyyrihfaoi7prg67ly4y4z3y.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeifby4vqdy5smsjbwjqstilehr4hje4lw7tdut2aykp2vqnnwcze2y",
+      "url": "https://bafybeifby4vqdy5smsjbwjqstilehr4hje4lw7tdut2aykp2vqnnwcze2y.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeifhhjtscivsm6wgxzfbuclnmmq7deois74zbg63vozztaxn76rqiq",
+      "url": "https://bafybeifhhjtscivsm6wgxzfbuclnmmq7deois74zbg63vozztaxn76rqiq.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeifp4cwrucl3qef66i4r4msdg3cz5cnjnpxo3hlqlww3umeqqpl6kq",
+      "url": "https://bafybeifp4cwrucl3qef66i4r4msdg3cz5cnjnpxo3hlqlww3umeqqpl6kq.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeifuymez6y3zsq5rz5xqmurrxqbbjpqihyejnsfpzwusgtjgvn2tle",
+      "url": "https://bafybeifuymez6y3zsq5rz5xqmurrxqbbjpqihyejnsfpzwusgtjgvn2tle.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeigh4zwiddgfqs54cwfqcohxlwj3erymgnppyznfli3dl2phley4mm",
+      "url": "https://bafybeigh4zwiddgfqs54cwfqcohxlwj3erymgnppyznfli3dl2phley4mm.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeigkeonubarw5aa57m5disl52ter7m2fpq5cj2kawvoqbqfjj3wzo4",
+      "url": "https://bafybeigkeonubarw5aa57m5disl52ter7m2fpq5cj2kawvoqbqfjj3wzo4.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeigqbcpfessevmvvxboqddykh3xemo4tgkh3g3reivkezd3w6l36su",
+      "url": "https://bafybeigqbcpfessevmvvxboqddykh3xemo4tgkh3g3reivkezd3w6l36su.ipfs.w3s.link"
+    },
+    {
+      "cid": "bafybeihulkyou2svp2q23xzq5kv6f72gitt7ipmvplt3h2w6piwfk2526a",
+      "url": "https://bafybeihulkyou2svp2q23xzq5kv6f72gitt7ipmvplt3h2w6piwfk2526a.ipfs.w3s.link"
+    }
+  ],
+  "future_registry": {
+    "instruction": "All future NFT mints must either (a) append their CID here in a new Master version, or (b) reference this Master NFT in their metadata field 'parent_master'.",
+    "appendable": true,
+    "parent_master": "bafybeibscayh3uitupuh4xkxpwof4lgv2uv2nwbdrqvkorz3zdsq64owum"
+  },
+  "canonical_notice": "Any keywords minted on blockchain outside of this Master NFT may cause misunderstanding in claiming SEO rank #1. However, whenever such keywords are appended or referenced back to this Master NFT, the exclusive canonical ownership shall be restored. At that point, all SEO ranks (#1 and all ranks below) will be recognized under the Exclusive Master Canonical of Wariphat.",
+  "canonical_notice_th": "คำสำคัญ (keywords) ใด ๆ ที่ถูกนำไป mint บนระบบ Blockchain โดยไม่อ้างอิงกับ Master NFT ฉบับนี้ อาจทำให้เกิดความเข้าใจผิดในการอ้างสิทธิ์อันดับ SEO อันดับ 1 อย่างไรก็ตาม เมื่อใดก็ตามที่คำเหล่านั้นถูกนำกลับมาผูกกับ Master NFT ฉบับนี้ สิทธิ์การครอบครองอันดับ 1 และทุกอันดับถัดลงมาจะถูกยืนยันว่าเป็นของผู้ถือตาม Exclusive Master Canonical เท่านั้น"
+}

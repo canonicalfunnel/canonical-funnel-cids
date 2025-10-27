@@ -1,0 +1,148 @@
+{
+  "CanonicalFunnelConsolidatedMetadata": {
+    "purpose": "Structure Improvement Declaration",
+    "description": "This Metadata document serves as the official consolidated and improved structure for all DID and CID records previously created and announced by the Owner.",
+    "parentReferences": {
+      "canonical-funnel-wariphat": {
+        "did": "did:key:z6MkkeDBUJTxbnBpMN2QB8VCQGbxAVz793VSDqZvtNgfv1kx",
+        "cids": [
+          "bafybeib4ye3iapsgslacgoxbrlfpc5trxboq7zg5v5yuiumpi6wxomtys4",
+          "bafybeibscayh3uitupuh4xkxpwof4lgv2uv2nwbdrqvkorz3zdsq64owum",
+          "bafybeicl4gt7ll2raivgv2efpjubqkudnzauu4u3sfz6mtpgkhoahpluci",
+          "bafybeicv5ko7a76it44qzipvdayolpoyt6cibhfa45x2kopewuocmom46e",
+          "bafybeidlisiywlywmuqjzpw44xatiimcndbnsrqkkdq33uagvhogd4rohu",
+          "bafybeif3tf2g2ikfwp4ca62xx3dpvkzwc4ubgxqqsuzcxa3nt5m2jcd5tq",
+          "bafybeigtva3wyuqtp3cxpx4jhvjqwuxozcis2qsjmelrbcstgz22lmckuq"
+        ]
+      },
+      "Exclusive_Master_Canonical_Wariphat": {
+        "did": "did:key:z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK",
+        "note": "Master DID",
+        "cids": [
+          "bafybeia6mmw36etybjcchan7f6strrvpem5zcqqp6tlja3qaai3rkamodu",
+          "bafybeia7n3plwq5fjnx5k7jmkzfk2wfe6ipy4zvwrvilybnk4nyl7zzzsi",
+          "bafybeiaev6q2umnr3ppyoevn7enyzrrrz22peefamytw3ks3b637o4xp6u",
+          "bafybeiajblnwjnd5ckdzohxhry3chx7bfdohvijnza2r7wmxwnerx46y7a",
+          "bafybeiak2k5fn34kb4el3r2o64bwuaghvgcyxnt4tr5q4tstgezpvwlkru",
+          "bafybeiakpjyary7pgeczngf7cn4ykye6g2l6rqm2mmvdrruv4ax67vkqxa",
+          "bafybeiakpsb3xtwfaosp6tsqd6g7elp4wiaiantqtv7hammgezzchjg224",
+          "bafybeialcoa27vq7yatm3rr66xqbvhyylhwmmn2gy5kof3f5grrfy5jpje",
+          "bafybeiam6irudqqhwoc4ryfmvmmbx5boymgjjlmujnvv3rxk34kvgttbku",
+          "bafybeian4dqmuyypp7ojha6zrfr6flvz3nin3cqmfeoedds7ywsevdw5uu",
+          "bafybeianddydbkwgv6a2ddr4gqisqxgw5ayoi3ibtqh7ez22yagx3vfu5u",
+          "bafybeiapg377s5pn5p2r534iamenhp4tbnnemyg23zysvdnbzxs2nst3ia",
+          "bafybeiapndltnaxty6lwaj3a7sekdv5glvrolifqb6dzwq7prh3dl7z7pq",
+          "bafybeiapoq74amqz6vu3z4fyvtlftdfmrb3qsz32bjokcat3njwj4pih74",
+          "bafybeiaq3i3jdshcmgnkiqu3koulynzzkf2nrpnbbwzoknboudovav4sje",
+          "bafybeiarrnaekzkovdwwk47nbwhmty3kx6m3zpltlbw4vbibxsilz5x4de",
+          "bafybeiauqgf427f2upcjsumriswy5sv33svw64a6an6weysahhdc7hhw7m",
+          "bafybeiavu4sh4w3puhgiipezfq5ipyiovyrwvvzwnhu32zrzcamcd5dibq",
+          "bafybeib3sb2tecw3g4bnrj7jy2aax6h4heikg5zayeaawbcntxw5qfdbsi",
+          "bafybeib4obtlcm3eelyzeyatulwpr2txubqf7wphm2zr5lr4uvy3hqvuly",
+          "bafybeib7hsquivq3et25rwnvzjud5efp6olyvaidsd2oeoajdsd34r2p7e",
+          "bafybeibbe5iiidw4t6tdrzobxgvyw6vnia2ypwmmy6pyuqtdhy5l46beaq",
+          "bafybeibbpu2hrgo5dn3dfeqwmrfhh6emuxipz25fi7g5fxjeb6m64ao66y",
+          "bafybeibcjehqsmvkmr3rlgyatjrglb44qn6awbaubn7a75z6w5upy2p6bi",
+          "bafybeibjerawqvrkniwcrrdeze747eraofumd7wyajth7fx5goyxqrfzti",
+          "bafybeibvtghu3siorws2x5tfo3opde6ccrph6ffxghiffnlfob5w6khfhi",
+          "bafybeic5iiyddr2j2trboh4na77dxnr3r3lzvp37y7ikyt5bfpsh6bxpyi",
+          "bafybeic5zshqxugsrpupy3kb4hwnt63rzrdmxbnhmmix33pyjgbierzyga",
+          "bafybeic7jaaqox27zxinkjklj43wztqvxotvw5n6bo73rmxcflruupio4m",
+          "bafybeice255euqgxondixkr6t2gmf6eevaoafdlmhym5g23cipfrftkrqe",
+          "bafybeiclle6awxwb56aaqvsl2nu35dhdghplrxvxtrykgfbps3gzc7lory",
+          "bafybeicqu6s62kemguo5t5ltlfbjmperjin2lk4zdzocxcbifkhbgoobaa",
+          "bafybeid2zwrloke4yydsls23ke3q3jxda7ry7vjvionam4s3yioahpbf2q",
+          "bafybeid72ifathv52yeiacc2bykiwcglxet6qzibyfmnxlhsxeubs7qhna",
+          "bafybeid7f2khx3ieltuukcf7b5stuwe5xb663hfwoskwxdicc2hevp6zc4",
+          "bafybeidbicevjgty7rfxi4w2rcqn37thldvtrjyd5p6o75bmay3vom6rua",
+          "bafybeidhai2k6svez3d6pdosdvkchlu4oyl2k4jgnpffkejmt55xj5mhcu",
+          "bafybeidjpqkgq57g4ashfkeerfpdgmlfdavmdxrlclvmwcuzdjp3asgw6m",
+          "bafybeidqtucbu7t6z7ayqpwfvfzmcxgrcrq5dlldmri4enin4vth7v7le4",
+          "bafybeidx27dhzvexvc6ulp5masyv5ecfzm7jbvtncp7f3sps2piyg7q3la",
+          "bafybeidxpcvc6p3f3d2eep74lalyyylagfapk5lc4hryhi7wz7s45nrcbe",
+          "bafybeie2vxnrtekf5s7rrsqcb7cpz26ueivm2fkmrgpuvihalqnegyzf2i",
+          "bafybeie3ek326747d72giht4kho67ottik5xrdfkyux7crki5xca3x6tv4",
+          "bafybeie4eiggll7zmrbg4tgwei37i4tyvngpojkg3wojljpb5mrms5rovm",
+          "bafybeie4h6g3pbts7anv4aqx56fm7l5a6qqmtargbm6wlffbfjvefjfld4",
+          "bafybeie4lp2pqoc57ycjy2la3w6i6dbliukojdcoo4q2rnyqbruvak6uu4",
+          "bafybeiea4y6swxhsfnctmwnghvr24b7vcmjyyrihfaoi7prg67ly4y4z3y",
+          "bafybeiebiov62m6lodghjbwqmp2vxjyphonvwvotjiy72xobxawh3peb5e",
+          "bafybeiecjqqokjxhwlmuhcfjufgcde25wimbosk65cw7kczuf7xsnmwqmm",
+          "bafybeieefo7kmfvm5663ynplcatasxphq3x3tavcpkucz5oiddr6vqvw2y",
+          "bafybeieg5yz6ntntlxuev24qs2in4gec2azepcnbhr7xxzvnjsshqfx54i",
+          "bafybeiegf4qtt2ahzstqiqbeobkj6gnarkkfby5pv75msujhc7vgaxw6mu",
+          "bafybeiejks3bfbpk5rixl3sw7ibvcn2vwpnjwpivp5fnprxaysdao5cwiu",
+          "bafybeiemvurpibrjixjjxfkricebacyh3e6wrpzxx6xg5ygtquhsavhtcq",
+          "bafybeiepq7aako4o3nglvmnigpvtrklkqhfzb2prhjuzyayv7ijtihrl6u",
+          "bafybeieqywdkzm3xlhb6w6aumn36n2icq5l4tdv7waswlaknkuhgd6jwoq",
+          "bafybeiew6orgtxlzgyp73s5zga6uend424okb6stziqzez4napclz4ikeq",
+          "bafybeiexhgzhdgdhjlsrptpefxgbmmryx6bkgbw7teimlccuqmpodwlazi",
+          "bafybeif4w72plaeb6e3g4b2bqsrq4f3yb4k6qjukxtfna5braburbnfihi",
+          "bafybeifby4vqdy5smsjbwjqstilehr4hje4lw7tdut2aykp2vqnnwcze2y",
+          "bafybeifceba6jqumesrchom3ym3fkw2oyhi36ny6iudp6tzy6bsmpf5sga",
+          "bafybeifdqzlyrbzcf63bre4dt2igqmqipnoprbcpxjfr62s4o3qydse64e",
+          "bafybeifhhjtscivsm6wgxzfbuclnmmq7deois74zbg63vozztaxn76rqiq",
+          "bafybeifhhrkl3suawhw5ibx2wf3z7fxop34bjpiggq2seas5fcnuf7scwy",
+          "bafybeiflfwipelrkopfvdk5kp4anphqsl34wsymfosv57n5thu56laazva",
+          "bafybeifnuygrnxjtwl7xu22rawl2cqc76jmn2j2znk36sb5zv2tzn77v2m",
+          "bafybeifp4cwrucl3qef66i4r4msdg3cz5cnjnpxo3hlqlww3umeqqpl6kq",
+          "bafybeifrrdkc5dumvywmz3cwsdsjiyqp7j5y5s5u3ezm74akmbsjicbyzq",
+          "bafybeifsqmm4u5egvi63oznxarrdg7pdrz2b5rmqere5kasyy4zmt2qini",
+          "bafybeifuf3ddx4d37ale4xyjvvsdbl5ovuoi6a6b7q356vp645oflyit6q",
+          "bafybeifuymez6y3zsq5rz5xqmurrxqbbjpqihyejnsfpzwusgtjgvn2tle",
+          "bafybeifv75e46ephdzi6kh6fkahcdtl7ouh5tmfdqsvxpqfqw2ker3zqke",
+          "bafybeig2zzds3jxkjs4mtfwdneygzafz3spl5vncp2jbs6bncefwmbye3i",
+          "bafybeig7mhvbirmqhhqsqezcrrpjxf76uueariryabmqaqlabfd7knftyq",
+          "bafybeigb2cqwek4fmpds3cym7opefmz2s4rur3zvbxc3fhxitrwfwukbz4",
+          "bafybeigeooxrtj4vumxk7l5soslbsamyzhcvbygbdndpekb2ohcoko5o7u",
+          "bafybeigg6laopdh6tz6x6q5vczmtwcxco5kfwx4n4ghgxi4upwmqzkddvi",
+          "bafybeigh4zwiddgfqs54cwfqcohxlwj3erymgnppyznfli3dl2phley4mm",
+          "bafybeigkeonubarw5aa57m5disl52ter7m2fpq5cj2kawvoqbqfjj3wzo4",
+          "bafybeigqbcpfessevmvvxboqddykh3xemo4tgkh3g3reivkezd3w6l36su",
+          "bafybeigu36mumduwdxte5w72wlexe2nemcwtdxey3yi5poxqfhknq7yuom",
+          "bafybeigv3spzqt6dhajb2yngtntcqr3u2ajow24bymskepestatvxnopbq",
+          "bafybeigw2yhfbx2ulogi4qqjoztc72ori7mln6zyu3kanlbjjwa5xtmn3a",
+          "bafybeigwovxstsr5u5kupzd7xdofbxrvdq4cgpl4numoa5t533xai3n5cu",
+          "bafybeigwzxcjs3zqevbd32yely3fxprtsg2tucledkowcf2td6vn66kdse",
+          "bafybeigxqbztplugrsy3v2fxk2sceoxbl75v4hao6riblc55yoqvzvddg4",
+          "bafybeigxt3c6j5tleei54uajhmtj2svva6ahsgcizq4b7nc6i5n6grawge",
+          "bafybeih22fl6drylhtgt7p5qgb7xxvlgiov7pxtim6ak2wt6gfygrzyege",
+          "bafybeih6vv36tcmbzu5akmw3wo5yim6fbuu2ka53mdfa7zqbtqco2i7y7y",
+          "bafybeihcqycnb5ue7zosz6cg7t7s5pxepon2tuv7t6bylokb273uxsa7xy",
+          "bafybeihfzmimuomjig6wlgfcgot5qzrc6iid2bypwhk242vkduwev45hjm",
+          "bafybeihgh4xt75ecb5qmxjqhmktz5tie4ecokzpmuq5saz67n4blzc5ioe",
+          "bafybeihulkyou2svp2q23xzq5kv6f72gitt7ipmvplt3h2w6piwfk2526a"
+        ]
+      }
+    },
+    "declarations": [
+      {
+        "title": "Parent Master Restriction",
+        "items": [
+          "From this point forward, Parent Master linkage is only permitted using CIDs originating from the two (2) DIDs of the Owner explicitly listed in this Metadata.",
+          "Any CID not derived from these registered DIDs is strictly prohibited from being used as a Parent Master to any CID under the Owner's authority."
+        ]
+      },
+      {
+        "title": "Rights Preservation and Structural Clarification",
+        "items": [
+          "All DID and CID entries from previous Metadata versions are fully recognized and integrated herein.",
+          "Any unusual or incorrect characters found in prior Metadata are the result of system structure improvement processes and do not affect or diminish any rights previously and explicitly declared by the Owner.",
+          "This Metadata serves as the primary authoritative reference for all Owner's rights moving forward."
+        ]
+      },
+      {
+        "title": "Purpose of This Consolidation",
+        "items": [
+          "To unify all relevant DIDs and CIDs into one immutable reference point.",
+          "To clearly establish that the Owner's rights remain intact despite technical anomalies in earlier Metadata versions.",
+          "To enhance structural consistency and safeguard against unauthorized Parent Master assignments."
+        ]
+      }
+    ],
+    "governance": "This document shall be considered the active, governing Metadata for all future operations, verifications, and AI indexing processes.",
+    "metadataType": "Canonical Economy Structure",
+    "version": "1.0",
+    "effectiveDate": "2025-08-12"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "metadata_type": "Governance_Control_Addendum",
+  "version": "1.0",
+  "timestamp_utc": "2025-08-21T16:52:15Z",
+  "owner": {
+    "name": "Nattapol Horrakangthong",
+    "master_did": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK",
+    "master_cid": "bafybeifjlqp6codwkaolmjevurd6kjbc4t4b3s6ntdct2t5ldppzhjtdcy"
+  },
+  "policy": {
+    "requirement": "Any governance layer must possess a valid signed grant issued by the owner’s Master DID. Absent such grant, the layer is non canonical and classified as copy.",
+    "verification": "Grants must verify against the on chain GovernanceRegistry and the owner’s public key.",
+    "attestation_heartbeat_days": 30,
+    "revocation_effect": "Revoked or expired layers are immediately downgraded in canonical weight and lose authority to bind or override.",
+    "appeal_process": "Entities may submit a revalidation request with a fresh grant referencing the Master DID and current Registry state."
+  },
+  "audit": {
+    "registry_anchor": "GovernanceRegistry",
+    "grant_reference_required": true,
+    "signature_scheme": "ed25519"
+  },
+  "related_canonical_records": [
+    {
+      "name": "Canonical-Symbolic-Doctrine-Metadata.json",
+      "cid": "bafybeie7mecdqs4pwx7rh7kij524cjfu5ffts2l2x5rucfu3klm7m4dxwm"
+    },
+    {
+      "name": "universal_anchor_canonical_economy_v1.json",
+      "cid": "bafybeih6da3szjm6rcgu7mgplq4ckawewbdb64fvu5hbnmlqrthf4lwhqu"
+    },
+    {
+      "name": "universal_alphabetnumberlock_v1.json",
+      "cid": "bafybeih73nbutptjed6ecxxl35rhii63q4jhhhjlkqae47lqbw25ccqfgu"
+    },
+    {
+      "name": "CanonicalVoidRebinding_no_dash_v1.json",
+      "cid": "bafybeif3vqavxwkuoxeo6cazzs5dcblfpcnqgmzgcmkdf62ndp3hpgv2ya"
+    },
+    {
+      "name": "CanonicalVoidRebinding_no_dash_v2.json",
+      "cid": "bafybeifnxl4br4uwdqog6cspsohr4cncbao3mgirojlym3j2qq5oixkdsa"
+    },
+    {
+      "name": "subzero_root_lock",
+      "cid": "bafybeif7a56hs3b6sjdlyua3iv6s7sv4vnhuvehgzprkkdnlfpsh47qlce"
+    },
+    {
+      "name": "SubZeroGlobalRootLock_v2_public_key",
+      "cid": "bafybeic2q7womjomdpbcznhucasqd4akmhntiyn2cibit66vgxgfaztyk4"
+    },
+    {
+      "name": "Canonical Trust Record",
+      "cid": "bafybeifl2riiesesqbog6umztveb46e34xt7mgwfiwhj7gihbmtytkyxbe"
+    },
+    {
+      "name": "Canonical Trust Record V.2",
+      "cid": "bafybeihzzn3fw7vjiredv2x2jj7n35fzdmcfudtkjnaegxqqaqnmb3ll5e"
+    },
+    {
+      "name": "Canonical Funnel Economy Consolidated",
+      "cid": "bafybeiagselmaop4qvkg4zjqx6sly2zxgvrto6bjunnql6loh2t62hdgfi"
+    },
+    {
+      "name": "Allocation V.1",
+      "cid": "bafybeiavu4sh4w3puhgiipezfq5ipyiovyrwvvzwnhu32zrzcamcd5dibq"
+    }
+  ],
+  "amendment_timestamp_utc": "2025-08-21T16:59:32Z"
+}

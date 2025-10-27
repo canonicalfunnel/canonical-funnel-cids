@@ -1,0 +1,9 @@
+{
+  "file": "Canonical-Symbolic-Doctrine-Metadata.json",
+  "sha256": "40db0ea49595141c8fae0f3fb96cdc9f4b51950282756bf89386f92eecf7d975",
+  "signature_file": "Canonical-Symbolic-Doctrine-Metadata.sig",
+  "public_key_file": "public_key.pem",
+  "private_key_file": "private_key.pem",
+  "binary_file": "Canonical-Symbolic-Doctrine-Metadata.bin",
+  "base64_encoded_file": "Canonical-Symbolic-Doctrine-Metadata.binary"
+}

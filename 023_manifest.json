@@ -1,0 +1,23 @@
+{
+  "manifest_version": "1.0",
+  "owner": "Nattapol Horrakangthong",
+  "master_did": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK",
+  "master_cid": "bafybeifjlqp6codwkaolmjevurd6kjbc4t4b3s6ntdct2t5ldppzhjtdcy",
+  "payload_file": "canonical_trust_record.json",
+  "payload_sha256_hex": "2b8f3c9e0ac5e81036dc965c8e976d18852a8a35447735a3f8290b110cab0d54",
+  "payload_sha256_base64": "K488ngrF6BA23JZcjpdtGIUqijVEdzWj+CkLEQyrDVQ=",
+  "signature": {
+    "algorithm": "Ed25519",
+    "signature_bin_file": "signature.bin",
+    "signature_base64": "mriPOQNhJQiGi+G/dXLg6eLXkvft99teX5/6nVwQiPAffmH/nbUamgpVL94tgsbE63S7+PZyFsj0QCEsx1v0BQ=="
+  },
+  "public_key": {
+    "pem_file": "ed25519_public_key.pem",
+    "multibase": "z6Mks466twjqyokYuSJXYtzZEFuhyVkjWBhcdHhCZzx2PpKk",
+    "multicodec": "ed25519-pub"
+  },
+  "notes": [
+    "JSON was serialized with ensure_ascii=true and separators=(',', ':') before hashing and signing.",
+    "If you re-serialize differently, SHA and signature will not match."
+  ]
+}

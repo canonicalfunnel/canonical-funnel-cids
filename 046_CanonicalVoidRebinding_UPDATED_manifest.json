@@ -1,0 +1,9 @@
+{
+  "metadata_filename": "CanonicalVoidRebinding_Metadata_v1.json",
+  "sha256_checksum": "07e5609feb09c7627df8059137d73f225058a0a0ed53ce606025faf8f50fc26b",
+  "base64_file": "CanonicalVoidRebinding_Metadata_v1_UPDATED.base64",
+  "signature_file": "CanonicalVoidRebinding_UPDATED_signature.bin",
+  "public_key_file": "CanonicalVoidRebinding_UPDATED_public_key.pem",
+  "private_key_file": "CanonicalVoidRebinding_UPDATED_private_key.pem",
+  "generated_at": "2025-08-19T08:53:32.622939Z"
+}

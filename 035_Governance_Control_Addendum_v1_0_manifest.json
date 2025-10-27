@@ -1,0 +1,50 @@
+{
+  "manifest_type": "Governance_Control_Addendum_FileSet",
+  "version": "1.0",
+  "created_utc": "2025-08-21T16:52:15Z",
+  "amended_utc": "2025-08-21T16:59:32Z",
+  "owner": {
+    "name": "Nattapol Horrakangthong",
+    "master_did": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK",
+    "master_cid": "bafybeifjlqp6codwkaolmjevurd6kjbc4t4b3s6ntdct2t5ldppzhjtdcy"
+  },
+  "files": {
+    "json": {
+      "filename": "Governance_Control_Addendum_v1_0.json",
+      "size_bytes": 2693,
+      "sha256": "957fa26b79f158efb4a58ccec61bcd4f8fbb5f7478a3f5863bc176e78a26bbd2"
+    },
+    "bin": {
+      "filename": "Governance_Control_Addendum_v1_0.bin",
+      "size_bytes": 2693,
+      "sha256": "957fa26b79f158efb4a58ccec61bcd4f8fbb5f7478a3f5863bc176e78a26bbd2"
+    },
+    "binary_b64": {
+      "filename": "Governance_Control_Addendum_v1_0.binary",
+      "size_bytes": 3592,
+      "sha256": "cd84996ee398c86bb91f0f8053c66b2ea94ab958b28f6d233992c3adbe99d192"
+    },
+    "signature": {
+      "filename": "Governance_Control_Addendum_v1_0.sig.json",
+      "size_bytes": 191,
+      "sha256": "d094913023c07a39e9caf5a9d83cfec06129e831156b783fb6d309584fc18d78"
+    },
+    "public_key": {
+      "filename": "Governance_Control_Addendum_v1_0_public_key.pem",
+      "size_bytes": 113,
+      "sha256": "f51d482496b7d79b872349ae3a08b7fb7ee577fa4b1972187465424298b7191c"
+    },
+    "private_key": {
+      "filename": "Governance_Control_Addendum_v1_0_private_key.pem",
+      "size_bytes": 119,
+      "sha256": "34d2253068672e4da4af5c2c2af269a9b0285530d5a2ee4e7b953eb2f73e1c74"
+    },
+    "sha256_list": {
+      "filename": "Governance_Control_Addendum_v1_0_SHA256.txt",
+      "size_bytes": 733,
+      "sha256": "e35da0517d533443eafd82ac28e35dae26adb0156ab60ee8b500abd909ada39a"
+    }
+  },
+  "signature_scheme": "ed25519",
+  "public_key_fingerprint_sha256": "fce5e8e7ef6e4b108c981463d1d9d1cd4353434c329b26830248ca98ea7ff088"
+}

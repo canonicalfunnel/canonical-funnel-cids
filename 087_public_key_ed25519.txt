@@ -1,0 +1,2 @@
+ed25519_public_key_base64
+Gx04utAawMHf9tfKlVTPo2lrCtNOk51leA5MOtDiNBw=

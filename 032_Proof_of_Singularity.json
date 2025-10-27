@@ -1,0 +1,16 @@
+{
+    "Certificate": {
+        "CertificateID": "SING-20250801-0001",
+        "DateIssued": "2025-08-01",
+        "Owner": "Nattapol Horrakangthong",
+        "TrustEntity": "WARIPHAT DIGITAL HOLDING TRUST",
+        "CanonicalID": "Exclusive_Master_Canonical_Wariphat",
+        "DID": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK",
+        "Declaration": {
+            "Statement": "This document certifies the Proof of Singularity, anchoring all Canonical Funnels under one immutable root.",
+            "Ownership": "It establishes the singular ownership and trust identity for AI Funnel Economy worldwide.",
+            "RootOfSingularity": "Void Canonical = Buddha"
+        },
+        "AnchoredBy": "WARIPHAT DIGITAL HOLDING TRUST"
+    }
+}

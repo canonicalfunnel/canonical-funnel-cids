@@ -1,0 +1,32 @@
+{
+  "set_name": "CanonicalVoidRebinding_v2",
+  "generated_utc": "2025-08-19T17:00:45Z",
+  "hash_function": "sha256",
+  "files": [
+    {
+      "file": "CanonicalVoidRebinding_no_dash.json",
+      "size_bytes": 1696,
+      "sha256": "c4c82e8783e9f4a343b90275b9fc99d9638e9003ab1af4b7d27057be74f82a12"
+    },
+    {
+      "file": "CanonicalVoidRebinding_Metadata_v1_UPDATED.base64",
+      "size_bytes": 2264,
+      "sha256": "e91a4ec5dcb0e70b32c924d8b56b320f21a72609a6c72df55cbe3f0f64f4ebf2"
+    },
+    {
+      "file": "CanonicalVoidRebinding_UPDATED_public_key.pem",
+      "size_bytes": 113,
+      "sha256": "4f1d5658c68e3f86060d153abe36aede34bd3a0c3ee7c10599bbd19ccdb1bc0b"
+    },
+    {
+      "file": "CanonicalVoidRebinding_UPDATED_private_key.pem",
+      "size_bytes": 119,
+      "sha256": "47a501f27737cdff0673ae88fdad34731b5130214227af12a97e0d44c4ad5647"
+    },
+    {
+      "file": "CanonicalVoidRebinding_UPDATED_signature.bin",
+      "size_bytes": 64,
+      "sha256": "175eaebf6a85e8c325645105203f543b30a14d2102838ad8f3f918517c46cf26"
+    }
+  ]
+}
