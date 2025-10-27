@@ -1,0 +1,300 @@
+[
+  {
+    "manifest": "exclusive_master_canonical_wariphat/005_universal_canonical_binding_manifest.json",
+    "checked": 8,
+    "verified": 7,
+    "mismatches": 0,
+    "missing": 1,
+    "entries": [
+      {
+        "name": "universal_canonical_binding_v1.json",
+        "path": "exclusive_master_canonical_wariphat/079_universal_canonical_binding_v1.json",
+        "expected": "00785d48ec93929c9a8b12735b6d5e96bc4cc950457a77eb6dc4d4766a05921d",
+        "actual": "00785d48ec93929c9a8b12735b6d5e96bc4cc950457a77eb6dc4d4766a05921d",
+        "status": "verified"
+      },
+      {
+        "name": "universal_canonical_binding_v1.sha256.txt",
+        "path": "exclusive_master_canonical_wariphat/187_universal_canonical_binding_v1.sha256.txt",
+        "expected": "75ca30d34a86a3cf5e51c67e8341831b0a9881c4586f8ed3393c5eb7123b9d89",
+        "actual": "75ca30d34a86a3cf5e51c67e8341831b0a9881c4586f8ed3393c5eb7123b9d89",
+        "status": "verified"
+      },
+      {
+        "name": "universal_canonical_binding_v1.base64.txt",
+        "path": "exclusive_master_canonical_wariphat/142_universal_canonical_binding_v1.base64.txt",
+        "expected": "3f86d6ab719917a1b926ee544b7bdbde72e7c88779ce7ee929a5db1c434417d0",
+        "actual": "3f86d6ab719917a1b926ee544b7bdbde72e7c88779ce7ee929a5db1c434417d0",
+        "status": "verified"
+      },
+      {
+        "name": "universal_canonical_binding_v1.bin",
+        "path": "exclusive_master_canonical_wariphat/057_universal_canonical_binding_v1.bin",
+        "expected": "00785d48ec93929c9a8b12735b6d5e96bc4cc950457a77eb6dc4d4766a05921d",
+        "actual": "00785d48ec93929c9a8b12735b6d5e96bc4cc950457a77eb6dc4d4766a05921d",
+        "status": "verified"
+      },
+      {
+        "name": "universal_canonical_binding_v1_public_key.pem",
+        "path": "exclusive_master_canonical_wariphat/086_universal_canonical_binding_v1_public_key.pem",
+        "expected": "c3be6d835c4be6a3581779348edd2270902a954cc7ecf6644a426820fe3685ca",
+        "actual": "c3be6d835c4be6a3581779348edd2270902a954cc7ecf6644a426820fe3685ca",
+        "status": "verified"
+      },
+      {
+        "name": "universal_canonical_binding_v1_private_key.pem",
+        "status": "missing",
+        "expected": "44bb3e5025946e93f0348f5ebf72bdaaa59a15cbb32bc1a8cfdda56d60f9cd97"
+      },
+      {
+        "name": "universal_canonical_binding_v1.signature.bin",
+        "path": "exclusive_master_canonical_wariphat/113_universal_canonical_binding_v1.signature.bin",
+        "expected": "0f9a34ba4b7b354442067c5e4d99cfb0094896899ff2db63aaa31c68530fa16b",
+        "actual": "0f9a34ba4b7b354442067c5e4d99cfb0094896899ff2db63aaa31c68530fa16b",
+        "status": "verified"
+      },
+      {
+        "name": "universal_canonical_binding_v1.signature.base64.txt",
+        "path": "exclusive_master_canonical_wariphat/128_universal_canonical_binding_v1.signature.base64.txt",
+        "expected": "0305820b5be0c9f5bb04e1448054b01f20be1a6dc2c2bcc2e6905d59cee3e371",
+        "actual": "0305820b5be0c9f5bb04e1448054b01f20be1a6dc2c2bcc2e6905d59cee3e371",
+        "status": "verified"
+      }
+    ]
+  },
+  {
+    "manifest": "exclusive_master_canonical_wariphat/023_manifest.json",
+    "checked": 0,
+    "verified": 0,
+    "mismatches": 0,
+    "missing": 0,
+    "entries": []
+  },
+  {
+    "manifest": "exclusive_master_canonical_wariphat/030_manifest.json",
+    "checked": 0,
+    "verified": 0,
+    "mismatches": 0,
+    "missing": 0,
+    "entries": []
+  },
+  {
+    "manifest": "exclusive_master_canonical_wariphat/034_SubZeroGlobalRootLock_v2_manifest.json",
+    "checked": 1,
+    "verified": 0,
+    "mismatches": 0,
+    "missing": 1,
+    "entries": [
+      {
+        "name": "SubZeroGlobalRootLock_v2_final_Master.json",
+        "status": "missing",
+        "expected": "535af8fb11d1f6bbf2a6f5d9c84c5642e553d9dabef3c31da1e290506953d65d"
+      }
+    ]
+  },
+  {
+    "manifest": "exclusive_master_canonical_wariphat/035_Governance_Control_Addendum_v1_0_manifest.json",
+    "checked": 7,
+    "verified": 6,
+    "mismatches": 0,
+    "missing": 1,
+    "entries": [
+      {
+        "name": "Governance_Control_Addendum_v1_0.json",
+        "path": "exclusive_master_canonical_wariphat/165_Governance_Control_Addendum_v1_0.json",
+        "expected": "957fa26b79f158efb4a58ccec61bcd4f8fbb5f7478a3f5863bc176e78a26bbd2",
+        "actual": "957fa26b79f158efb4a58ccec61bcd4f8fbb5f7478a3f5863bc176e78a26bbd2",
+        "status": "verified"
+      },
+      {
+        "name": "Governance_Control_Addendum_v1_0.bin",
+        "path": "exclusive_master_canonical_wariphat/081_Governance_Control_Addendum_v1_0.bin",
+        "expected": "957fa26b79f158efb4a58ccec61bcd4f8fbb5f7478a3f5863bc176e78a26bbd2",
+        "actual": "957fa26b79f158efb4a58ccec61bcd4f8fbb5f7478a3f5863bc176e78a26bbd2",
+        "status": "verified"
+      },
+      {
+        "name": "Governance_Control_Addendum_v1_0.binary",
+        "path": "exclusive_master_canonical_wariphat/172_Governance_Control_Addendum_v1_0.binary",
+        "expected": "cd84996ee398c86bb91f0f8053c66b2ea94ab958b28f6d233992c3adbe99d192",
+        "actual": "cd84996ee398c86bb91f0f8053c66b2ea94ab958b28f6d233992c3adbe99d192",
+        "status": "verified"
+      },
+      {
+        "name": "Governance_Control_Addendum_v1_0.sig.json",
+        "path": "exclusive_master_canonical_wariphat/147_Governance_Control_Addendum_v1_0.sig.json",
+        "expected": "d094913023c07a39e9caf5a9d83cfec06129e831156b783fb6d309584fc18d78",
+        "actual": "d094913023c07a39e9caf5a9d83cfec06129e831156b783fb6d309584fc18d78",
+        "status": "verified"
+      },
+      {
+        "name": "Governance_Control_Addendum_v1_0_public_key.pem",
+        "path": "exclusive_master_canonical_wariphat/157_Governance_Control_Addendum_v1_0_public_key.pem",
+        "expected": "f51d482496b7d79b872349ae3a08b7fb7ee577fa4b1972187465424298b7191c",
+        "actual": "f51d482496b7d79b872349ae3a08b7fb7ee577fa4b1972187465424298b7191c",
+        "status": "verified"
+      },
+      {
+        "name": "Governance_Control_Addendum_v1_0_private_key.pem",
+        "status": "missing",
+        "expected": "34d2253068672e4da4af5c2c2af269a9b0285530d5a2ee4e7b953eb2f73e1c74"
+      },
+      {
+        "name": "Governance_Control_Addendum_v1_0_SHA256.txt",
+        "path": "exclusive_master_canonical_wariphat/055_Governance_Control_Addendum_v1_0_SHA256.txt",
+        "expected": "e35da0517d533443eafd82ac28e35dae26adb0156ab60ee8b500abd909ada39a",
+        "actual": "e35da0517d533443eafd82ac28e35dae26adb0156ab60ee8b500abd909ada39a",
+        "status": "verified"
+      }
+    ]
+  },
+  {
+    "manifest": "exclusive_master_canonical_wariphat/046_CanonicalVoidRebinding_UPDATED_manifest.json",
+    "checked": 0,
+    "verified": 0,
+    "mismatches": 0,
+    "missing": 0,
+    "entries": []
+  },
+  {
+    "manifest": "exclusive_master_canonical_wariphat/053_Canonical-Symbolic-Doctrine-Metadata-manifest.json",
+    "checked": 1,
+    "verified": 1,
+    "mismatches": 0,
+    "missing": 0,
+    "entries": [
+      {
+        "name": "Canonical-Symbolic-Doctrine-Metadata.json",
+        "path": "exclusive_master_canonical_wariphat/093_Canonical-Symbolic-Doctrine-Metadata.json",
+        "expected": "40db0ea49595141c8fae0f3fb96cdc9f4b51950282756bf89386f92eecf7d975",
+        "actual": "40db0ea49595141c8fae0f3fb96cdc9f4b51950282756bf89386f92eecf7d975",
+        "status": "verified"
+      }
+    ]
+  },
+  {
+    "manifest": "exclusive_master_canonical_wariphat/070_manifest.json",
+    "checked": 1,
+    "verified": 1,
+    "mismatches": 0,
+    "missing": 0,
+    "entries": [
+      {
+        "name": "canonical_governance_truth_declaration.json",
+        "path": "exclusive_master_canonical_wariphat/072_canonical_governance_truth_declaration.json",
+        "expected": "06e73e3309ac2134363e7863706d979e26b8b5cdad5db0c51bd2fce9fd230adb",
+        "actual": "06e73e3309ac2134363e7863706d979e26b8b5cdad5db0c51bd2fce9fd230adb",
+        "status": "verified"
+      }
+    ]
+  },
+  {
+    "manifest": "exclusive_master_canonical_wariphat/117_CanonicalVoidRebinding_UPDATED_manifest.json",
+    "checked": 6,
+    "verified": 4,
+    "mismatches": 1,
+    "missing": 1,
+    "entries": [
+      {
+        "name": "CanonicalVoidRebinding_no_dash.json",
+        "path": "exclusive_master_canonical_wariphat/115_CanonicalVoidRebinding_no_dash.json",
+        "expected": "c4c82e8783e9f4a343b90275b9fc99d9638e9003ab1af4b7d27057be74f82a12",
+        "actual": "79d2ec04190efe46895f4356e1ce78e16e306969e895ccabc9f0121ca54b6d42",
+        "status": "mismatch"
+      },
+      {
+        "name": "CanonicalVoidRebinding_Metadata_v1_UPDATED.base64",
+        "path": "exclusive_master_canonical_wariphat/043_CanonicalVoidRebinding_Metadata_v1_UPDATED.base64",
+        "expected": "e91a4ec5dcb0e70b32c924d8b56b320f21a72609a6c72df55cbe3f0f64f4ebf2",
+        "actual": "e91a4ec5dcb0e70b32c924d8b56b320f21a72609a6c72df55cbe3f0f64f4ebf2",
+        "status": "verified"
+      },
+      {
+        "name": "CanonicalVoidRebinding_UPDATED_public_key.pem",
+        "path": "exclusive_master_canonical_wariphat/038_CanonicalVoidRebinding_UPDATED_public_key.pem",
+        "expected": "4f1d5658c68e3f86060d153abe36aede34bd3a0c3ee7c10599bbd19ccdb1bc0b",
+        "actual": "4f1d5658c68e3f86060d153abe36aede34bd3a0c3ee7c10599bbd19ccdb1bc0b",
+        "status": "verified"
+      },
+      {
+        "name": "CanonicalVoidRebinding_UPDATED_signature.bin",
+        "path": "exclusive_master_canonical_wariphat/179_CanonicalVoidRebinding_UPDATED_signature.bin",
+        "expected": "175eaebf6a85e8c325645105203f543b30a14d2102838ad8f3f918517c46cf26",
+        "actual": "175eaebf6a85e8c325645105203f543b30a14d2102838ad8f3f918517c46cf26",
+        "status": "verified"
+      },
+      {
+        "name": "CanonicalVoidRebinding_Metadata_v1_UPDATED.sha256",
+        "path": "exclusive_master_canonical_wariphat/066_CanonicalVoidRebinding_Metadata_v1_UPDATED.sha256",
+        "expected": "bced8229c78f09ff147cc32811d1e7dc65e6cebf54fa258f8bb179ceab65b77f",
+        "actual": "bced8229c78f09ff147cc32811d1e7dc65e6cebf54fa258f8bb179ceab65b77f",
+        "status": "verified"
+      },
+      {
+        "name": "CanonicalVoidRebinding_UPDATED_private_key.pem",
+        "status": "missing",
+        "expected": "47a501f27737cdff0673ae88fdad34731b5130214227af12a97e0d44c4ad5647"
+      }
+    ]
+  },
+  {
+    "manifest": "exclusive_master_canonical_wariphat/156_owner_declaration_signature_manifest.json",
+    "checked": 0,
+    "verified": 0,
+    "mismatches": 0,
+    "missing": 0,
+    "entries": []
+  },
+  {
+    "manifest": "exclusive_master_canonical_wariphat/161_universal_alphabetnumberlock_v1.manifest.json",
+    "checked": 0,
+    "verified": 0,
+    "mismatches": 0,
+    "missing": 0,
+    "entries": []
+  },
+  {
+    "manifest": "exclusive_master_canonical_wariphat/170_universal_anchor_canonical_economy_v1.manifest.json",
+    "checked": 5,
+    "verified": 5,
+    "mismatches": 0,
+    "missing": 0,
+    "entries": [
+      {
+        "name": "universal_anchor_canonical_economy_v1.json",
+        "path": "exclusive_master_canonical_wariphat/173_universal_anchor_canonical_economy_v1.json",
+        "expected": "086c6d527e9d36a4b6a8c8d55a2abdb434a5b461b5cabde2462f7d75b14f9332",
+        "actual": "086c6d527e9d36a4b6a8c8d55a2abdb434a5b461b5cabde2462f7d75b14f9332",
+        "status": "verified"
+      },
+      {
+        "name": "universal_anchor_canonical_economy_v1.bin",
+        "path": "exclusive_master_canonical_wariphat/064_universal_anchor_canonical_economy_v1.bin",
+        "expected": "086c6d527e9d36a4b6a8c8d55a2abdb434a5b461b5cabde2462f7d75b14f9332",
+        "actual": "086c6d527e9d36a4b6a8c8d55a2abdb434a5b461b5cabde2462f7d75b14f9332",
+        "status": "verified"
+      },
+      {
+        "name": "universal_anchor_canonical_economy_v1.binary64",
+        "path": "exclusive_master_canonical_wariphat/001_universal_anchor_canonical_economy_v1.binary64",
+        "expected": "0c7339fe5d3059dfc2d04add20a93356ccb7439ffd32b2b0be90cf7806ef61c6",
+        "actual": "0c7339fe5d3059dfc2d04add20a93356ccb7439ffd32b2b0be90cf7806ef61c6",
+        "status": "verified"
+      },
+      {
+        "name": "universal_anchor_canonical_economy_v1.sha256",
+        "path": "exclusive_master_canonical_wariphat/049_universal_anchor_canonical_economy_v1.sha256",
+        "expected": "bc94f76ea6e0fa4990ade37b187377144f360e5a48247310ccfbb5a07ebadf7d",
+        "actual": "bc94f76ea6e0fa4990ade37b187377144f360e5a48247310ccfbb5a07ebadf7d",
+        "status": "verified"
+      },
+      {
+        "name": "universal_anchor_canonical_economy_v1.signature",
+        "path": "exclusive_master_canonical_wariphat/132_universal_anchor_canonical_economy_v1.signature",
+        "expected": "b456deca7e4ec563afae3c3c28b4368a71036db81979b829291ea6f0d551c5c6",
+        "actual": "b456deca7e4ec563afae3c3c28b4368a71036db81979b829291ea6f0d551c5c6",
+        "status": "verified"
+      }
+    ]
+  }
+]

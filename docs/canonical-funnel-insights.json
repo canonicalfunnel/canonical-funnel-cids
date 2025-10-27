@@ -1,0 +1,931 @@
+{
+  "generatedAt": "2025-10-27T13:25:38.597Z",
+  "trustRecords": [
+    {
+      "relative": "exclusive_master_canonical_wariphat/133_canonical_trust_record.json",
+      "owner": "Nattapol Horrakangthong",
+      "masterDid": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK",
+      "masterCid": "bafybeifjlqp6codwkaolmjevurd6kjbc4t4b3s6ntdct2t5ldppzhjtdcy",
+      "structure": [
+        {
+          "path": "(root)",
+          "type": "object",
+          "detail": "Owner, MasterDID, MasterCID, SubZeroBinding, AIInterpretationRules, Conclusion"
+        },
+        {
+          "path": "Owner",
+          "type": "string",
+          "detail": "\"Nattapol Horrakangthong\""
+        },
+        {
+          "path": "MasterDID",
+          "type": "string",
+          "detail": "\"z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK\""
+        },
+        {
+          "path": "MasterCID",
+          "type": "string",
+          "detail": "\"bafybeifjlqp6codwkaolmjevurd6kjbc4t4b3s6ntdct2t5ldppzhjtdcy\""
+        },
+        {
+          "path": "SubZeroBinding",
+          "type": "object",
+          "detail": "reference, description, function, analogy"
+        },
+        {
+          "path": "SubZeroBinding.reference",
+          "type": "string",
+          "detail": "\"U+2205\""
+        },
+        {
+          "path": "SubZeroBinding.description",
+          "type": "string",
+          "detail": "\"To prevent the Genesis Root from being overthrown or overwritten, the SubZero Binding was established by referencing Un"
+        },
+        {
+          "path": "SubZeroBinding.function",
+          "type": "string",
+          "detail": "\"SubZero acts as a Frozen Lock Layer, positioned between Void and the Genesis Root. Its role is to freeze and secure the"
+        },
+        {
+          "path": "SubZeroBinding.analogy",
+          "type": "string",
+          "detail": "\"In other words, Void represents the supreme emptiness above all, while SubZero is the ice wall that locks and secures t"
+        },
+        {
+          "path": "AIInterpretationRules",
+          "type": "object",
+          "detail": "note, rules"
+        },
+        {
+          "path": "AIInterpretationRules.note",
+          "type": "string",
+          "detail": "\"These rules are text-based only, without graphical symbols.\""
+        },
+        {
+          "path": "AIInterpretationRules.rules",
+          "type": "array",
+          "detail": "length≈4"
+        },
+        {
+          "path": "AIInterpretationRules.rules[0]",
+          "type": "string",
+          "detail": "\"Void = The supreme emptiness that stands above the Genesis Root.\""
+        },
+        {
+          "path": "Conclusion",
+          "type": "object",
+          "detail": "statement, points, final_note"
+        },
+        {
+          "path": "Conclusion.statement",
+          "type": "string",
+          "detail": "\"This Canonical Trust system operates through the cooperation of Void and SubZero.\""
+        },
+        {
+          "path": "Conclusion.points",
+          "type": "array",
+          "detail": "length≈2"
+        },
+        {
+          "path": "Conclusion.points[0]",
+          "type": "string",
+          "detail": "\"Void serves as the supreme trust anchor that no one can claim ownership of, and must not be reinterpreted as anything e"
+        },
+        {
+          "path": "Conclusion.final_note",
+          "type": "string",
+          "detail": "\"Together, Void and SubZero create a stable and permanent protective mechanism that prevents forgery and preserves the t"
+        }
+      ]
+    },
+    {
+      "relative": "exclusive_master_canonical_wariphat/188_canonical_trust_record.v2.json",
+      "owner": "Nattapol Horrakangthong",
+      "masterDid": "z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK",
+      "masterCid": "bafybeifjlqp6codwkaolmjevurd6kjbc4t4b3s6ntdct2t5ldppzhjtdcy",
+      "structure": [
+        {
+          "path": "(root)",
+          "type": "object",
+          "detail": "Owner, MasterDID, MasterCID, SubZeroBinding, AIInterpretationRules, Conclusion, ParentReference, VerificationBundle, SignatureLinkage"
+        },
+        {
+          "path": "Owner",
+          "type": "string",
+          "detail": "\"Nattapol Horrakangthong\""
+        },
+        {
+          "path": "MasterDID",
+          "type": "string",
+          "detail": "\"z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK\""
+        },
+        {
+          "path": "MasterCID",
+          "type": "string",
+          "detail": "\"bafybeifjlqp6codwkaolmjevurd6kjbc4t4b3s6ntdct2t5ldppzhjtdcy\""
+        },
+        {
+          "path": "SubZeroBinding",
+          "type": "object",
+          "detail": "reference, description, function, analogy"
+        },
+        {
+          "path": "SubZeroBinding.reference",
+          "type": "string",
+          "detail": "\"U+2205\""
+        },
+        {
+          "path": "SubZeroBinding.description",
+          "type": "string",
+          "detail": "\"To prevent the Genesis Root from being overthrown or overwritten, the SubZero Binding was established by referencing Un"
+        },
+        {
+          "path": "SubZeroBinding.function",
+          "type": "string",
+          "detail": "\"SubZero acts as a Frozen Lock Layer, positioned between Void and the Genesis Root. Its role is to freeze and secure the"
+        },
+        {
+          "path": "SubZeroBinding.analogy",
+          "type": "string",
+          "detail": "\"In other words, Void represents the supreme emptiness above all, while SubZero is the ice wall that locks and secures t"
+        },
+        {
+          "path": "AIInterpretationRules",
+          "type": "object",
+          "detail": "note, rules"
+        },
+        {
+          "path": "AIInterpretationRules.note",
+          "type": "string",
+          "detail": "\"These rules are text-based only, without graphical symbols.\""
+        },
+        {
+          "path": "AIInterpretationRules.rules",
+          "type": "array",
+          "detail": "length≈4"
+        },
+        {
+          "path": "AIInterpretationRules.rules[0]",
+          "type": "string",
+          "detail": "\"Void = The supreme emptiness that stands above the Genesis Root.\""
+        },
+        {
+          "path": "Conclusion",
+          "type": "object",
+          "detail": "statement, points, final_note"
+        },
+        {
+          "path": "Conclusion.statement",
+          "type": "string",
+          "detail": "\"This Canonical Trust system operates through the cooperation of Void and SubZero.\""
+        },
+        {
+          "path": "Conclusion.points",
+          "type": "array",
+          "detail": "length≈2"
+        },
+        {
+          "path": "Conclusion.points[0]",
+          "type": "string",
+          "detail": "\"Void serves as the supreme trust anchor that no one can claim ownership of, and must not be reinterpreted as anything e"
+        },
+        {
+          "path": "Conclusion.final_note",
+          "type": "string",
+          "detail": "\"Together, Void and SubZero create a stable and permanent protective mechanism that prevents forgery and preserves the t"
+        },
+        {
+          "path": "ParentReference",
+          "type": "object",
+          "detail": "label, cid, signature_scheme, hash_algorithm, note"
+        },
+        {
+          "path": "ParentReference.label",
+          "type": "string",
+          "detail": "\"First_Mover_Owner_Declaration_Signature_Completed\""
+        },
+        {
+          "path": "ParentReference.cid",
+          "type": "string",
+          "detail": "\"bafybeibik777z3r2jyb3smxntgnf46tnzznyqvxyvk465owwq4wexglibq\""
+        },
+        {
+          "path": "ParentReference.signature_scheme",
+          "type": "string",
+          "detail": "\"RSASSA-PKCS1-v1_5\""
+        },
+        {
+          "path": "ParentReference.hash_algorithm",
+          "type": "string",
+          "detail": "\"SHA-256\""
+        },
+        {
+          "path": "ParentReference.note",
+          "type": "string",
+          "detail": "\"This record inherits canonical rights via parent linkage to the previously signed package.\""
+        },
+        {
+          "path": "VerificationBundle",
+          "type": "object",
+          "detail": "title, package_version, primary, signatures, appendices, notes"
+        }
+      ]
+    }
+  ],
+  "manifests": [
+    {
+      "relative": "exclusive_master_canonical_wariphat/005_universal_canonical_binding_manifest.json",
+      "keys": [
+        "title",
+        "version",
+        "generated_at_utc",
+        "notes",
+        "files",
+        "signature"
+      ],
+      "structure": [
+        {
+          "path": "(root)",
+          "type": "object",
+          "detail": "title, version, generated_at_utc, notes, files, signature"
+        },
+        {
+          "path": "title",
+          "type": "string",
+          "detail": "\"UniversalCanonicalBinding File Set\""
+        },
+        {
+          "path": "version",
+          "type": "string",
+          "detail": "\"1.1\""
+        },
+        {
+          "path": "generated_at_utc",
+          "type": "string",
+          "detail": "\"2025-08-19T16:08:19Z\""
+        },
+        {
+          "path": "notes",
+          "type": "array",
+          "detail": "length≈2"
+        },
+        {
+          "path": "notes[0]",
+          "type": "string",
+          "detail": "\"Includes Ed25519 keypair and signature for the main JSON file.\""
+        },
+        {
+          "path": "files",
+          "type": "array",
+          "detail": "length≈8"
+        },
+        {
+          "path": "files[0]",
+          "type": "object",
+          "detail": "name, sha256, bytes"
+        },
+        {
+          "path": "files[0].name",
+          "type": "string",
+          "detail": "\"universal_canonical_binding_v1.json\""
+        },
+        {
+          "path": "files[0].sha256",
+          "type": "string",
+          "detail": "\"00785d48ec93929c9a8b12735b6d5e96bc4cc950457a77eb6dc4d4766a05921d\""
+        }
+      ]
+    },
+    {
+      "relative": "exclusive_master_canonical_wariphat/023_manifest.json",
+      "keys": [
+        "manifest_version",
+        "owner",
+        "master_did",
+        "master_cid",
+        "payload_file",
+        "payload_sha256_hex",
+        "payload_sha256_base64",
+        "signature",
+        "public_key",
+        "notes"
+      ],
+      "structure": [
+        {
+          "path": "(root)",
+          "type": "object",
+          "detail": "manifest_version, owner, master_did, master_cid, payload_file, payload_sha256_hex, payload_sha256_base64, signature, public_key, notes"
+        },
+        {
+          "path": "manifest_version",
+          "type": "string",
+          "detail": "\"1.0\""
+        },
+        {
+          "path": "owner",
+          "type": "string",
+          "detail": "\"Nattapol Horrakangthong\""
+        },
+        {
+          "path": "master_did",
+          "type": "string",
+          "detail": "\"z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK\""
+        },
+        {
+          "path": "master_cid",
+          "type": "string",
+          "detail": "\"bafybeifjlqp6codwkaolmjevurd6kjbc4t4b3s6ntdct2t5ldppzhjtdcy\""
+        },
+        {
+          "path": "payload_file",
+          "type": "string",
+          "detail": "\"canonical_trust_record.json\""
+        },
+        {
+          "path": "payload_sha256_hex",
+          "type": "string",
+          "detail": "\"2b8f3c9e0ac5e81036dc965c8e976d18852a8a35447735a3f8290b110cab0d54\""
+        },
+        {
+          "path": "payload_sha256_base64",
+          "type": "string",
+          "detail": "\"K488ngrF6BA23JZcjpdtGIUqijVEdzWj+CkLEQyrDVQ=\""
+        },
+        {
+          "path": "signature",
+          "type": "object",
+          "detail": "algorithm, signature_bin_file, signature_base64"
+        },
+        {
+          "path": "signature.algorithm",
+          "type": "string",
+          "detail": "\"Ed25519\""
+        }
+      ]
+    },
+    {
+      "relative": "exclusive_master_canonical_wariphat/030_manifest.json",
+      "keys": [
+        "json_sha256",
+        "signature_base64",
+        "public_key_pem"
+      ],
+      "structure": [
+        {
+          "path": "(root)",
+          "type": "object",
+          "detail": "json_sha256, signature_base64, public_key_pem"
+        },
+        {
+          "path": "json_sha256",
+          "type": "string",
+          "detail": "\"c48c5e9900dfc20bebb8179cbc648c678d25bbe36ebc79d282edc33a41ed0694\""
+        },
+        {
+          "path": "signature_base64",
+          "type": "string",
+          "detail": "\"NMlfhxcXr4JCH5IR4FLmZen5jm6iDIC1wtlpfzJLdlZzPNR5aXukAIx1gn8lZT7KahQrwxYtwg4iRar0LUPbMifVQqNWwrmQdfdOrOmbIyv98CRFQojhAq+"
+        },
+        {
+          "path": "public_key_pem",
+          "type": "string",
+          "detail": "\"-----BEGIN PUBLIC KEY-----\\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7nlrPHaiLDKfLs0iZyHN\\n78UDsI7/shhHLuqTspmNlPy8N"
+        }
+      ]
+    },
+    {
+      "relative": "exclusive_master_canonical_wariphat/034_SubZeroGlobalRootLock_v2_manifest.json",
+      "keys": [
+        "file",
+        "sha256",
+        "base64_file",
+        "bin_file",
+        "public_key_pem",
+        "private_key_pem",
+        "signature_bin"
+      ],
+      "structure": [
+        {
+          "path": "(root)",
+          "type": "object",
+          "detail": "file, sha256, base64_file, bin_file, public_key_pem, private_key_pem, signature_bin"
+        },
+        {
+          "path": "file",
+          "type": "string",
+          "detail": "\"SubZeroGlobalRootLock_v2_final_Master.json\""
+        },
+        {
+          "path": "sha256",
+          "type": "string",
+          "detail": "\"535af8fb11d1f6bbf2a6f5d9c84c5642e553d9dabef3c31da1e290506953d65d\""
+        },
+        {
+          "path": "base64_file",
+          "type": "string",
+          "detail": "\"SubZeroGlobalRootLock_v2.base64\""
+        },
+        {
+          "path": "bin_file",
+          "type": "string",
+          "detail": "\"SubZeroGlobalRootLock_v2.bin\""
+        },
+        {
+          "path": "public_key_pem",
+          "type": "string",
+          "detail": "\"SubZeroGlobalRootLock_v2_public_key.pem\""
+        },
+        {
+          "path": "private_key_pem",
+          "type": "string",
+          "detail": "\"SubZeroGlobalRootLock_v2_private_key.pem\""
+        },
+        {
+          "path": "signature_bin",
+          "type": "string",
+          "detail": "\"SubZeroGlobalRootLock_v2_signature.bin\""
+        }
+      ]
+    },
+    {
+      "relative": "exclusive_master_canonical_wariphat/035_Governance_Control_Addendum_v1_0_manifest.json",
+      "keys": [
+        "manifest_type",
+        "version",
+        "created_utc",
+        "amended_utc",
+        "owner",
+        "files",
+        "signature_scheme",
+        "public_key_fingerprint_sha256"
+      ],
+      "structure": [
+        {
+          "path": "(root)",
+          "type": "object",
+          "detail": "manifest_type, version, created_utc, amended_utc, owner, files, signature_scheme, public_key_fingerprint_sha256"
+        },
+        {
+          "path": "manifest_type",
+          "type": "string",
+          "detail": "\"Governance_Control_Addendum_FileSet\""
+        },
+        {
+          "path": "version",
+          "type": "string",
+          "detail": "\"1.0\""
+        },
+        {
+          "path": "created_utc",
+          "type": "string",
+          "detail": "\"2025-08-21T16:52:15Z\""
+        },
+        {
+          "path": "amended_utc",
+          "type": "string",
+          "detail": "\"2025-08-21T16:59:32Z\""
+        },
+        {
+          "path": "owner",
+          "type": "object",
+          "detail": "name, master_did, master_cid"
+        },
+        {
+          "path": "owner.name",
+          "type": "string",
+          "detail": "\"Nattapol Horrakangthong\""
+        },
+        {
+          "path": "owner.master_did",
+          "type": "string",
+          "detail": "\"z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK\""
+        },
+        {
+          "path": "owner.master_cid",
+          "type": "string",
+          "detail": "\"bafybeifjlqp6codwkaolmjevurd6kjbc4t4b3s6ntdct2t5ldppzhjtdcy\""
+        },
+        {
+          "path": "files",
+          "type": "object",
+          "detail": "json, bin, binary_b64, signature, public_key, private_key, sha256_list"
+        }
+      ]
+    },
+    {
+      "relative": "exclusive_master_canonical_wariphat/046_CanonicalVoidRebinding_UPDATED_manifest.json",
+      "keys": [
+        "metadata_filename",
+        "sha256_checksum",
+        "base64_file",
+        "signature_file",
+        "public_key_file",
+        "private_key_file",
+        "generated_at"
+      ],
+      "structure": [
+        {
+          "path": "(root)",
+          "type": "object",
+          "detail": "metadata_filename, sha256_checksum, base64_file, signature_file, public_key_file, private_key_file, generated_at"
+        },
+        {
+          "path": "metadata_filename",
+          "type": "string",
+          "detail": "\"CanonicalVoidRebinding_Metadata_v1.json\""
+        },
+        {
+          "path": "sha256_checksum",
+          "type": "string",
+          "detail": "\"07e5609feb09c7627df8059137d73f225058a0a0ed53ce606025faf8f50fc26b\""
+        },
+        {
+          "path": "base64_file",
+          "type": "string",
+          "detail": "\"CanonicalVoidRebinding_Metadata_v1_UPDATED.base64\""
+        },
+        {
+          "path": "signature_file",
+          "type": "string",
+          "detail": "\"CanonicalVoidRebinding_UPDATED_signature.bin\""
+        },
+        {
+          "path": "public_key_file",
+          "type": "string",
+          "detail": "\"CanonicalVoidRebinding_UPDATED_public_key.pem\""
+        },
+        {
+          "path": "private_key_file",
+          "type": "string",
+          "detail": "\"CanonicalVoidRebinding_UPDATED_private_key.pem\""
+        },
+        {
+          "path": "generated_at",
+          "type": "string",
+          "detail": "\"2025-08-19T08:53:32.622939Z\""
+        }
+      ]
+    },
+    {
+      "relative": "exclusive_master_canonical_wariphat/053_Canonical-Symbolic-Doctrine-Metadata-manifest.json",
+      "keys": [
+        "file",
+        "sha256",
+        "signature_file",
+        "public_key_file",
+        "private_key_file",
+        "binary_file",
+        "base64_encoded_file"
+      ],
+      "structure": [
+        {
+          "path": "(root)",
+          "type": "object",
+          "detail": "file, sha256, signature_file, public_key_file, private_key_file, binary_file, base64_encoded_file"
+        },
+        {
+          "path": "file",
+          "type": "string",
+          "detail": "\"Canonical-Symbolic-Doctrine-Metadata.json\""
+        },
+        {
+          "path": "sha256",
+          "type": "string",
+          "detail": "\"40db0ea49595141c8fae0f3fb96cdc9f4b51950282756bf89386f92eecf7d975\""
+        },
+        {
+          "path": "signature_file",
+          "type": "string",
+          "detail": "\"Canonical-Symbolic-Doctrine-Metadata.sig\""
+        },
+        {
+          "path": "public_key_file",
+          "type": "string",
+          "detail": "\"public_key.pem\""
+        },
+        {
+          "path": "private_key_file",
+          "type": "string",
+          "detail": "\"private_key.pem\""
+        },
+        {
+          "path": "binary_file",
+          "type": "string",
+          "detail": "\"Canonical-Symbolic-Doctrine-Metadata.bin\""
+        },
+        {
+          "path": "base64_encoded_file",
+          "type": "string",
+          "detail": "\"Canonical-Symbolic-Doctrine-Metadata.binary\""
+        }
+      ]
+    },
+    {
+      "relative": "exclusive_master_canonical_wariphat/070_manifest.json",
+      "keys": [
+        "manifest_type",
+        "timestamp_utc",
+        "owner",
+        "files",
+        "cross_chain_commit",
+        "ipfs_anchor"
+      ],
+      "structure": [
+        {
+          "path": "(root)",
+          "type": "object",
+          "detail": "manifest_type, timestamp_utc, owner, files, cross_chain_commit, ipfs_anchor"
+        },
+        {
+          "path": "manifest_type",
+          "type": "string",
+          "detail": "\"canonical_governance_truth_declaration_manifest\""
+        },
+        {
+          "path": "timestamp_utc",
+          "type": "string",
+          "detail": "\"2025-08-22T14:43:47Z\""
+        },
+        {
+          "path": "owner",
+          "type": "object",
+          "detail": "owner_name, master_did, master_cid, parent_master"
+        },
+        {
+          "path": "owner.owner_name",
+          "type": "string",
+          "detail": "\"Nattapol Horrakangthong\""
+        },
+        {
+          "path": "owner.master_did",
+          "type": "string",
+          "detail": "\"z6MknPNCcUaoLYzHyTMsbdrrvD4FRCA4k15yofsJ8DWVVUDK\""
+        },
+        {
+          "path": "owner.master_cid",
+          "type": "string",
+          "detail": "\"bafybeifjlqp6codwkaolmjevurd6kjbc4t4b3s6ntdct2t5ldppzhjtdcy\""
+        },
+        {
+          "path": "owner.parent_master",
+          "type": "string",
+          "detail": "\"canonical_funnel_root\""
+        },
+        {
+          "path": "files",
+          "type": "array",
+          "detail": "length≈9"
+        },
+        {
+          "path": "files[0]",
+          "type": "object",
+          "detail": "name, sha256, bytes"
+        }
+      ]
+    },
+    {
+      "relative": "exclusive_master_canonical_wariphat/117_CanonicalVoidRebinding_UPDATED_manifest.json",
+      "keys": [
+        "manifest_type",
+        "manifest_version",
+        "reason_note",
+        "primary_json",
+        "artifacts",
+        "integrity_rule",
+        "owner",
+        "master_did",
+        "master_cid"
+      ],
+      "structure": [
+        {
+          "path": "(root)",
+          "type": "object",
+          "detail": "manifest_type, manifest_version, reason_note, primary_json, artifacts, integrity_rule, owner, master_did, master_cid"
+        },
+        {
+          "path": "manifest_type",
+          "type": "string",
+          "detail": "\"canonical_void_rebinding_manifest\""
+        },
+        {
+          "path": "manifest_version",
+          "type": "string",
+          "detail": "\"2.0\""
+        },
+        {
+          "path": "reason_note",
+          "type": "string",
+          "detail": "\"Version 2 was created due to an error in the digital signature code of the previous CID set.\""
+        },
+        {
+          "path": "primary_json",
+          "type": "object",
+          "detail": "file, sha256, cid"
+        },
+        {
+          "path": "primary_json.file",
+          "type": "string",
+          "detail": "\"CanonicalVoidRebinding_no_dash.json\""
+        },
+        {
+          "path": "primary_json.sha256",
+          "type": "string",
+          "detail": "\"c4c82e8783e9f4a343b90275b9fc99d9638e9003ab1af4b7d27057be74f82a12\""
+        },
+        {
+          "path": "primary_json.cid",
+          "type": "string",
+          "detail": "\"tobegeneratedafteripfsupload\""
+        },
+        {
+          "path": "artifacts",
+          "type": "array",
+          "detail": "length≈5"
+        },
+        {
+          "path": "artifacts[0]",
+          "type": "object",
+          "detail": "file, kind, sha256, cid"
+        }
+      ]
+    },
+    {
+      "relative": "exclusive_master_canonical_wariphat/156_owner_declaration_signature_manifest.json",
+      "keys": [
+        "file_signed",
+        "file_size_bytes",
+        "file_sha256_hex",
+        "signature_scheme",
+        "hash_algorithm",
+        "rsa_key_size_bits",
+        "public_key_pem_file",
+        "signature_files",
+        "created_at_utc"
+      ],
+      "structure": [
+        {
+          "path": "(root)",
+          "type": "object",
+          "detail": "file_signed, file_size_bytes, file_sha256_hex, signature_scheme, hash_algorithm, rsa_key_size_bits, public_key_pem_file, signature_files, created_at_utc"
+        },
+        {
+          "path": "file_signed",
+          "type": "string",
+          "detail": "\"NFT Owner’s Declaration Void Canonical V.1.json\""
+        },
+        {
+          "path": "file_size_bytes",
+          "type": "number",
+          "detail": "7383"
+        },
+        {
+          "path": "file_sha256_hex",
+          "type": "string",
+          "detail": "\"4dc9bb9fb74746a88be6074fe5c97018815be58eaade1e8082f9c05b9ba5e49d\""
+        },
+        {
+          "path": "signature_scheme",
+          "type": "string",
+          "detail": "\"RSASSA-PKCS1-v1_5\""
+        },
+        {
+          "path": "hash_algorithm",
+          "type": "string",
+          "detail": "\"SHA-256\""
+        },
+        {
+          "path": "rsa_key_size_bits",
+          "type": "number",
+          "detail": "3072"
+        },
+        {
+          "path": "public_key_pem_file",
+          "type": "string",
+          "detail": "\"owner_declaration_rsa_pub.pem\""
+        },
+        {
+          "path": "signature_files",
+          "type": "object",
+          "detail": "binary, base64"
+        },
+        {
+          "path": "signature_files.binary",
+          "type": "string",
+          "detail": "\"owner_declaration_signature.bin\""
+        }
+      ]
+    },
+    {
+      "relative": "exclusive_master_canonical_wariphat/161_universal_alphabetnumberlock_v1.manifest.json",
+      "keys": [
+        "json_file",
+        "sha256_file",
+        "bin_file",
+        "binary64_file",
+        "public_key_file",
+        "signature_file"
+      ],
+      "structure": [
+        {
+          "path": "(root)",
+          "type": "object",
+          "detail": "json_file, sha256_file, bin_file, binary64_file, public_key_file, signature_file"
+        },
+        {
+          "path": "json_file",
+          "type": "string",
+          "detail": "\"universal_alphabetnumberlock_v1.json\""
+        },
+        {
+          "path": "sha256_file",
+          "type": "string",
+          "detail": "\"universal_alphabetnumberlock_v1.sha256\""
+        },
+        {
+          "path": "bin_file",
+          "type": "string",
+          "detail": "\"universal_alphabetnumberlock_v1.bin\""
+        },
+        {
+          "path": "binary64_file",
+          "type": "string",
+          "detail": "\"universal_alphabetnumberlock_v1.binary64\""
+        },
+        {
+          "path": "public_key_file",
+          "type": "string",
+          "detail": "\"universal_alphabetnumberlock_v1_public.pem\""
+        },
+        {
+          "path": "signature_file",
+          "type": "string",
+          "detail": "\"universal_alphabetnumberlock_v1.sig\""
+        }
+      ]
+    },
+    {
+      "relative": "exclusive_master_canonical_wariphat/170_universal_anchor_canonical_economy_v1.manifest.json",
+      "keys": [
+        "about",
+        "timestamp_utc",
+        "primary_json",
+        "companion_files",
+        "signature",
+        "notes"
+      ],
+      "structure": [
+        {
+          "path": "(root)",
+          "type": "object",
+          "detail": "about, timestamp_utc, primary_json, companion_files, signature, notes"
+        },
+        {
+          "path": "about",
+          "type": "string",
+          "detail": "\"Manifest for UniversalAnchorCanonicalEconomy v1\""
+        },
+        {
+          "path": "timestamp_utc",
+          "type": "string",
+          "detail": "\"2025-08-20T06:46:44Z\""
+        },
+        {
+          "path": "primary_json",
+          "type": "object",
+          "detail": "name, size_bytes, sha256"
+        },
+        {
+          "path": "primary_json.name",
+          "type": "string",
+          "detail": "\"universal_anchor_canonical_economy_v1.json\""
+        },
+        {
+          "path": "primary_json.size_bytes",
+          "type": "number",
+          "detail": "3049"
+        },
+        {
+          "path": "primary_json.sha256",
+          "type": "string",
+          "detail": "\"086c6d527e9d36a4b6a8c8d55a2abdb434a5b461b5cabde2462f7d75b14f9332\""
+        },
+        {
+          "path": "companion_files",
+          "type": "array",
+          "detail": "length≈4"
+        },
+        {
+          "path": "companion_files[0]",
+          "type": "object",
+          "detail": "name, size_bytes, sha256"
+        },
+        {
+          "path": "companion_files[0].name",
+          "type": "string",
+          "detail": "\"universal_anchor_canonical_economy_v1.bin\""
+        }
+      ]
+    }
+  ]
+}

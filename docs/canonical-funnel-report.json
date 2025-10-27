@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2025-10-27T13:33:16.349Z",
+  "totals": {
+    "assets": 195,
+    "groups": 2,
+    "extensionBreakdown": {
+      ".json": 78,
+      ".svg": 1,
+      ".jpg": 23,
+      ".binary64": 2,
+      ".pdf": 18,
+      ".bin": 15,
+      ".png": 8,
+      ".txt": 13,
+      ".sig": 3,
+      ".pem": 12,
+      ".base64": 3,
+      ".sha256": 6,
+      ".heic": 6,
+      ".html": 1,
+      ".bem": 1,
+      ".signature": 1,
+      ".jpeg": 1,
+      ".binary": 3
+    }
+  },
+  "keywords": {
+    "filesProcessed": 3,
+    "keywords": 3000000,
+    "categories": 1100,
+    "declaredLots": [
+      "Lot 2",
+      "Canonical Funnel Archive – Lot 1 (Global Immutable Source)",
+      "1–1000",
+      "All categories, all industries, all domains, across all human languages without limitation.",
+      "Quantity Over 2 billion unique keywords are bound to this Canonical Identity."
+    ],
+    "declaredCategoryTotals": [
+      1000
+    ]
+  },
+  "allocations": {
+    "files": 4,
+    "groups": 14,
+    "entries": 14
+  },
+  "signatures": {
+    "binaryArtifacts": 39,
+    "jsonDocuments": 31,
+    "coverageRatio": 0.159
+  }
+}
