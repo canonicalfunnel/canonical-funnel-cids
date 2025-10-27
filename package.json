@@ -1,0 +1,31 @@
+{
+  "name": "canonical-funnel-agent",
+  "version": "0.1.0",
+  "description": "Canonical Funnel Economy agent runtime for Storacha metadata and NFT leasing flows.",
+  "type": "commonjs",
+  "main": "src/agents/index.js",
+  "scripts": {
+    "start": "node src/agents/index.js",
+    "agent": "NODE_ENV=development node src/agents/index.js",
+    "test": "jest --coverage",
+    "register": "npx cfe-cli register --manifest canonical-funnel-agent.json"
+  },
+  "keywords": [
+    "storacha",
+    "canonical-funnel",
+    "agent",
+    "nft",
+    "ipfs"
+  ],
+  "author": "Canonical Funnel Builders",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@storacha/client": "^1.8.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
