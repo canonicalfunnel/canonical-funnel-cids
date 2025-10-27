@@ -1,0 +1,12 @@
+{
+  "name": "Canonical Funnel Asset #1",
+  "description": "Demonstration metadata for the Canonical Funnel agent tests.",
+  "lesseeDid": "did:key:lessee123",
+  "leasing": {
+    "price": 1200,
+    "currency": "USDC",
+    "paymentFrequency": "monthly",
+    "startDate": "2024-01-01T00:00:00Z",
+    "endDate": "2025-01-01T00:00:00Z"
+  }
+}
