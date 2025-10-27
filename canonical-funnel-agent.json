@@ -1,0 +1,38 @@
+{
+  "$schema": "https://canonical-funnel.example/schemas/agent-manifest.json",
+  "agent": {
+    "name": "Canonical Funnel Economy Agent",
+    "slug": "canonical-funnel-economy",
+    "description": "Node-based agent bridging Storacha metadata, IPFS identifiers, and NFT leasing flows.",
+    "repository": "https://github.com/max/canonical-funnel-economy",
+    "version": "0.1.0",
+    "entry": "src/agents/index.js",
+    "runtime": "node>=18",
+    "tags": ["storacha", "ipfs", "nft", "leasing", "agent"],
+    "metadata": {
+      "ipfsCidEnv": "CFE_IPFS_CID",
+      "didEnv": "CFE_DID"
+    },
+    "integrations": {
+      "storacha": {
+        "package": "@storacha/client",
+        "configModule": "src/services/storacha.js"
+      },
+      "nftLeasing": {
+        "module": "src/services/nft-leasing.js",
+        "description": "Implements lease lifecycle orchestration and settlement hooks"
+      }
+    },
+    "secrets": ["STORACHA_API_KEY", "CFE_IPFS_CID", "CFE_DID"]
+  },
+  "registration": {
+    "registry": "Canonical Funnel",
+    "status": "pending",
+    "instructions": [
+      "Pin the agent metadata document to IPFS and store the resulting CID in CFE_IPFS_CID.",
+      "Publish the agent DID document and store the DID identifier in CFE_DID.",
+      "Run `npx cfe-cli register --manifest canonical-funnel-agent.json` to submit to the registry.",
+      "Attach NFT leasing policy references under src/services/nft-leasing.js before registration is finalized."
+    ]
+  }
+}
