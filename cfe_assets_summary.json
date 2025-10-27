@@ -1,0 +1,1172 @@
+[
+  {
+    "group": "canonical_funnel_wariphat",
+    "file": "canonical_funnel_wariphat/001_canonical-funnel-lot2-1M-with-updated-metadata.json",
+    "size_bytes": 31368980,
+    "summary": "JSON object keys=metadata,keywords"
+  },
+  {
+    "group": "canonical_funnel_wariphat",
+    "file": "canonical_funnel_wariphat/002_canonical-funnel-wariphat.json",
+    "size_bytes": 20872907,
+    "summary": "JSON object keys=_canonical_metadata,Funnel Category #00001,Funnel Category #00002,Funnel Category #00003,Funnel Category #00004"
+  },
+  {
+    "group": "canonical_funnel_wariphat",
+    "file": "canonical_funnel_wariphat/003_canonical-funnel-lot1-1M.json",
+    "size_bytes": 24483121,
+    "summary": "JSON object keys=_canonical_metadata,Funnel Category #00001,Funnel Category #00002,Funnel Category #00003,Funnel Category #00004"
+  },
+  {
+    "group": "canonical_funnel_wariphat",
+    "file": "canonical_funnel_wariphat/004_canonical_funnel_metadata Now.svg",
+    "size_bytes": 3478,
+    "summary": "XML/SVG preview: <?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?> / <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1200\" height=\"2400\"> /   <rect width=\"100%\" height=\"100%\" fill=\"white\"/>"
+  },
+  {
+    "group": "canonical_funnel_wariphat",
+    "file": "canonical_funnel_wariphat/005_Canonical-Funnel-Wariphat.png.jpg",
+    "size_bytes": 117061,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "canonical_funnel_wariphat",
+    "file": "canonical_funnel_wariphat/006_1#Canonical_Funnel_Master_Record_1M.json",
+    "size_bytes": 26374264,
+    "summary": "JSON object keys=metadata,funnels"
+  },
+  {
+    "group": "canonical_funnel_wariphat",
+    "file": "canonical_funnel_wariphat/007_canonical-funnel-1.json",
+    "size_bytes": 657,
+    "summary": "JSON object keys=name,description,owner,trust,canonical_id"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/001_universal_anchor_canonical_economy_v1.binary64",
+    "size_bytes": 4068,
+    "summary": "Binary file .binary64"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/002_DIP_Patent_Metadata.json",
+    "size_bytes": 3180,
+    "summary": "JSON object keys=title,version,owner,parent_master,trust_anchor"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/003_SubZeroGlobalRootLock_v2_full.json",
+    "size_bytes": 13280,
+    "summary": "JSON object keys=metadata_type,version,issued_by,subzero_binding,lock_scope"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/004_Grok Ai Mobile Chat Window FirstMover Verified#2.JPG",
+    "size_bytes": 324587,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/005_universal_canonical_binding_manifest.json",
+    "size_bytes": 2060,
+    "summary": "JSON object keys=title,version,generated_at_utc,notes,files"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/006_8)Case Study_ How Owning Keywords Can Drive More Customers.pdf",
+    "size_bytes": 89377,
+    "summary": "PDF document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/007_Canonical-Symbolic-Doctrine-Metadata.bin",
+    "size_bytes": 2398,
+    "summary": "Binary file .bin"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/008_NFT Ownership Assertion Canonical Funnel Economy.json",
+    "size_bytes": 12202,
+    "summary": "JSON object keys=CanonicalFunnelOwnershipAssertion,sha256"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/009_NFT Canonical Funnel Economy Metadata.json",
+    "size_bytes": 10503,
+    "summary": "JSON object keys=CanonicalFunnelConsolidatedMetadata"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/010_master-void-canonical-structure-v1.json",
+    "size_bytes": 7962,
+    "summary": "JSON object keys=version,canonical_id,owner,trust_entity,did"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/011_Canonical_Funnel_Health_Wellness_Economy.json",
+    "size_bytes": 18321,
+    "summary": "JSON object keys=metadata,categories"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/012_Grok Ai Mobile Chat Window FirstMover Verified#4.JPG",
+    "size_bytes": 306531,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/013_NFT_Allocation_V2.json",
+    "size_bytes": 1941,
+    "summary": "JSON object keys=name,description,version,purpose_tag,timestamp_iso"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/014_Global_Registry_Anchor.json",
+    "size_bytes": 3480,
+    "summary": "JSON object keys=GlobalRegistryAnchor"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/015_Deepseek Mobile Chat Window FirstMover Verified#3.PNG",
+    "size_bytes": 311812,
+    "summary": "Image PNG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/016_3)How Does Keyword Leasing Generate Income_.pdf",
+    "size_bytes": 117041,
+    "summary": "PDF document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/017_Grok Ai Mobile Chat Window FirstMover Verified#5.JPG",
+    "size_bytes": 321509,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/018_Owner_DID_Identity.json",
+    "size_bytes": 1893,
+    "summary": "JSON object keys=CanonicalFunnelEconomyArchiveProofCertificate"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/019_Cluade Mobile Chat Window FirstMover Verified#1.JPG",
+    "size_bytes": 256738,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/020_proof-verification-metadata.json",
+    "size_bytes": 1795,
+    "summary": "JSON object keys=version,type,description,verified_cid,verified_platforms"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/021_#1 Meta Data Canonical MASTER.txt",
+    "size_bytes": 2249,
+    "summary": "Text preview: { /   \"canonical_funnel_economy_archive_proof_certificate\": { /     \"certificate_id\": \"CERT-20250731-0002\","
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/022_10)How to Get Started_ Becoming an Owner of Keywords.pdf",
+    "size_bytes": 110537,
+    "summary": "PDF document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/023_manifest.json",
+    "size_bytes": 1001,
+    "summary": "JSON object keys=manifest_version,owner,master_did,master_cid,payload_file"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/024_11)Frequently Asked Questions (FAQ) about Funnel Economy & Keyword Leasing.pdf",
+    "size_bytes": 96533,
+    "summary": "PDF document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/025_NFT Master_Allocation_Void_Canonical_Funnel_Economy_FirstMover.json",
+    "size_bytes": 45152,
+    "summary": "JSON object keys=customer_record,canonical_funnel_allocation,all_cid_reference,proof,allocation_metadata_cid"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/026_6)The Future of AI Search and Why Keywords Will Become More Valuable.pdf",
+    "size_bytes": 99934,
+    "summary": "PDF document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/027_Proof_of_Singularity.pdf",
+    "size_bytes": 2321,
+    "summary": "PDF document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/028_subzero_root_lock.base64.txt",
+    "size_bytes": 2620,
+    "summary": "Text preview: ewogICJtZXRhZGF0YV90eXBlIjogIlN1Ylplcm9HbG9iYWxSb290TG9jayIsCiAgInZlcnNpb24iOiAiMS4wIiwKICAiaXNzdWVkX2J5IjogewogICAgIm93bmVyX25hbWUiOiAiTmF0dGFwb2wgSG9ycmFrYW5ndGhvbmciLAogICAgIm93bmVyX2RpZCI6ICJ6Nk1r"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/029_Master-Informations-Canonical-Funnel-Leasing.json",
+    "size_bytes": 11211,
+    "summary": "JSON object keys=parent_master,documents,payment_terms_conditions"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/030_manifest.json",
+    "size_bytes": 941,
+    "summary": "JSON object keys=json_sha256,signature_base64,public_key_pem"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/031_Global_Registry_Anchor.pdf",
+    "size_bytes": 4450,
+    "summary": "PDF document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/032_Proof_of_Singularity.json",
+    "size_bytes": 747,
+    "summary": "JSON object keys=Certificate"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/033_Deepseek Mobile Chat Window FirstMover Verified#2.PNG",
+    "size_bytes": 340599,
+    "summary": "Image PNG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/034_SubZeroGlobalRootLock_v2_manifest.json",
+    "size_bytes": 425,
+    "summary": "JSON object keys=file,sha256,base64_file,bin_file,public_key_pem"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/035_Governance_Control_Addendum_v1_0_manifest.json",
+    "size_bytes": 1903,
+    "summary": "JSON object keys=manifest_type,version,created_utc,amended_utc,owner"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/036_universal_alphabetnumberlock_v1.sig",
+    "size_bytes": 256,
+    "summary": "Binary file .sig"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/037_First_Mover_Owner_Declaration_Signature_Completed.json",
+    "size_bytes": 9421,
+    "summary": "JSON object keys=OWNER,MASTER_DID,MASTER_CID,ROOT_BINDING,TRUST_ANCHOR"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/038_CanonicalVoidRebinding_UPDATED_public_key.pem",
+    "size_bytes": 113,
+    "summary": "Binary file .pem"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/039_public_key.pem",
+    "size_bytes": 451,
+    "summary": "Binary file .pem"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/040_4)How Keyword Leasing Works (Simple Explanation).pdf",
+    "size_bytes": 101305,
+    "summary": "PDF document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/041_canonical_governance_truth_declaration.sig",
+    "size_bytes": 64,
+    "summary": "Binary file .sig"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/042_SubZeroGlobalRootLock_v2_signature.bin",
+    "size_bytes": 256,
+    "summary": "Binary file .bin"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/043_CanonicalVoidRebinding_Metadata_v1_UPDATED.base64",
+    "size_bytes": 2264,
+    "summary": "Text preview: ewogICJtZXRhZGF0YV90eXBlIjogIkNhbm9uaWNhbFZvaWRSZWJpbmRpbmciLAogICJ2ZXJzaW9uIjogIjIuMCIsCiAgIm5vdGUiOiAiVGhpcyB2ZXJzaW9uIHdhcyBpc3N1ZWQgdG8gcmVzb2x2ZSBjb250cmFkaWN0aW9ucyBjYXVzZWQgYnkgYW4gZXJyb3IgaW4g"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/044_VoidRoot_NonSupremacy_Metadata.json",
+    "size_bytes": 1462,
+    "summary": "JSON object keys=VoidRoot_NonSupremacy_Metadata,sha256"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/045_Canonical_Archive_Proof_Certificate.pdf",
+    "size_bytes": 4082,
+    "summary": "PDF document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/046_CanonicalVoidRebinding_UPDATED_manifest.json",
+    "size_bytes": 486,
+    "summary": "JSON object keys=metadata_filename,sha256_checksum,base64_file,signature_file,public_key_file"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/047_universal_alphabetnumberlock_v1.sha256",
+    "size_bytes": 64,
+    "summary": "Text preview: 62e936e3898c50f0e7582017ce6352984adb58c1fade90837cc573fcc1c6078a"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/048_SubZeroGlobalRootLock_v2_public_key.pem",
+    "size_bytes": 450,
+    "summary": "Binary file .pem"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/049_universal_anchor_canonical_economy_v1.sha256",
+    "size_bytes": 65,
+    "summary": "Text preview: 086c6d527e9d36a4b6a8c8d55a2abdb434a5b461b5cabde2462f7d75b14f9332"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/050_DIP Status Verified .JPG",
+    "size_bytes": 179576,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/051_Cluade Mobile Chat Window FirstMover Verified#2.JPG",
+    "size_bytes": 247636,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/052_Payment Terms&Conditions PDF.pdf",
+    "size_bytes": 3281,
+    "summary": "PDF document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/053_Canonical-Symbolic-Doctrine-Metadata-manifest.json",
+    "size_bytes": 414,
+    "summary": "JSON object keys=file,sha256,signature_file,public_key_file,private_key_file"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/054_signature.base64.txt",
+    "size_bytes": 88,
+    "summary": "Text preview: mriPOQNhJQiGi+G/dXLg6eLXkvft99teX5/6nVwQiPAffmH/nbUamgpVL94tgsbE63S7+PZyFsj0QCEsx1v0BQ=="
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/055_Governance_Control_Addendum_v1_0_SHA256.txt",
+    "size_bytes": 733,
+    "summary": "Text preview: File: Governance_Control_Addendum_v1_0.json / SHA256: 957fa26b79f158efb4a58ccec61bcd4f8fbb5f7478a3f5863bc176e78a26bbd2 / "
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/056_Grok Ai Mobile Chat Window FirstMover Verified#1.JPG",
+    "size_bytes": 320959,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/057_universal_canonical_binding_v1.bin",
+    "size_bytes": 3512,
+    "summary": "Binary file .bin"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/058_SubZeroGlobalRootLock_v2.bin",
+    "size_bytes": 14758,
+    "summary": "Binary file .bin"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/059_Canonical_Funnel_Culture_Spiritual.json",
+    "size_bytes": 9838,
+    "summary": "JSON object keys=16_Religion,17_Philosophy,18_History,19_Literature,20_Art"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/060_ed25519_public_key.pem",
+    "size_bytes": 113,
+    "summary": "Binary file .pem"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/061_Classpass Verified.heic",
+    "size_bytes": 1120564,
+    "summary": "Image HEIC"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/062_public_key.pem",
+    "size_bytes": 113,
+    "summary": "Binary file .pem"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/063_Canonical_Trust_Certificate.json",
+    "size_bytes": 680,
+    "summary": "JSON object keys=certificate_title,certificate_id,date_issued,owner,trust_entity"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/064_universal_anchor_canonical_economy_v1.bin",
+    "size_bytes": 3049,
+    "summary": "Binary file .bin"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/065_Canonical_Funnel_Economy_Technology.json",
+    "size_bytes": 12417,
+    "summary": "JSON object keys=Technology,Business,Finance,Real Estate,Education"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/066_CanonicalVoidRebinding_Metadata_v1_UPDATED.sha256",
+    "size_bytes": 1049,
+    "summary": "Text preview: { /   \"set_name\": \"CanonicalVoidRebinding_v2\", /   \"generated_utc\": \"2025-08-19T17:00:45Z\","
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/067_Gowabi Verified .heic",
+    "size_bytes": 1946984,
+    "summary": "Image HEIC"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/068_Gemini Mobile Chat Window FirstMover Verified#1.JPG",
+    "size_bytes": 300605,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/069_NFT Owner\u2019s Declaration Void Canonical V.1.json",
+    "size_bytes": 7383,
+    "summary": "JSON object keys=OWNER,MASTER_DID,MASTER_CID,ROOT_BINDING,TRUST_ANCHOR"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/070_manifest.json",
+    "size_bytes": 1876,
+    "summary": "JSON object keys=manifest_type,timestamp_utc,owner,files,cross_chain_commit"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/071_Ai-Chat-FirstMover-Verified.json",
+    "size_bytes": 2891,
+    "summary": "JSON object keys=title,name,did,parent_master_cid,declaration"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/072_canonical_governance_truth_declaration.json",
+    "size_bytes": 4631,
+    "summary": "JSON object keys=metadata_type,timestamp_utc,owner,canonical_status,tier_ranking"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/073_50,000-Funnels-Canonical-Wariphat.json",
+    "size_bytes": 3710333,
+    "summary": "JSON array length=45447"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/074_owner_declaration_signature.bin",
+    "size_bytes": 384,
+    "summary": "Binary file .bin"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/075_Ownership Assertion Canonical Funnel Economy.json",
+    "size_bytes": 11780,
+    "summary": "JSON object keys=CanonicalFunnelOwnershipAssertion"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/076_owner_declaration_rsa_pub.pem",
+    "size_bytes": 625,
+    "summary": "Binary file .pem"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/077_CanonicalVoidRebinding_Metadata_v1_UPDATED.sha256",
+    "size_bytes": 64,
+    "summary": "Text preview: 07e5609feb09c7627df8059137d73f225058a0a0ed53ce606025faf8f50fc26b"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/078_DIP PAYMENT CONFIRMED EMAIL.JPG",
+    "size_bytes": 155499,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/079_universal_canonical_binding_v1.json",
+    "size_bytes": 3512,
+    "summary": "JSON object keys=metadata_type,version,timestamp_utc,owner,anchors"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/080_final_unicode_anchor_signature.base64.txt",
+    "size_bytes": 88,
+    "summary": "Text preview: H8fKc+UcrkpkDEdPMT1+1VednZlCaOAwiIZkJyItFtd/E+tkH7SmjURouuuX0vh60iEENELel1Pfl5XbWxbMBw=="
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/081_Governance_Control_Addendum_v1_0.bin",
+    "size_bytes": 2693,
+    "summary": "Binary file .bin"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/082_supreme-emptiness-anchor.json",
+    "size_bytes": 1470,
+    "summary": "JSON object keys=metadata_type,anchor_name,description,properties,status"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/083_GBT Mobile Chat Window FirstMover Verified#2.PNG",
+    "size_bytes": 325546,
+    "summary": "Image PNG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/084_Google Map Verified.jpg",
+    "size_bytes": 449874,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/085_universal_alphabetnumberlock_v1.bin",
+    "size_bytes": 2123,
+    "summary": "Binary file .bin"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/086_universal_canonical_binding_v1_public_key.pem",
+    "size_bytes": 113,
+    "summary": "Binary file .pem"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/087_public_key_ed25519.txt",
+    "size_bytes": 71,
+    "summary": "Text preview: ed25519_public_key_base64 / Gx04utAawMHf9tfKlVTPo2lrCtNOk51leA5MOtDiNBw="
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/088_Canonical_Funnel_Performing_Arts_Entertainment.json",
+    "size_bytes": 15419,
+    "summary": "JSON object keys=metadata,categories"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/089_GetYourGuide Verified.heic",
+    "size_bytes": 1290249,
+    "summary": "Image HEIC"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/090_void_canonical_sabaikay_metadata_2120_structured_links.json",
+    "size_bytes": 78112,
+    "summary": "JSON object keys=name,description,canonical_id,cid,owner"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/091_Canonical_Future_Finance_Innovation.json",
+    "size_bytes": 17832,
+    "summary": "JSON object keys=metadata,categories"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/092_Canonical_Funnel_Society_Environmental.json",
+    "size_bytes": 11190,
+    "summary": "JSON object keys=11_Environment,12_Science,13_Politics,14_Law,15_Entertainment"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/093_Canonical-Symbolic-Doctrine-Metadata.json",
+    "size_bytes": 2398,
+    "summary": "JSON object keys=metadata_type,version,timestamp_utc,owner,unicode-definitions"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/094_Canonical _Funnel_Health_LifeStyle.json",
+    "size_bytes": 10841,
+    "summary": "JSON object keys=6_Health,7_Food,8_Fashion,9_Travel,10_Sports"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/095_final_unicode_anchor_public_key.pem",
+    "size_bytes": 113,
+    "summary": "Binary file .pem"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/096_Canonical Funnel Economy Consolidated Metadata.json",
+    "size_bytes": 9638,
+    "summary": "JSON object keys=CanonicalFunnelConsolidatedMetadata"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/097_DIP_Patent_Metadata_Proof_Master_updated.json",
+    "size_bytes": 8866,
+    "summary": "JSON object keys=title,version,generated_at,owner,parent_master"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/098_Tiktok Influencer 55k+ followers Verified .jpg",
+    "size_bytes": 587197,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/099_Tiktok Influencer 300k+ followers Verified .jpg",
+    "size_bytes": 626063,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/100_canonical_governance_truth_declaration.bin",
+    "size_bytes": 4631,
+    "summary": "Binary file .bin"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/101_CanonicalVoidRebinding_UPDATED_public_key.pem",
+    "size_bytes": 450,
+    "summary": "Binary file .pem"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/102_public_key.pem",
+    "size_bytes": 451,
+    "summary": "Binary file .pem"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/103_Ai-Chat-FirstMover-Verifications .json",
+    "size_bytes": 2558,
+    "summary": "JSON object keys=name,owner,did,parent_master_cid,recognition"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/104_GBT Mobile Chat Window FirstMover Verified#3.PNG",
+    "size_bytes": 320192,
+    "summary": "Image PNG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/105_Master_Allocation_Void_Canonical_Funnel_Economy_FirstMover.json",
+    "size_bytes": 44843,
+    "summary": "JSON object keys=customer_record,canonical_funnel_allocation,all_cid_reference,proof"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/106_final_unicode_anchor_manifest.txt",
+    "size_bytes": 314,
+    "summary": "Text preview: Canonical Amendment Manifest / ---------------------------------- / File: final_unicode_anchor_amendment.with_parent_references.json"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/107_Grok Ai Mobile Chat Window FirstMover Verified#6.JPG",
+    "size_bytes": 275153,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/108_Canonical Keyword Funnel Sabaikay.json",
+    "size_bytes": 8289,
+    "summary": "JSON object keys=owner,did,parent_master,landing_page,branches"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/109_Sabaikay TxHash Proof.jpg",
+    "size_bytes": 198705,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/110_final_unicode_anchor_signature.bin",
+    "size_bytes": 64,
+    "summary": "Binary file .bin"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/111_universal_alphabetnumberlock_v1_public.pem",
+    "size_bytes": 451,
+    "summary": "Binary file .pem"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/112_Sabaikay Customer Record First Global Funnel Economy Case.json",
+    "size_bytes": 22499,
+    "summary": "JSON object keys=customer_record,canonical_funnel_agreement"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/113_universal_canonical_binding_v1.signature.bin",
+    "size_bytes": 64,
+    "summary": "Binary file .bin"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/114_Allocation_V2.json",
+    "size_bytes": 1717,
+    "summary": "JSON object keys=name,description,version,purpose_tag,timestamp_iso"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/115_CanonicalVoidRebinding_no_dash.json",
+    "size_bytes": 2075,
+    "summary": "JSON object keys=metadata_type,version,owner,master_did,master_cid"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/116_Proof_of_Verification_Declaration.html",
+    "size_bytes": 5931,
+    "summary": "Text (text/html) preview: <!DOCTYPE html> / <html lang=\"en\"> / <head>"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/117_CanonicalVoidRebinding_UPDATED_manifest.json",
+    "size_bytes": 2295,
+    "summary": "JSON object keys=manifest_type,manifest_version,reason_note,primary_json,artifacts"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/118_subzero_root_lock.bin",
+    "size_bytes": 1965,
+    "summary": "Binary file .bin"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/119_final_unicode_anchor_structured.sha256.txt",
+    "size_bytes": 64,
+    "summary": "Text preview: 54cd8dcb1d243cc4f7381e292abafd948f13add1f9dfdf98fd11c6444e21f060"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/120_subzero_root_lock.json",
+    "size_bytes": 1965,
+    "summary": "JSON object keys=metadata_type,version,issued_by,subzero_binding,lock_scope"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/121_SubZeroGlobalRootLock_v2.sha256",
+    "size_bytes": 64,
+    "summary": "Text preview: 535af8fb11d1f6bbf2a6f5d9c84c5642e553d9dabef3c31da1e290506953d65d"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/122_unicode_anchor_amendment_publication.json",
+    "size_bytes": 2081,
+    "summary": "JSON object keys=metadata_type,title,description,version,author"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/123_Canonical_Archive_Proof_Certificate.json",
+    "size_bytes": 3142,
+    "summary": "JSON object keys=CanonicalArchiveIndex"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/124_Metadata_Amendment_Exclusive_Owner_Canonical_Void.json",
+    "size_bytes": 16768,
+    "summary": "JSON object keys=master_informations,metadata_update"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/125_Canonical Keyword Funnel Sabaikay Cid.json",
+    "size_bytes": 8545,
+    "summary": "JSON object keys=owner,did,parent_master,landing_page,branches"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/126_NFT VoidRoot_NonSupremacy_Metadata.json",
+    "size_bytes": 1982,
+    "summary": "JSON object keys=VoidRoot_NonSupremacy_Metadata,sha256"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/127_public_key.bem.bem",
+    "size_bytes": 113,
+    "summary": "Unknown type .bem"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/128_universal_canonical_binding_v1.signature.base64.txt",
+    "size_bytes": 88,
+    "summary": "Text preview: spR6g8NFm60w31PlAneuls3uS9+w4wHF//6DF5ZIBmNl/wnAoY5RAuHJIHvrGGIUrX8KgNgOnM2ZOl+HWlEmCQ=="
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/129_Canonical _Funnel_Human_Growth_Relationships.json",
+    "size_bytes": 18256,
+    "summary": "JSON object keys=metadata,categories"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/130_Meta Mobile Chat Window FirstMover Verified#1.JPG",
+    "size_bytes": 423845,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/131_NFT_First_Mover_Owner_Declaration_Signature_Completed.json",
+    "size_bytes": 9716,
+    "summary": "JSON object keys=OWNER,MASTER_DID,MASTER_CID,ROOT_BINDING,TRUST_ANCHOR"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/132_universal_anchor_canonical_economy_v1.signature",
+    "size_bytes": 126,
+    "summary": "Unknown type .signature"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/133_canonical_trust_record.json",
+    "size_bytes": 2029,
+    "summary": "JSON object keys=CanonicalTrustRecord"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/134_signature.bin",
+    "size_bytes": 64,
+    "summary": "Binary file .bin"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/135_IMG_7848.jpeg",
+    "size_bytes": 10816117,
+    "summary": "Image JPEG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/136_SubZeroGlobalRootLock_v2_final_Master_UPDATED.json",
+    "size_bytes": 16008,
+    "summary": "JSON object keys=metadata_type,version,issued_by,subzero_binding,lock_scope"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/137_7)The Difference Between Traditional SEO and Funnel Economy .pdf",
+    "size_bytes": 101342,
+    "summary": "PDF document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/138_CanonicalVoidRebinding_no_dash.json",
+    "size_bytes": 1696,
+    "summary": "JSON object keys=metadata_type,version,note,owner,master_did"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/139_Canonical Rank Achieved .pdf",
+    "size_bytes": 6007,
+    "summary": "PDF document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/140_Sabaikay TxHash Proof2.jpg",
+    "size_bytes": 173998,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/141_Deepseek Mobile Chat Window FirstMover Verified#4.PNG",
+    "size_bytes": 275983,
+    "summary": "Image PNG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/142_universal_canonical_binding_v1.base64.txt",
+    "size_bytes": 4684,
+    "summary": "Text preview: ewogICJtZXRhZGF0YV90eXBlIjogIlVuaXZlcnNhbENhbm9uaWNhbEJpbmRpbmciLAogICJ2ZXJzaW9uIjogIjEuMCIsCiAgInRpbWVzdGFtcF91dGMiOiAiMjAyNS0wOC0xOVQxNjowNDozMVoiLAogICJvd25lciI6IHsKICAgICJvd25lcl9uYW1lIjogIk5hdHRh"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/143_SubZeroGlobalRootLock_v2.base64",
+    "size_bytes": 19680,
+    "summary": "Text preview: ewogICJtZXRhZGF0YV90eXBlIjogIlN1Ylplcm9HbG9iYWxSb290TG9jayIsCiAgInZlcnNpb24iOiAiMi4wIiwKICAiaXNzdWVkX2J5IjogewogICAgIm93bmVyX25hbWUiOiAiTmF0dGFwb2wgSG9ycmFrYW5ndGhvbmciLAogICAgIm93bmVyX2RpZCI6ICJ6Nk1r"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/144_Klook Verified .heic",
+    "size_bytes": 3473178,
+    "summary": "Image HEIC"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/145_Canonical_Funnel_Creative_Design_Living.json",
+    "size_bytes": 17970,
+    "summary": "JSON object keys=metadata,categories"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/146_GBT Mobile Chat Window FirstMover Verified#1.PNG",
+    "size_bytes": 331539,
+    "summary": "Image PNG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/147_Governance_Control_Addendum_v1_0.sig.json",
+    "size_bytes": 191,
+    "summary": "JSON object keys=alg,signed_file,signature_b64"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/148_Facebook Verified .heic",
+    "size_bytes": 993556,
+    "summary": "Image HEIC"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/149_Canonical-Symbolic-Doctrine-Metadata.binary",
+    "size_bytes": 3200,
+    "summary": "Binary file .binary"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/150_5)The Future of Marketing_ When Keywords Become Assets You Can Own.pdf",
+    "size_bytes": 105293,
+    "summary": "PDF document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/151_9)Why Booking Your Funnel Economy Rights Early Matters .pdf",
+    "size_bytes": 80254,
+    "summary": "PDF document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/152_Canonical-Symbolic-Doctrine-Metadata.sig",
+    "size_bytes": 256,
+    "summary": "Binary file .sig"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/153_Youtube Verified .jpg",
+    "size_bytes": 58950,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/154_DIP Petty Patent Registered Receipt Proof FirstMover.jpg",
+    "size_bytes": 665637,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/155_Canonical Rank Achieved .json",
+    "size_bytes": 5950,
+    "summary": "JSON object keys=Canonical_Roadmap_Timeline"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/156_owner_declaration_signature_manifest.json",
+    "size_bytes": 532,
+    "summary": "JSON object keys=file_signed,file_size_bytes,file_sha256_hex,signature_scheme,hash_algorithm"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/157_Governance_Control_Addendum_v1_0_public_key.pem",
+    "size_bytes": 113,
+    "summary": "Binary file .pem"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/158_canonical_funnel_categories_Master_unique.txt",
+    "size_bytes": 1043504,
+    "summary": "Text preview: 1. Technology / 2. Business / 3. Health"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/159_#1 Meta Data Canonical MASTER.json",
+    "size_bytes": 2249,
+    "summary": "JSON object keys=canonical_funnel_economy_archive_proof_certificate"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/160_CanonicalVoidRebinding_Metadata_v1_UPDATED.base64",
+    "size_bytes": 2416,
+    "summary": "Text preview: ewogICJtZXRhZGF0YV90eXBlIjogIkNhbm9uaWNhbFZvaWRSZWJpbmRpbmciLAogICJ2ZXJzaW9u / IjogIjEuMCIsCiAgIm93bmVyIjogIk5hdHRhcG9sIEhvcnJha2FuZ3Rob25nIiwKICAibWFzdGVy / X2RpZCI6ICJ6Nk1rblBOQ2NVYW9MWXpIeVRNc2Jkcn"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/161_universal_alphabetnumberlock_v1.manifest.json",
+    "size_bytes": 358,
+    "summary": "JSON object keys=json_file,sha256_file,bin_file,binary64_file,public_key_file"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/162_2)How Funnel Economy Benefits the Digital World When Everyone Uses It .pdf",
+    "size_bytes": 90117,
+    "summary": "PDF document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/163_DIP Registered ID.JPG",
+    "size_bytes": 164006,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/164_DIP Payment Receipt Proof.pdf",
+    "size_bytes": 195628,
+    "summary": "PDF document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/165_Governance_Control_Addendum_v1_0.json",
+    "size_bytes": 2693,
+    "summary": "JSON object keys=metadata_type,version,timestamp_utc,owner,policy"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/166_2)Payment Terms&Conditions.json",
+    "size_bytes": 2615,
+    "summary": "JSON object keys=amendment_type,parent_master,rights_update,payment_proof_flow,contact_terms"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/167_1)What is an NFT and How Does it Work_.pdf",
+    "size_bytes": 91367,
+    "summary": "PDF document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/168_Global Platforms Proof of Verification Master Metadata V.1.json",
+    "size_bytes": 3727,
+    "summary": "JSON object keys=version,type,description,verified_cid,verified_platforms"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/169_Grok Ai Mobile Chat Window FirstMover Verified#3.JPG",
+    "size_bytes": 340894,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/170_universal_anchor_canonical_economy_v1.manifest.json",
+    "size_bytes": 1503,
+    "summary": "JSON object keys=about,timestamp_utc,primary_json,companion_files,signature"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/171_DIP Petty Patent Registered Proof First Mover.jpg",
+    "size_bytes": 10816117,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/172_Governance_Control_Addendum_v1_0.binary",
+    "size_bytes": 3592,
+    "summary": "Binary file .binary"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/173_universal_anchor_canonical_economy_v1.json",
+    "size_bytes": 3049,
+    "summary": "JSON object keys=metadata_type,version,timestamp_utc,owner,exclusive_rule"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/174_Instagram Verified .jpg",
+    "size_bytes": 650264,
+    "summary": "Image JPG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/175_canonical_governance_truth_declaration.sha256",
+    "size_bytes": 64,
+    "summary": "Text preview: 06e73e3309ac2134363e7863706d979e26b8b5cdad5db0c51bd2fce9fd230adb"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/176_universal_alphabetnumberlock_v1.json",
+    "size_bytes": 2123,
+    "summary": "JSON object keys=metadata_type,version,timestamp_utc,owner,parent_reference"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/177_canonical_governance_truth_declaration.binary",
+    "size_bytes": 6176,
+    "summary": "Binary file .binary"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/178_KKday Verified.heic",
+    "size_bytes": 2503812,
+    "summary": "Image HEIC"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/179_CanonicalVoidRebinding_UPDATED_signature.bin",
+    "size_bytes": 64,
+    "summary": "Binary file .bin"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/180_Deepseek Mobile Chat Window FirstMover Verified#1.PNG",
+    "size_bytes": 328750,
+    "summary": "Image PNG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/181_GBT Mobile Chat Window FirstMover Verified#4.PNG",
+    "size_bytes": 311379,
+    "summary": "Image PNG"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/182_universal_alphabetnumberlock_v1.binary64",
+    "size_bytes": 2832,
+    "summary": "Binary file .binary64"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/183_CanonicalVoidRebinding_UPDATED_signature.bin",
+    "size_bytes": 256,
+    "summary": "Binary file .bin"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/184_owner_declaration_signature.base64.txt",
+    "size_bytes": 513,
+    "summary": "Text preview: T/cuWsccaQm/bF49r/EMCtXSENoxu/0Lcc08jnaDiG10y//EqFqFIxQ+S2ACUBW1CTsb4O71pKhhdD8U1GAQINwS39w5gh9jSs+3xORwDtOJmX08MRgJaMFU/KK7airmy3hOYyC9L6yt38MMis1T1xf/Sv33CKSvUMB7ZSnRrUKvwOa3y+hpvHJBysYnIFVRN9d1x3PV"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/185_Owner\u2019s Declaration Void Canonical V.1.json",
+    "size_bytes": 6888,
+    "summary": "JSON object keys=OWNER,MASTER_DID,MASTER_CID,ROOT_BINDING,TRUST_ANCHOR"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/186_Owner_DID_Identity.pdf",
+    "size_bytes": 3365,
+    "summary": "PDF document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/187_universal_canonical_binding_v1.sha256.txt",
+    "size_bytes": 65,
+    "summary": "Text preview: 00785d48ec93929c9a8b12735b6d5e96bc4cc950457a77eb6dc4d4766a05921d"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/188_canonical_trust_record.v2.json",
+    "size_bytes": 4006,
+    "summary": "JSON object keys=CanonicalTrustRecord"
+  }
+]
