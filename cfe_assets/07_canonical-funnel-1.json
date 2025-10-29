@@ -1,0 +1,22 @@
+{
+    "name": "Canonical Funnel #1",
+    "description": "The first Canonical Funnel NFT inscribed on Ethereum. Proof of ownership and trust.",
+    "owner": "Nattapol Horrakangtong",
+    "trust": "WARIPHAT DIGITAL HOLDING TRUST",
+    "canonical_id": "bafybeibscayh3uituphl4kzypof4lgv2uv2nwbdrqv",
+    "image": "ipfs://bafkreiem5f3canonicalproofqr",
+    "attributes": [
+        {
+            "trait_type": "Funnel Type",
+            "value": "Canonical Proof"
+        },
+        {
+            "trait_type": "Blockchain",
+            "value": "Ethereum"
+        },
+        {
+            "trait_type": "First Mover",
+            "value": "Yes"
+        }
+    ]
+}
