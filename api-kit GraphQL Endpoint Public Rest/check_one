@@ -1,0 +1,83 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# drop placeholder argument inserted by xargs wrapper
+if [[ ${1:-} == _ ]]; then
+  shift || true
+fi
+
+# ignore empty lines
+if [[ $# -eq 0 ]]; then
+  exit 0
+fi
+
+group=$1
+shift || true
+
+# skip header row
+if [[ $group == "group" ]]; then
+  exit 0
+fi
+
+if [[ $# -eq 0 ]]; then
+  echo "[check_one] missing index" >&2
+  exit 1
+fi
+index=$1
+shift || true
+
+name_parts=()
+cid=""
+url=""
+
+while [[ $# -gt 0 ]]; do
+  token=$1
+  shift || true
+  if [[ $token == baf* ]]; then
+    cid=$token
+    if [[ $# -gt 0 ]]; then
+      url=$1
+      shift || true
+    fi
+    break
+  else
+    name_parts+=("$token")
+  fi
+done
+
+if [[ -z $cid || -z $url ]]; then
+  echo "[check_one] could not parse CID/URL for group=$group index=$index" >&2
+  exit 1
+fi
+
+name="${name_parts[*]}"
+# collapse multiple spaces
+name=$(echo "$name" | sed 's/  */ /g')
+
+curl_opts=(-sS -m 30 -o /dev/null -w '%{http_code}')
+bare_status=$({ curl "${curl_opts[@]}" "$url"; } 2>/dev/null || echo "000")
+appended_status="NA"
+appended_url="NA"
+
+if [[ $bare_status != "200" ]]; then
+  # percent-encode filename portion to append when CID represents a directory
+  enc_name=$(TMPDIR="$PWD" python3 -c 'import sys, urllib.parse; print(urllib.parse.quote(sys.argv[1], safe=""))' "$name" 2>/dev/null || true)
+  if [[ -z $enc_name ]]; then
+    enc_name=${name// /%20}
+    enc_name=${enc_name//#/%23}
+    enc_name=${enc_name//&/%26}
+    enc_name=${enc_name//(/%28}
+    enc_name=${enc_name//)/%29}
+    enc_name=${enc_name//,/%2C}
+  fi
+  appended_url="${url%/}/$enc_name"
+  appended_status=$({ curl "${curl_opts[@]}" "$appended_url"; } 2>/dev/null || echo "000")
+fi
+
+# serialize result with a simple directory lock to avoid interleaving
+while ! mkdir ipfs_status.lock 2>/dev/null; do
+  sleep 0.1
+done
+printf '%s\t%s\t%s\t%s\t%s\t%s\t%s\n' \
+  "$group" "$index" "$name" "$cid" "$bare_status" "$appended_status" "$appended_url" >> ipfs_status.tsv
+rmdir ipfs_status.lock

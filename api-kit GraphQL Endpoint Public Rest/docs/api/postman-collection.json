@@ -1,0 +1,119 @@
+{
+  "info": {
+    "name": "Canonical Funnel API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Postman collection for Canonical Funnel REST API."
+  },
+  "item": [
+    {
+      "name": "List groups",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{CFE_API_KEY}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/groups",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": ["api", "v1", "groups"]
+        }
+      }
+    },
+    {
+      "name": "Group items",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{CFE_API_KEY}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/groups/{{group}}/items",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": ["api", "v1", "groups", "{{group}}", "items"]
+        }
+      }
+    },
+    {
+      "name": "Trust records",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{CFE_API_KEY}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/trust-records",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": ["api", "v1", "trust-records"]
+        }
+      }
+    },
+    {
+      "name": "Manifest summaries",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{CFE_API_KEY}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/manifests",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": ["api", "v1", "manifests"]
+        }
+      }
+    },
+    {
+      "name": "Keyword stats",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "{{CFE_API_KEY}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/v1/keywords/stats",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": ["api", "v1", "keywords", "stats"]
+        }
+      }
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8080"
+    },
+    {
+      "key": "CFE_API_KEY",
+      "value": ""
+    },
+    {
+      "key": "group",
+      "value": "canonical_funnel_wariphat"
+    }
+  ]
+}

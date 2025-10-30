@@ -1,0 +1,189 @@
+openapi: 3.1.0
+info:
+  title: Canonical Funnel API
+  version: "1.0.0"
+  description: >
+    Public REST API providing access to Canonical Funnel datasets, trust records,
+    manifests, and keyword statistics. All endpoints require an API key when the
+    server is configured with `CFE_API_KEY`.
+servers:
+  - url: https://api.example.com
+    description: Production
+  - url: http://localhost:8080
+    description: Local development
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: x-api-key
+  schemas:
+    GroupList:
+      type: object
+      properties:
+        groups:
+          type: array
+          items:
+            type: string
+    GroupItems:
+      type: object
+      properties:
+        group:
+          type: string
+        count:
+          type: integer
+        items:
+          type: array
+          items:
+            type: object
+            properties:
+              index:
+                type: integer
+              name:
+                type: string
+              cid:
+                type: string
+              url:
+                type: string
+              timestamp_utc:
+                type: string
+    TrustRecordResponse:
+      type: object
+      properties:
+        count:
+          type: integer
+        records:
+          type: array
+          items:
+            type: object
+            properties:
+              relative:
+                type: string
+              owner:
+                type: string
+              masterDid:
+                type: string
+              masterCid:
+                type: string
+              keys:
+                type: array
+                items:
+                  type: string
+    ManifestResponse:
+      type: object
+      properties:
+        count:
+          type: integer
+        manifests:
+          type: array
+          items:
+            type: object
+            properties:
+              relative:
+                type: string
+              keys:
+                type: array
+                items:
+                  type: string
+              structure:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    path:
+                      type: string
+                    type:
+                      type: string
+                    detail:
+                      type: string
+    KeywordStats:
+      type: object
+      properties:
+        filesProcessed:
+          type: integer
+        keywords:
+          type: integer
+        categories:
+          type: integer
+        declaredLots:
+          type: array
+          items:
+            type: string
+        declaredCategoryTotals:
+          type: array
+          items:
+            type: integer
+paths:
+  /api/v1/groups:
+    get:
+      summary: List groups
+      tags: [Groups]
+      security:
+        - ApiKeyAuth: []
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GroupList'
+  /api/v1/groups/{group}/items:
+    get:
+      summary: List items within a group
+      tags: [Groups]
+      security:
+        - ApiKeyAuth: []
+      parameters:
+        - name: group
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Group items
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GroupItems'
+        '404':
+          description: Group not found
+  /api/v1/trust-records:
+    get:
+      summary: Fetch canonical trust records
+      tags: [Trust]
+      security:
+        - ApiKeyAuth: []
+      responses:
+        '200':
+          description: Trust records
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TrustRecordResponse'
+  /api/v1/manifests:
+    get:
+      summary: Fetch manifest summaries
+      tags: [Manifests]
+      security:
+        - ApiKeyAuth: []
+      responses:
+        '200':
+          description: Manifest summaries
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ManifestResponse'
+  /api/v1/keywords/stats:
+    get:
+      summary: Retrieve keyword statistics
+      tags: [Keywords]
+      security:
+        - ApiKeyAuth: []
+      responses:
+        '200':
+          description: Keyword statistics
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/KeywordStats'

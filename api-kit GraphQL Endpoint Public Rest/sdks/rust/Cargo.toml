@@ -1,0 +1,11 @@
+[package]
+name = "canonical_funnel_sdk"
+version = "0.1.0"
+edition = "2021"
+description = "Rust client for the Canonical Funnel REST API"
+license = "MIT"
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
