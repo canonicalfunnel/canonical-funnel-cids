@@ -1,0 +1,16 @@
+{
+  "manifest": {
+    "assets": [
+      {
+        "file": "artifact.bin",
+        "sha256": "a3c6acb4dd171f305d805c0d1344a0f794b228b2c78e9ee166950e075256409c"
+      }
+    ],
+    "documents": {
+      "primary": {
+        "name": "nested.json",
+        "sha256": "b730d3f6046274abc161caef3e3b47a094b89e82b99c3179ceea383567bfebc7"
+      }
+    }
+  }
+}

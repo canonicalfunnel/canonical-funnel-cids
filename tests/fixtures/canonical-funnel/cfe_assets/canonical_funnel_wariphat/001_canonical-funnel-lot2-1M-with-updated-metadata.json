@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "lot_number": 1,
+    "Canonical Funnel Proof Certificate": {
+      "Scope": "Lot Scope",
+      "Quantity": 3
+    }
+  },
+  "_canonical_metadata": {
+    "name": "Fixture Lot",
+    "category_range": "A-B",
+    "funnel_category_count": 2
+  },
+  "keywords": ["alpha", "beta"],
+  "funnels": {
+    "Primary": ["cat1", "cat2"],
+    "Secondary": ["cat3"]
+  },
+  "Funnel Category #1": ["x", "y"]
+}

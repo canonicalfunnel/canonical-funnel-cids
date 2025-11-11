@@ -1,5 +1,10 @@
 'use strict';
 
+const fs = require('fs');
+const path = require('path');
+
+const envPath = path.resolve(__dirname, '../../.env.local');
+
 describe('config module', () => {
   beforeEach(() => {
     jest.resetModules();
@@ -8,11 +13,24 @@ describe('config module', () => {
   afterEach(() => {
     delete process.env.CFE_IPFS_CID;
     delete process.env.CFE_DID;
+    delete process.env.FILE_ONLY_VAR;
+    delete process.env.SHOULD_NOT_OVERRIDE;
+    delete process.env.EMPTY_VALUE_VAR;
+    if (fs.existsSync(envPath)) {
+      fs.unlinkSync(envPath);
+    }
+    jest.dontMock('fs');
   });
 
   it('provides default values when environment variables are missing', () => {
     const { getEnv } = require('../../src/config');
     expect(getEnv('NON_EXISTENT', { defaultValue: 'fallback' })).toBe('fallback');
+  });
+
+  it('treats empty environment values as missing', () => {
+    process.env.EMPTY_VALUE_VAR = '';
+    const { getEnv } = require('../../src/config');
+    expect(getEnv('EMPTY_VALUE_VAR', { defaultValue: 'filled' })).toBe('filled');
   });
 
   it('throws when required environment variables are missing', () => {
@@ -30,6 +48,31 @@ describe('config module', () => {
     const { config } = require('../../src/config');
     expect(config.canonicalFunnel.ipfsCid).toBe('bafy-test-config');
     expect(config.canonicalFunnel.did).toBe('did:key:test-config');
+  });
+
+  it('loads variables from .env.local when present', () => {
+    fs.writeFileSync(envPath, 'FILE_ONLY_VAR=loaded-from-file\nEMPTY_VALUE_VAR=');
+    delete process.env.FILE_ONLY_VAR;
+    delete process.env.EMPTY_VALUE_VAR;
+
+    jest.isolateModules(() => {
+      const { getEnv } = require('../../src/config');
+      expect(getEnv('FILE_ONLY_VAR')).toBe('loaded-from-file');
+      expect(getEnv('EMPTY_VALUE_VAR', { defaultValue: 'fallback' })).toBe(
+        'fallback',
+      );
+    });
+  });
+
+  it('does not override variables that already exist when loading env file', () => {
+    fs.writeFileSync(envPath, 'SHOULD_NOT_OVERRIDE=from-file');
+    process.env.SHOULD_NOT_OVERRIDE = 'preset';
+
+    jest.isolateModules(() => {
+      const { loadEnvFile, getEnv } = require('../../src/config');
+      loadEnvFile();
+      expect(getEnv('SHOULD_NOT_OVERRIDE')).toBe('preset');
+    });
   });
 
   it('skips loading when env file is missing', () => {

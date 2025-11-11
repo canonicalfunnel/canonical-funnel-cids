@@ -1,0 +1,26 @@
+[
+  {
+    "file": "exclusive_master_canonical_wariphat/133_canonical_trust_record.json"
+  },
+  {
+    "file": "exclusive_master_canonical_wariphat/005_universal_canonical_binding_manifest.json"
+  },
+  {
+    "file": "exclusive_master_canonical_wariphat/artifact.bin"
+  },
+  {
+    "file": "exclusive_master_canonical_wariphat/nested.json"
+  },
+  {
+    "file": "canonical_funnel_wariphat/001_canonical-funnel-lot2-1M-with-updated-metadata.json"
+  },
+  {
+    "file": "exclusive_master_canonical_wariphat/allocation.json"
+  },
+  {
+    "file": "exclusive_master_canonical_wariphat/signature.json"
+  },
+  {
+    "file": "exclusive_master_canonical_wariphat/signature.sig"
+  }
+]

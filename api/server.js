@@ -17,6 +17,7 @@ const {
   collectManifestSummaries,
   buildKeywordStats,
 } = require('../src/services/canonical-funnel');
+const { loadCuratedInsights } = require('../src/services/canonical-insights');
 const { apiConfig } = require('./config');
 
 const app = express();
@@ -99,6 +100,17 @@ if (apiConfig.enableRest) {
     res.json(buildKeywordStats());
   });
 
+  router.get(`/${apiConfig.apiVersion}/insights`, (req, res) => {
+    try {
+      res.json(loadCuratedInsights());
+    } catch (error) {
+      res.status(500).json({
+        error: 'InsightsUnavailable',
+        message: error.message,
+      });
+    }
+  });
+
   app.use('/api', router);
 }
 
@@ -115,6 +127,7 @@ async function initialiseGraphql() {
       trustRecords: [TrustRecord!]!
       manifests: [ManifestSummary!]!
       keywordStats: KeywordStats!
+      insights: Insights!
     }
 
     type Group {
@@ -158,6 +171,26 @@ async function initialiseGraphql() {
       declaredLots: [String!]!
       declaredCategoryTotals: [Int!]!
     }
+
+    type Insights {
+      generatedAt: String
+      trustStructures: [TrustStructure!]!
+      manifestPatterns: [ManifestPattern!]!
+    }
+
+    type TrustStructure {
+      relative: String!
+      owner: String
+      masterDid: String
+      masterCid: String
+      structure: [StructureEntry!]!
+    }
+
+    type ManifestPattern {
+      relative: String!
+      keys: [String!]!
+      structure: [StructureEntry!]!
+    }
   `;
 
   const resolvers = {
@@ -177,6 +210,7 @@ async function initialiseGraphql() {
       trustRecords: () => collectTrustRecords(),
       manifests: () => collectManifestSummaries(),
       keywordStats: () => buildKeywordStats(),
+      insights: () => loadCuratedInsights(),
     },
     GroupItem: {
       index: (item) => item.index,

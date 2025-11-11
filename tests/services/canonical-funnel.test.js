@@ -13,6 +13,9 @@ const {
   resolveAssetPath,
   describeStructure,
   buildKeywordStats,
+  loadAssetsSummary,
+  loadGroupedSummary,
+  computeAssetDigest,
   runCli,
 } = require('../../src/services/canonical-funnel');
 
@@ -26,15 +29,36 @@ describe('canonical funnel service', () => {
 
   it('loads asset index with expected groups', () => {
     const index = loadAssetIndex();
-    expect(index.items_total).toBe(195);
+    expect(index.items_total).toBe(6);
     expect(Object.keys(index.groups || {})).toContain(
       'canonical_funnel_wariphat',
     );
   });
 
+  it('lists canonical groups in alphabetical order', () => {
+    const groups = listGroups();
+    expect(groups).toEqual([
+      'canonical_funnel_wariphat',
+      'exclusive_master_canonical_wariphat',
+    ]);
+  });
+
+  it('loads assets and grouped summaries', () => {
+    const summary = loadAssetsSummary();
+    const grouped = loadGroupedSummary();
+    expect(summary).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({
+          file: expect.stringContaining('canonical_trust_record.json'),
+        }),
+      ]),
+    );
+    expect(grouped).toHaveProperty('canonical_funnel_wariphat.count', 3);
+  });
+
   it('lists items from a canonical group', () => {
     const items = listGroupItems('canonical_funnel_wariphat');
-    expect(items.length).toBeGreaterThanOrEqual(7);
+    expect(items.length).toBe(3);
     expect(items[0]).toHaveProperty('name');
   });
 
@@ -48,8 +72,8 @@ describe('canonical funnel service', () => {
   it('collects trust record summaries', () => {
     const records = collectTrustRecords();
     expect(records.length).toBeGreaterThanOrEqual(1);
-    expect(records[0].owner).toEqual('Nattapol Horrakangthong');
-    expect(records[0].masterDid).toMatch(/^z6M/);
+    expect(records[0].owner).toEqual('Fixture Owner');
+    expect(records[0].masterDid).toEqual('z6MfixtureDid');
   });
 
   it('throws when accessing unknown group', () => {
@@ -71,14 +95,21 @@ describe('canonical funnel service', () => {
     );
   });
 
-  it('provides structural descriptions for primitives', () => {
-    const details = describeStructure({ value: 1, nested: { flag: true } });
+  it('provides structural descriptions for arrays and primitives', () => {
+    const details = describeStructure({
+      value: 1,
+      nested: { flag: true, list: ['item'] },
+    });
     const numberEntry = details.find((entry) => entry.type === 'number');
     const boolEntry = details.find(
       (entry) => entry.path === 'nested.flag' && entry.type === 'boolean',
     );
+    const arrayEntry = details.find(
+      (entry) => entry.path === 'nested.list' && entry.type === 'array',
+    );
     expect(numberEntry).toBeDefined();
     expect(boolEntry).toBeDefined();
+    expect(arrayEntry).toBeDefined();
   });
 
   it('collects manifest structures', () => {
@@ -88,10 +119,24 @@ describe('canonical funnel service', () => {
     expect(Array.isArray(manifests[0].structure)).toBe(true);
   });
 
-  it('computes keyword statistics', () => {
+  it('computes keyword statistics from fixture payloads', () => {
     const stats = buildKeywordStats();
-    expect(stats.filesProcessed).toBeGreaterThan(0);
-    expect(stats.keywords).toBeGreaterThan(0);
+    expect(stats.filesProcessed).toBe(3);
+    expect(stats.keywords).toBe(12);
+    expect(stats.categories).toBe(5);
+    expect(stats.declaredLots).toEqual(
+      expect.arrayContaining(['Lot 1', 'Lot Scope', 'Master Record']),
+    );
+    expect(stats.declaredCategoryTotals).toEqual([2]);
+  });
+
+  it('computes asset digests for referenced files', () => {
+    const digest = computeAssetDigest(
+      'exclusive_master_canonical_wariphat/artifact.bin',
+    );
+    expect(digest).toBe(
+      'a3c6acb4dd171f305d805c0d1344a0f794b228b2c78e9ee166950e075256409c',
+    );
   });
 });
 

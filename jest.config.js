@@ -15,4 +15,6 @@ module.exports = {
   },
   coverageDirectory: 'coverage',
   verbose: false,
+  setupFiles: ['<rootDir>/tests/setup-env.js'],
+  setupFilesAfterEnv: ['<rootDir>/tests/setup-after-env.js'],
 };

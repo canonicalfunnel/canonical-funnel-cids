@@ -1,0 +1,9 @@
+{
+  "metadata": {
+    "lot_number": 2
+  },
+  "keywords": ["gamma"],
+  "funnels": {
+    "Primary": ["cat4"]
+  }
+}
