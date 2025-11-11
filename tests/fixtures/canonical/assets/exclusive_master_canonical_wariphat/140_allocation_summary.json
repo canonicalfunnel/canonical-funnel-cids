@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "Primary",
+      "entries": [
+        { "rights_holder": "Holder A", "allocation_share": 60 },
+        { "rights_holder": "Holder B", "allocation_share": 40 }
+      ]
+    }
+  ]
+}

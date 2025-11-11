@@ -1,0 +1,9 @@
+{
+  "metadata": {
+    "signature_base64": "YmluYXJ5LXNpZ25hdHVyZQ==",
+    "public_key": "z6Mkeysample",
+    "certificate": {
+      "sha256": "abc123"
+    }
+  }
+}

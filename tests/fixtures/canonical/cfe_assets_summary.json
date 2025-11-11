@@ -1,0 +1,92 @@
+[
+  {
+    "group": "canonical_funnel_wariphat",
+    "file": "canonical_funnel_wariphat/001_canonical-funnel-lot2-1M-with-updated-metadata.json",
+    "size_bytes": 534,
+    "summary": "JSON object keys=metadata,_canonical_metadata,keywords,funnels,Funnel Category #00001"
+  },
+  {
+    "group": "canonical_funnel_wariphat",
+    "file": "canonical_funnel_wariphat/002_canonical-funnel-summary.json",
+    "size_bytes": 108,
+    "summary": "JSON object keys=summary,generatedAt"
+  },
+  {
+    "group": "canonical_funnel_wariphat",
+    "file": "canonical_funnel_wariphat/003_canonical-funnel-lot1-1M.json",
+    "size_bytes": 448,
+    "summary": "JSON object keys=metadata,_canonical_metadata,keywords,funnels,Funnel Category #00001"
+  },
+  {
+    "group": "canonical_funnel_wariphat",
+    "file": "canonical_funnel_wariphat/004_canonical_funnel_metadata_now.svg",
+    "size_bytes": 234,
+    "summary": "SVG preview"
+  },
+  {
+    "group": "canonical_funnel_wariphat",
+    "file": "canonical_funnel_wariphat/005_Canonical-Funnel-Wariphat.png.jpg",
+    "size_bytes": 22,
+    "summary": "Image preview"
+  },
+  {
+    "group": "canonical_funnel_wariphat",
+    "file": "canonical_funnel_wariphat/006_1#Canonical_Funnel_Master_Record_1M.json",
+    "size_bytes": 566,
+    "summary": "JSON object keys=metadata,_canonical_metadata,keywords,funnels,Funnel Category #00001,Funnel Category #00002"
+  },
+  {
+    "group": "canonical_funnel_wariphat",
+    "file": "canonical_funnel_wariphat/007_canonical-funnel-overview.txt",
+    "size_bytes": 44,
+    "summary": "Text document"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/005_universal_canonical_binding_manifest.json",
+    "size_bytes": 265,
+    "summary": "JSON object keys=manifest_version,owner,master_did,entries"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/023_manifest.json",
+    "size_bytes": 469,
+    "summary": "JSON object keys=manifest_version,owner,payload"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/133_canonical_trust_record.json",
+    "size_bytes": 200,
+    "summary": "JSON object keys=CanonicalTrustRecord"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/140_allocation_summary.json",
+    "size_bytes": 215,
+    "summary": "JSON object keys=groups"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/150_signature_bundle.json",
+    "size_bytes": 162,
+    "summary": "JSON object keys=metadata"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/151_public_key.pem",
+    "size_bytes": 109,
+    "summary": "PEM encoded public key"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/188_canonical_trust_record.v2.json",
+    "size_bytes": 198,
+    "summary": "JSON object keys=CanonicalTrustRecord"
+  },
+  {
+    "group": "exclusive_master_canonical_wariphat",
+    "file": "exclusive_master_canonical_wariphat/200_reference_asset.json",
+    "size_bytes": 83,
+    "summary": "JSON object keys=name,version,checksum"
+  }
+]
