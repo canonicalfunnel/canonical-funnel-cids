@@ -1,0 +1,18 @@
+{
+  "manifest_version": "1.1",
+  "owner": "Fixture Collective",
+  "payload": {
+    "artifacts": [
+      {
+        "name": "reference-asset",
+        "file": "200_reference_asset.json",
+        "sha256": "0d5fc7cda7f18f7b49314c6dd30c5791b039ae77154bfcca6a7b43c1469126b8"
+      },
+      {
+        "name": "allocation",
+        "file": "140_allocation_summary.json",
+        "sha256": "295e1f6ed1847b17403e77438f9a053b5b22e77a8a49aaa8ba11f546241d62da"
+      }
+    ]
+  }
+}

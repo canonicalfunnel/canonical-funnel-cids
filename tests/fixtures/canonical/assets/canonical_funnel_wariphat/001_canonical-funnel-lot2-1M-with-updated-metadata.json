@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "lot_number": "2",
+    "Canonical Funnel Proof Certificate": {
+      "Scope": "Global Lot 2",
+      "Quantity": 1000000
+    }
+  },
+  "_canonical_metadata": {
+    "name": "Lot 2 Production Run",
+    "category_range": "Global",
+    "funnel_category_count": 4
+  },
+  "keywords": [
+    "alpha",
+    "beta",
+    "gamma"
+  ],
+  "funnels": {
+    "primary": [
+      "alpha",
+      "gamma"
+    ],
+    "secondary": [
+      "delta"
+    ]
+  },
+  "Funnel Category #00001": [
+    "global expansion",
+    "market launch"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "CanonicalTrustRecord": {
+    "Owner": "Nattapol Horrakangthong",
+    "MasterDID": "z6MtrustMasterFixture",
+    "MasterCID": "bafy-trust-fixture-1",
+    "Issued": "2024-02-01T00:00:00.000Z"
+  }
+}

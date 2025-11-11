@@ -74,4 +74,63 @@ describe('canonical insights', () => {
     existsSpy.mockRestore();
     writeSpy.mockRestore();
   });
+
+  it('maps structure entries across supported entry types', () => {
+    jest.doMock('../../src/services/canonical-funnel', () => ({
+      collectTrustRecords: jest.fn(() => [
+        {
+          relative: 'trust.json',
+          owner: 'Owner Fixture',
+          masterDid: 'did:key:fixture',
+          masterCid: 'bafy-fixture',
+          record: { data: ['abc'] },
+        },
+      ]),
+      collectManifestSummaries: jest.fn(() => [
+        {
+          relative: 'manifest.json',
+          keys: ['entries'],
+          structure: [
+            { path: '', type: 'object', keys: ['entries'] },
+            { path: 'entries', type: 'array', sampleSize: 2 },
+            { path: 'entries[0].sha', type: 'string', value: 'abc' },
+          ],
+        },
+      ]),
+      describeStructure: jest.fn(() => [
+        { path: '', type: 'object', keys: ['data'] },
+        { path: 'data', type: 'array', sampleSize: 1 },
+        { path: 'data[0]', type: 'string', value: 'abc' },
+        { path: 'flag', type: 'boolean' },
+      ]),
+    }));
+
+    jest.isolateModules(() => {
+      const { generateInsights } = require('../../src/services/canonical-insights');
+      const insights = generateInsights();
+      expect(insights.trustRecords[0].structure[0]).toMatchObject({
+        type: 'object',
+        detail: 'data',
+      });
+      expect(insights.trustRecords[0].structure[1]).toMatchObject({
+        type: 'array',
+        detail: 'length≈1',
+      });
+      expect(insights.trustRecords[0].structure[2]).toMatchObject({
+        type: 'string',
+        detail: '"abc"',
+      });
+      expect(insights.trustRecords[0].structure[3]).toMatchObject({
+        type: 'boolean',
+        detail: '',
+      });
+      expect(insights.manifests[0].structure[1]).toMatchObject({
+        type: 'array',
+        detail: 'length≈2',
+      });
+    });
+
+    jest.dontMock('../../src/services/canonical-funnel');
+    jest.resetModules();
+  });
 });

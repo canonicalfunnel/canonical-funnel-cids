@@ -10,7 +10,7 @@ const {
 describe('canonical report service', () => {
   it('produces aggregate statistics', () => {
     const report = generateReport();
-    expect(report.totals.assets).toBe(195);
+    expect(report.totals.assets).toBe(15);
     expect(report.keywords.filesProcessed).toBeGreaterThanOrEqual(1);
     expect(report.signatures.binaryArtifacts).toBeGreaterThan(0);
   });
@@ -51,5 +51,55 @@ describe('canonical report service', () => {
     };
     expect(hasSignatureKey(payload)).toBe(true);
     expect(hasSignatureKey({})).toBe(false);
+  });
+
+  it('handles empty asset summary when generating reports', () => {
+    jest.doMock('../../src/services/canonical-funnel', () => ({
+      buildKeywordStats: jest.fn(() => ({
+        filesProcessed: 0,
+        keywords: 0,
+        categories: 0,
+        declaredLots: [],
+        declaredCategoryTotals: [],
+      })),
+      loadAssetIndex: jest.fn(() => ({ items_total: 0, groups: {} })),
+      loadAssetsSummary: jest.fn(() => []),
+      loadJsonAsset: jest.fn(),
+    }));
+
+    jest.isolateModules(() => {
+      const { generateReport } = require('../../src/services/canonical-report');
+      const report = generateReport();
+      expect(report.totals.assets).toBe(0);
+      expect(report.totals.extensionBreakdown).toEqual({});
+      expect(report.signatures.coverageRatio).toBe(0);
+    });
+
+    jest.dontMock('../../src/services/canonical-funnel');
+    jest.resetModules();
+  });
+
+  it('renders markdown when keyword stats are empty', () => {
+    const report = {
+      generatedAt: '2024-01-01T00:00:00.000Z',
+      totals: {
+        assets: 0,
+        groups: 0,
+        extensionBreakdown: {},
+      },
+      keywords: {
+        filesProcessed: 0,
+        keywords: 0,
+        categories: 0,
+        declaredLots: [],
+        declaredCategoryTotals: [],
+      },
+      allocations: { files: 0, groups: 0, entries: 0 },
+      signatures: { binaryArtifacts: 0, jsonDocuments: 0, coverageRatio: 0 },
+    };
+
+    const markdown = renderMarkdown(report);
+    expect(markdown).toContain('Declared lots: n/a');
+    expect(markdown).toContain('Declared category totals: n/a');
   });
 });

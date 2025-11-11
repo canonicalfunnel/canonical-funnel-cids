@@ -16,6 +16,8 @@ describe('config module', () => {
   });
 
   it('throws when required environment variables are missing', () => {
+    process.env.CFE_IPFS_CID = 'bafy-test-config';
+    process.env.CFE_DID = 'did:key:test-config';
     const { getEnv } = require('../../src/config');
     expect(() => getEnv('ALSO_MISSING', { required: true })).toThrow(
       'Missing required environment variable: ALSO_MISSING',
@@ -71,5 +73,36 @@ describe('config module', () => {
     jest.dontMock('fs');
     jest.resetModules();
     warnSpy.mockRestore();
+  });
+
+  it('loads env file content only once and preserves existing values', () => {
+    process.env.CFE_IPFS_CID = 'bafy-test-config';
+    process.env.CFE_DID = 'did:key:test-config';
+    process.env.ALREADY_SET = 'preset';
+
+    const readFileSync = jest.fn(
+      () => '# comment\nCFE_EXTRA=value-from-file\nALREADY_SET=ignored\nEMPTY=\n',
+    );
+    const existsSync = jest.fn().mockReturnValue(true);
+
+    jest.doMock('fs', () => ({ existsSync, readFileSync }));
+
+    jest.isolateModules(() => {
+      const { loadEnvFile } = require('../../src/config');
+      loadEnvFile();
+      loadEnvFile();
+      expect(existsSync).toHaveBeenCalledTimes(1);
+      expect(readFileSync).toHaveBeenCalledTimes(1);
+      expect(process.env.CFE_EXTRA).toBe('value-from-file');
+      expect(process.env.ALREADY_SET).toBe('preset');
+      expect(process.env.EMPTY).toBeUndefined();
+    });
+
+    delete process.env.ALREADY_SET;
+    delete process.env.CFE_EXTRA;
+    delete process.env.EMPTY;
+
+    jest.dontMock('fs');
+    jest.resetModules();
   });
 });
