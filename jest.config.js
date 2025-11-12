@@ -18,4 +18,9 @@ module.exports = {
   verbose: false,
   setupFiles: ['<rootDir>/tests/setup-env.js'],
   setupFilesAfterEnv: ['<rootDir>/tests/setup-after-env.js'],
+  testResultsProcessor: undefined,
+  silent: true,
+  bail: false,
 };
+
+
