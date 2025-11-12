@@ -1,0 +1,37 @@
+{
+  "items_total": 6,
+  "groups": {
+    "canonical_funnel_wariphat": {
+      "items": [
+        {
+          "name": "Lot Metadata",
+          "file": "canonical_funnel_wariphat/001_canonical-funnel-lot2-1M-with-updated-metadata.json"
+        },
+        {
+          "name": "Lot 1",
+          "file": "canonical_funnel_wariphat/003_canonical-funnel-lot1-1M.json"
+        },
+        {
+          "name": "Master Record",
+          "file": "canonical_funnel_wariphat/006_1#Canonical_Funnel_Master_Record_1M.json"
+        }
+      ]
+    },
+    "exclusive_master_canonical_wariphat": {
+      "items": [
+        {
+          "name": "Trust Record",
+          "file": "exclusive_master_canonical_wariphat/133_canonical_trust_record.json"
+        },
+        {
+          "name": "Manifest",
+          "file": "exclusive_master_canonical_wariphat/005_universal_canonical_binding_manifest.json"
+        },
+        {
+          "name": "Allocation",
+          "file": "exclusive_master_canonical_wariphat/allocation.json"
+        }
+      ]
+    }
+  }
+}

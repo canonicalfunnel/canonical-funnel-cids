@@ -7,22 +7,53 @@ const {
   renderMarkdown,
   resolveReferencePath,
   writeVerificationReport,
+  extractHashReferences,
+  buildAssetLookup,
 } = require('../../src/services/canonical-verifier');
 
 describe('canonical verifier service', () => {
+  it('builds lookup maps for assets', () => {
+    const lookup = buildAssetLookup();
+    expect(lookup.get('artifact.bin')).toEqual([
+      'exclusive_master_canonical_wariphat/artifact.bin',
+    ]);
+  });
+
+  it('extracts hash references from nested structures', () => {
+    const references = extractHashReferences({
+      file: 'direct.bin',
+      sha256: 'abc',
+      nested: [
+        {
+          name: 'next.bin',
+          sha256: 'def',
+        },
+      ],
+    });
+    expect(references).toEqual([
+      { file: 'direct.bin', sha256: 'abc' },
+      { file: 'next.bin', sha256: 'def' },
+    ]);
+  });
+
   it('evaluates manifest references', () => {
     const results = verifyManifests();
     expect(Array.isArray(results)).toBe(true);
     expect(results.length).toBeGreaterThan(0);
     expect(results[0]).toHaveProperty('manifest');
-    expect(results[0]).toHaveProperty('entries');
+    expect(results[0].checked).toBe(2);
+    expect(results[0].verified).toBe(2);
+    expect(results[0].entries[0]).toEqual(
+      expect.objectContaining({ status: 'verified' }),
+    );
   });
 
   it('renders markdown report', () => {
     const results = verifyManifests();
     const markdown = renderMarkdown(results);
     expect(markdown).toContain('# Canonical Funnel Verification Report');
-    expect(markdown).toContain('## exclusive_master_canonical_wariphat');
+    expect(markdown).toContain('exclusive_master_canonical_wariphat');
+    expect(markdown).toContain('verified');
   });
 
   it('renders markdown with all status pathways', () => {

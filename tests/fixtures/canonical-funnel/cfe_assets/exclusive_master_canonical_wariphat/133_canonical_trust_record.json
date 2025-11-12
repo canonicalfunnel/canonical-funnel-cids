@@ -1,0 +1,8 @@
+{
+  "CanonicalTrustRecord": {
+    "Owner": "Fixture Owner",
+    "MasterDID": "z6MfixtureDid",
+    "MasterCID": "bafyFixtureCid",
+    "Document": "Sample trust payload"
+  }
+}

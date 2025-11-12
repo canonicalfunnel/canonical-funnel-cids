@@ -1,0 +1,15 @@
+{
+  "canonical_funnel_wariphat": {
+    "count": 3,
+    "extensions": {
+      ".json": 3
+    }
+  },
+  "exclusive_master_canonical_wariphat": {
+    "count": 3,
+    "extensions": {
+      ".json": 2,
+      ".sig": 1
+    }
+  }
+}

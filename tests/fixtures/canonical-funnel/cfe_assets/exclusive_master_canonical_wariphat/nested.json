@@ -1,0 +1,10 @@
+{
+  "content": {
+    "id": 42,
+    "notes": ["alpha", "beta"],
+    "details": {
+      "owner": "Fixture Owner",
+      "sha": "placeholder"
+    }
+  }
+}

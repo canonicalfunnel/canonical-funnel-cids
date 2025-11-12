@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "Primary",
+      "entries": [
+        {
+          "rights_holder": "Fixture Holder",
+          "allocation_share": 0.5
+        },
+        {
+          "rights_holder": "Second Holder",
+          "allocation_percentage": 25
+        }
+      ]
+    }
+  ]
+}

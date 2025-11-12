@@ -20,6 +20,7 @@ describe('canonical report service', () => {
     const markdown = renderMarkdown(report);
     expect(markdown).toContain('# Canonical Funnel Quantitative Report');
     expect(markdown).toContain('## Signatures & Hashes');
+    expect(markdown).toContain('Fixture Lot');
   });
 
   it('analyzes allocation payload structures', () => {
@@ -32,11 +33,17 @@ describe('canonical report service', () => {
             { rights_holder: 'holder-2', allocation_share: 40 },
           ],
         },
+        {
+          name: 'Group B',
+          entries: [
+            { holder: 'holder-3', allocation_percentage: 50 },
+          ],
+        },
       ],
     };
     const result = analyzeAllocationPayload(payload);
-    expect(result.groups).toBeGreaterThanOrEqual(1);
-    expect(result.entries).toBeGreaterThanOrEqual(2);
+    expect(result.groups).toBe(2);
+    expect(result.entries).toBe(3);
   });
 
   it('detects signature fields inside nested structures', () => {

@@ -11,6 +11,83 @@ const { createLogger } = require('../utils/logger');
 
 const logger = createLogger('canonical-insights');
 
+const insightsCache = {
+  raw: null,
+  curated: null,
+};
+
+function resetInsightsCache() {
+  insightsCache.raw = null;
+  insightsCache.curated = null;
+}
+
+function getInsightsPath() {
+  return path.resolve(__dirname, '../../docs/canonical-funnel-insights.json');
+}
+
+function loadInsightsFile() {
+  if (insightsCache.raw) {
+    return insightsCache.raw;
+  }
+
+  const targetPath = getInsightsPath();
+  if (!fs.existsSync(targetPath)) {
+    throw new Error(`Missing canonical insights file: ${targetPath}`);
+  }
+
+  const content = fs.readFileSync(targetPath, 'utf8');
+  insightsCache.raw = JSON.parse(content);
+  return insightsCache.raw;
+}
+
+function mapStructureEntry(entry) {
+  return {
+    path: entry.path || '(root)',
+    type: entry.type,
+    detail: entry.detail || '',
+  };
+}
+
+function curateInsights(rawInsights) {
+  const trustStructures = (rawInsights.trustRecords || []).map((record) => ({
+    relative: record.relative,
+    owner: record.owner,
+    masterDid: record.masterDid,
+    masterCid: record.masterCid,
+    structure: (record.structure || []).map((entry) => mapStructureEntry(entry)),
+  }));
+
+  const manifestPatterns = (rawInsights.manifests || []).map((manifest) => ({
+    relative: manifest.relative,
+    keys: manifest.keys || [],
+    structure: (manifest.structure || []).map((entry) => mapStructureEntry(entry)),
+  }));
+
+  return {
+    generatedAt: rawInsights.generatedAt,
+    trustStructures,
+    manifestPatterns,
+  };
+}
+
+function loadCuratedInsights() {
+  if (insightsCache.curated) {
+    return insightsCache.curated;
+  }
+
+  const curated = curateInsights(loadInsightsFile());
+  insightsCache.curated = curated;
+  return curated;
+}
+
+function loadRawInsights() {
+  return loadInsightsFile();
+}
+
+function __resetInsightsCache() {
+  resetInsightsCache();
+}
+
 function formatStructureEntry(entry) {
   if (entry.type === 'object') {
     return {
@@ -138,12 +215,33 @@ function writeInsightsFiles() {
   };
 }
 
+function runWhenMain(entryModule = require.main) {
+  if (!entryModule) {
+    return;
+  }
+
+  const candidateFilename =
+    entryModule && entryModule.filename
+      ? path.resolve(entryModule.filename)
+      : null;
+
+  const isMainModule =
+    entryModule === module || candidateFilename === module.filename;
+
+  if (isMainModule) {
+    module.exports.writeInsightsFiles();
+  }
+}
+
 module.exports = {
   generateInsights,
   renderMarkdown,
   writeInsightsFiles,
+  loadCuratedInsights,
+  loadRawInsights,
+  getInsightsPath,
+  __resetInsightsCache,
+  runWhenMain,
 };
 
-if (require.main === module) {
-  writeInsightsFiles();
-}
+runWhenMain();

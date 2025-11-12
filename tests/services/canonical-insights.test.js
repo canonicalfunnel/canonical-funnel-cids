@@ -6,20 +6,35 @@ const {
   generateInsights,
   renderMarkdown,
   writeInsightsFiles,
+  loadCuratedInsights,
+  loadRawInsights,
+  getInsightsPath,
+  __resetInsightsCache,
+  runWhenMain,
 } = require('../../src/services/canonical-insights');
 
 describe('canonical insights', () => {
+  afterEach(() => {
+    __resetInsightsCache();
+  });
+
   it('generates trust record and manifest structures', () => {
     const insights = generateInsights();
     expect(insights.trustRecords.length).toBeGreaterThan(0);
     expect(insights.manifests.length).toBeGreaterThan(0);
+    const trustStructure = insights.trustRecords[0].structure;
+    const manifestStructure = insights.manifests[0].structure;
+    expect(trustStructure.some((entry) => entry.type === 'object')).toBe(true);
+    expect(manifestStructure.some((entry) => entry.type === 'array')).toBe(true);
   });
 
-  it('renders markdown output', () => {
+  it('renders markdown output with manifest data', () => {
     const insights = generateInsights();
     const markdown = renderMarkdown(insights);
     expect(markdown).toContain('# Canonical Funnel Structural Insights');
     expect(markdown).toContain('## Trust Records');
+    expect(markdown).toContain('## Manifests');
+    expect(markdown).toContain('exclusive_master_canonical_wariphat/005');
   });
 
   it('writes insights files and creates docs directory when missing', () => {
