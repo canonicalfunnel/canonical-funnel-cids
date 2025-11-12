@@ -15,7 +15,6 @@ const {
   describeStructure,
   buildKeywordStats,
   loadAssetsSummary,
-  loadGroupedSummary,
   computeAssetDigest,
   runCli,
 } = require('../../src/services/canonical-funnel');
