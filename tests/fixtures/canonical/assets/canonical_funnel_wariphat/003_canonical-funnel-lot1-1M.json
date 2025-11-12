@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "lot_number": "1",
+    "Canonical Funnel Proof Certificate": {
+      "Scope": "Global Lot 1",
+      "Quantity": 750000
+    }
+  },
+  "_canonical_metadata": {
+    "name": "Lot 1 Early Release",
+    "category_range": "Regional",
+    "funnel_category_count": 3
+  },
+  "keywords": [
+    "omega",
+    "theta"
+  ],
+  "funnels": {
+    "primary": [
+      "omega"
+    ]
+  },
+  "Funnel Category #00001": [
+    "regional awareness"
+  ]
+}

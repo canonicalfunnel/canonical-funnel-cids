@@ -1,0 +1,18 @@
+{
+  "totals": {
+    "items": 15,
+    "groups": 2
+  },
+  "groups": [
+    {
+      "name": "canonical_funnel_wariphat",
+      "items": 7,
+      "size_bytes": 1956
+    },
+    {
+      "name": "exclusive_master_canonical_wariphat",
+      "items": 8,
+      "size_bytes": 1701
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "manifest_version": "1.0",
+  "owner": "Nattapol Horrakangthong",
+  "master_did": "z6MfixtureManifest",
+  "entries": [
+    {
+      "file": "200_reference_asset.json",
+      "sha256": "0d5fc7cda7f18f7b49314c6dd30c5791b039ae77154bfcca6a7b43c1469126b8"
+    }
+  ]
+}

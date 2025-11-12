@@ -8,6 +8,7 @@ const {
   listGroups,
   listGroupItems,
   loadJsonAsset,
+  loadGroupedSummary,
   collectTrustRecords,
   collectManifestSummaries,
   resolveAssetPath,
@@ -29,7 +30,7 @@ describe('canonical funnel service', () => {
 
   it('loads asset index with expected groups', () => {
     const index = loadAssetIndex();
-    expect(index.items_total).toBe(6);
+    expect(index.items_total).toBe(15);
     expect(Object.keys(index.groups || {})).toContain(
       'canonical_funnel_wariphat',
     );
@@ -112,6 +113,20 @@ describe('canonical funnel service', () => {
     expect(arrayEntry).toBeDefined();
   });
 
+  it('respects describeStructure entry limits', () => {
+    const details = describeStructure(
+      { values: [1, 2, 3], nested: { inner: true } },
+      { maxEntries: 1 },
+    );
+    expect(details.length).toBe(1);
+  });
+
+  it('loads grouped asset summary metadata', () => {
+    const summary = loadGroupedSummary();
+    expect(summary).toHaveProperty('groups');
+    expect(Array.isArray(summary.groups)).toBe(true);
+  });
+
   it('collects manifest structures', () => {
     const manifests = collectManifestSummaries();
     expect(manifests.length).toBeGreaterThanOrEqual(1);
@@ -137,6 +152,59 @@ describe('canonical funnel service', () => {
     expect(digest).toBe(
       'a3c6acb4dd171f305d805c0d1344a0f794b228b2c78e9ee166950e075256409c',
     );
+  });
+
+  it('continues keyword aggregation when a file cannot be parsed', () => {
+    jest.isolateModules(() => {
+      const fs = require('fs');
+      const originalRead = fs.readFileSync;
+      const readSpy = jest
+        .spyOn(fs, 'readFileSync')
+        .mockImplementation((target, ...args) => {
+          if (
+            typeof target === 'string' &&
+            target.includes(
+              '001_canonical-funnel-lot2-1M-with-updated-metadata.json',
+            )
+          ) {
+            throw new Error('forced read failure');
+          }
+          return originalRead.call(fs, target, ...args);
+        });
+
+      const funnel = require('../../src/services/canonical-funnel');
+      const stats = funnel.buildKeywordStats();
+      expect(stats.filesProcessed).toBe(2);
+      expect(stats.keywords).toBeGreaterThan(0);
+
+      readSpy.mockRestore();
+    });
+  });
+
+  it('handles keyword payloads missing optional sections', () => {
+    jest.isolateModules(() => {
+      const fs = require('fs');
+      const originalRead = fs.readFileSync;
+      const replacement = JSON.stringify({ funnels: { primary: 'not-an-array' } });
+      const readSpy = jest
+        .spyOn(fs, 'readFileSync')
+        .mockImplementation((target, ...args) => {
+          if (
+            typeof target === 'string' &&
+            target.includes('003_canonical-funnel-lot1-1M.json')
+          ) {
+            return replacement;
+          }
+          return originalRead.call(fs, target, ...args);
+        });
+
+      const funnel = require('../../src/services/canonical-funnel');
+      const stats = funnel.buildKeywordStats();
+      expect(stats.filesProcessed).toBeGreaterThan(0);
+      expect(Array.isArray(stats.declaredLots)).toBe(true);
+
+      readSpy.mockRestore();
+    });
   });
 });
 

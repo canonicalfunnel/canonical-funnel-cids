@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "lot_number": "Master",
+    "Canonical Funnel Proof Certificate": {
+      "Scope": "Master Scope",
+      "Quantity": 2500000
+    }
+  },
+  "_canonical_metadata": {
+    "name": "Master Funnel Record",
+    "category_range": "Worldwide",
+    "funnel_category_count": 5
+  },
+  "keywords": [
+    "insight",
+    "innovation",
+    "leadership"
+  ],
+  "funnels": {
+    "executive": [
+      "strategy",
+      "governance"
+    ]
+  },
+  "Funnel Category #00001": [
+    "executive briefings"
+  ],
+  "Funnel Category #00002": [
+    "global governance"
+  ]
+}

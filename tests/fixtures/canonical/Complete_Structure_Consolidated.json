@@ -1,0 +1,73 @@
+{
+  "items_total": 15,
+  "groups": {
+    "canonical_funnel_wariphat": {
+      "items": [
+        {
+          "name": "Lot 2 Updated Metadata",
+          "file": "canonical_funnel_wariphat/001_canonical-funnel-lot2-1M-with-updated-metadata.json"
+        },
+        {
+          "name": "Canonical Funnel Summary",
+          "file": "canonical_funnel_wariphat/002_canonical-funnel-summary.json"
+        },
+        {
+          "name": "Lot 1 Manifest",
+          "file": "canonical_funnel_wariphat/003_canonical-funnel-lot1-1M.json"
+        },
+        {
+          "name": "Metadata Diagram",
+          "file": "canonical_funnel_wariphat/004_canonical_funnel_metadata_now.svg"
+        },
+        {
+          "name": "Showcase Image",
+          "file": "canonical_funnel_wariphat/005_Canonical-Funnel-Wariphat.png.jpg"
+        },
+        {
+          "name": "Master Record",
+          "file": "canonical_funnel_wariphat/006_1#Canonical_Funnel_Master_Record_1M.json"
+        },
+        {
+          "name": "Program Overview",
+          "file": "canonical_funnel_wariphat/007_canonical-funnel-overview.txt"
+        }
+      ]
+    },
+    "exclusive_master_canonical_wariphat": {
+      "items": [
+        {
+          "name": "Universal Binding Manifest",
+          "file": "exclusive_master_canonical_wariphat/005_universal_canonical_binding_manifest.json"
+        },
+        {
+          "name": "Core Manifest",
+          "file": "exclusive_master_canonical_wariphat/023_manifest.json"
+        },
+        {
+          "name": "Primary Trust Record",
+          "file": "exclusive_master_canonical_wariphat/133_canonical_trust_record.json"
+        },
+        {
+          "name": "Allocation Summary",
+          "file": "exclusive_master_canonical_wariphat/140_allocation_summary.json"
+        },
+        {
+          "name": "Signature Bundle",
+          "file": "exclusive_master_canonical_wariphat/150_signature_bundle.json"
+        },
+        {
+          "name": "Public Key",
+          "file": "exclusive_master_canonical_wariphat/151_public_key.pem"
+        },
+        {
+          "name": "Secondary Trust Record",
+          "file": "exclusive_master_canonical_wariphat/188_canonical_trust_record.v2.json"
+        },
+        {
+          "name": "Reference Asset",
+          "file": "exclusive_master_canonical_wariphat/200_reference_asset.json"
+        }
+      ]
+    }
+  }
+}
