@@ -7,6 +7,7 @@
   "scripts": {
     "start": "node src/agents/index.js",
     "agent": "NODE_ENV=development node src/agents/index.js",
+    "build": "node scripts/build.js",
     "test": "jest --coverage",
     "register": "npx cfe-cli register --manifest canonical-funnel-agent.json"
   },
@@ -25,8 +26,7 @@
   "dependencies": {
     "@storacha/client": "^1.8.2"
   },
-"devDependencies": {
-  "jest": "^29.7.0"
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
-}
-
