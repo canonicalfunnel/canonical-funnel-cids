@@ -7,10 +7,14 @@ const {
   hasSignatureKey,
 } = require('../../src/services/canonical-report');
 
+const canonicalIndexFixture = require('../fixtures/canonical-funnel/Complete_Structure_Consolidated.json');
+
+const EXPECTED_ITEMS_TOTAL = canonicalIndexFixture.items_total;
+
 describe('canonical report service', () => {
   it('produces aggregate statistics', () => {
     const report = generateReport();
-    expect(report.totals.assets).toBe(15);
+    expect(report.totals.assets).toBe(EXPECTED_ITEMS_TOTAL);
     expect(report.keywords.filesProcessed).toBeGreaterThanOrEqual(1);
     expect(report.signatures.binaryArtifacts).toBeGreaterThan(0);
   });

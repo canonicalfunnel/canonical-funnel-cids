@@ -1,0 +1,170 @@
+name: CD
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+env:
+  NODE_VERSION: 20.x
+
+permissions:
+  contents: write
+  packages: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: cd-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm test
+
+      - name: Build distribution bundle
+        run: npm run build
+
+      - name: Upload distribution artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-bundle
+          path: dist
+
+  docs:
+    needs: test
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy-gh-pages.outputs.page_url }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build documentation snapshot
+        run: |
+          DOCS_DIR=public-docs
+          rm -rf "$DOCS_DIR"
+          mkdir -p "$DOCS_DIR"
+          cp -R docs/. "$DOCS_DIR"/
+          if [ -f Canonical-Funnel-README.md ]; then
+            cp Canonical-Funnel-README.md "$DOCS_DIR"/index.md
+          fi
+
+      - name: Upload documentation artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public-docs
+
+      - name: Deploy to GitHub Pages
+        id: deploy-gh-pages
+        uses: actions/deploy-pages@v4
+
+      - name: Deploy to Cloudflare Pages
+        if: ${{ secrets.CLOUDFLARE_API_TOKEN != '' && secrets.CLOUDFLARE_ACCOUNT_ID != '' && secrets.CLOUDFLARE_PAGES_PROJECT != '' }}
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: ${{ secrets.CLOUDFLARE_PAGES_PROJECT }}
+          directory: public-docs
+
+  publish:
+    needs: test
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build distribution bundle
+        run: npm run build
+
+      - name: Publish to GitHub Packages
+        if: ${{ secrets.GITHUB_TOKEN != '' && vars.GITHUB_PACKAGE_SCOPE != '' }}
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PACKAGE_SCOPE: ${{ vars.GITHUB_PACKAGE_SCOPE }}
+        run: |
+          node scripts/scope-package.js "$PACKAGE_SCOPE"
+          npm publish --access public --registry https://npm.pkg.github.com
+          git checkout -- package.json
+
+      - name: Publish to npm registry
+        if: ${{ secrets.NPM_TOKEN != '' }}
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish --access public
+
+  anchor:
+    needs: [publish, test]
+    if: ${{ secrets.WEB3_STORAGE_TOKEN != '' || secrets.STORACHA_API_KEY != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js ${{ env.NODE_VERSION }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Download distribution artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: dist-bundle
+          path: dist
+
+      - name: Archive build output
+        run: |
+          tar -czf canonical-funnel-agent.tar.gz -C dist .
+
+      - name: Anchor CID via Storacha / Web3.Storage
+        id: cid
+        env:
+          WEB3_STORAGE_TOKEN: ${{ secrets.WEB3_STORAGE_TOKEN }}
+          STORACHA_API_KEY: ${{ secrets.STORACHA_API_KEY }}
+        run: |
+          node scripts/anchor-to-web3.js canonical-funnel-agent.tar.gz storacha-manifest.json
+          echo "cid=$(jq -r .cid storacha-manifest.json)" >> "$GITHUB_OUTPUT"
+
+      - name: Upload CID manifest artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: storacha-manifest
+          path: storacha-manifest.json

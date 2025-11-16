@@ -19,6 +19,11 @@ const {
   runCli,
 } = require('../../src/services/canonical-funnel');
 
+const canonicalIndexFixture = require('../fixtures/canonical-funnel/Complete_Structure_Consolidated.json');
+const groupedSummaryFixture = require('../fixtures/canonical-funnel/cfe_assets_grouped_summary.json');
+
+const EXPECTED_ITEMS_TOTAL = canonicalIndexFixture.items_total;
+
 describe('canonical funnel service', () => {
   it('exposes canonical asset locations', () => {
     const baseDir = getAssetsDirectory();
@@ -29,7 +34,7 @@ describe('canonical funnel service', () => {
 
   it('loads asset index with expected groups', () => {
     const index = loadAssetIndex();
-    expect(index.items_total).toBe(15);
+    expect(index.items_total).toBe(EXPECTED_ITEMS_TOTAL);
     expect(Object.keys(index.groups || {})).toContain(
       'canonical_funnel_wariphat',
     );
@@ -122,8 +127,11 @@ describe('canonical funnel service', () => {
 
   it('loads grouped asset summary metadata', () => {
     const summary = loadGroupedSummary();
-    expect(summary).toHaveProperty('groups');
-    expect(Array.isArray(summary.groups)).toBe(true);
+    expect(summary).toEqual(groupedSummaryFixture);
+    Object.values(summary).forEach((details) => {
+      expect(typeof details.count).toBe('number');
+      expect(details.count).toBeGreaterThan(0);
+    });
   });
 
   it('collects manifest structures', () => {
