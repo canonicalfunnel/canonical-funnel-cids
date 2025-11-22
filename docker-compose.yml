@@ -1,0 +1,28 @@
+version: '3.9'
+services:
+  db:
+    image: postgres:15
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: cfe_identity
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+  app:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      - db
+    environment:
+      PORT: 4000
+      DATABASE_URL: postgres://postgres:postgres@db:5432/cfe_identity
+      JWT_SECRET: super-secret-key
+      CORS_ORIGIN: "*"
+    ports:
+      - "4000:4000"
+    command: npm run identity:start
+volumes:
+  db-data:

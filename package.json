@@ -9,7 +9,11 @@
     "agent": "NODE_ENV=development node src/agents/index.js",
     "build": "node scripts/build.js",
     "test": "jest --coverage",
-    "register": "npx cfe-cli register --manifest canonical-funnel-agent.json"
+    "register": "npx cfe-cli register --manifest canonical-funnel-agent.json",
+    "identity:start": "node identity-server/server.js",
+    "client:dev": "vite --config client/vite.config.mjs",
+    "client:build": "vite build --config client/vite.config.mjs",
+    "client:preview": "vite preview --config client/vite.config.mjs"
   },
   "keywords": [
     "storacha",
@@ -24,9 +28,19 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@storacha/client": "^1.8.2"
+    "@storacha/client": "^1.8.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "@vitejs/plugin-react": "^5.0.4",
+    "jest": "^29.7.0",
+    "vite": "^5.2.8"
   }
 }
