@@ -82,11 +82,9 @@ jobs:
         id: deploy-gh-pages
         uses: actions/deploy-pages@v4
 
-      # ---------- Fixed Cloudflare Condition ----------
+      # Cloudflare deploy only when secrets exist
       - name: Deploy to Cloudflare Pages
-        env:
-          CF_READY: ${{ secrets.CLOUDFLARE_API_TOKEN != '' && secrets.CLOUDFLARE_ACCOUNT_ID != '' && secrets.CLOUDFLARE_PAGES_PROJECT != '' }}
-        if: ${{ env.CF_READY == 'true' }}
+        if: ${{ secrets.CLOUDFLARE_API_TOKEN != '' && secrets.CLOUDFLARE_ACCOUNT_ID != '' && secrets.CLOUDFLARE_PAGES_PROJECT != '' }}
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -117,34 +115,33 @@ jobs:
       - name: Build distribution bundle
         run: npm run build
 
-      # ---------- Fix GitHub Packages Condition ----------
       - name: Publish to GitHub Packages
+        if: ${{ secrets.GITHUB_TOKEN != '' && vars.GITHUB_PACKAGE_SCOPE != '' }}
         env:
-          GH_READY: ${{ secrets.GITHUB_TOKEN != '' && vars.GITHUB_PACKAGE_SCOPE != '' }}
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PACKAGE_SCOPE: ${{ vars.GITHUB_PACKAGE_SCOPE }}
-        if: ${{ env.GH_READY == 'true' }}
         run: |
           node scripts/scope-package.js "$PACKAGE_SCOPE"
           npm publish --access public --registry https://npm.pkg.github.com
           git checkout -- package.json
 
-      # ---------- Fix NPM Registry Condition ----------
       - name: Publish to npm registry
+        if: ${{ secrets.NPM_TOKEN != '' }}
         env:
-          NPM_READY: ${{ secrets.NPM_TOKEN != '' }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        if: ${{ env.NPM_READY == 'true' }}
         run: npm publish --access public
 
   anchor:
     needs: [publish, test]
     runs-on: ubuntu-latest
 
-    # ---------- Fix Storacha / Web3.Storage Condition ----------
-    env:
-      ANCHOR_READY: ${{ secrets.WEB3_STORAGE_TOKEN != '' || secrets.STORACHA_API_KEY != '' }}
-    if: ${{ env.ANCHOR_READY == 'true' }}
+    # Enable this job only if at least one secret exists
+    strategy:
+      matrix:
+        run_anchor:
+          - ${{ secrets.WEB3_STORAGE_TOKEN != '' || secrets.STORACHA_API_KEY != '' }}
+
+    if: ${{ matrix.run_anchor }}
 
     steps:
       - name: Checkout repository
