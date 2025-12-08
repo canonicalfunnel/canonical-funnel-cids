@@ -15,6 +15,8 @@ const {
 
 describe('canonical insights', () => {
   afterEach(() => {
+    jest.restoreAllMocks();
+    jest.resetModules();
     __resetInsightsCache();
   });
 
@@ -61,9 +63,6 @@ describe('canonical insights', () => {
     expect(writeSpy).toHaveBeenCalledTimes(2);
     expect(result).toHaveProperty('markdownPath');
 
-    existsSpy.mockRestore();
-    mkdirSpy.mockRestore();
-    writeSpy.mockRestore();
   });
 
   it('writes insights files when docs directory already exists', () => {
@@ -86,8 +85,124 @@ describe('canonical insights', () => {
     expect(writeSpy).toHaveBeenCalledTimes(2);
     expect(result).toHaveProperty('jsonPath');
 
-    existsSpy.mockRestore();
-    writeSpy.mockRestore();
+  });
+
+  it('uses cached insights without re-reading the source file', () => {
+    jest.isolateModules(() => {
+      jest.doMock('fs', () => ({
+        existsSync: jest.fn(() => true),
+        readFileSync: jest
+          .fn()
+          .mockReturnValue(
+            JSON.stringify({ generatedAt: 'now', trustRecords: [], manifests: [] }),
+          ),
+      }));
+
+      const { loadCuratedInsights, __resetInsightsCache } = require(
+        '../../src/services/canonical-insights',
+      );
+      const fsMock = require('fs');
+
+      loadCuratedInsights();
+      fsMock.readFileSync.mockClear();
+
+      expect(loadCuratedInsights()).toEqual({
+        generatedAt: 'now',
+        trustStructures: [],
+        manifestPatterns: [],
+      });
+      expect(fsMock.readFileSync).not.toHaveBeenCalled();
+
+    });
+  });
+
+  it('throws a helpful error when the insights file is missing', () => {
+    jest.isolateModules(() => {
+      jest.doMock('fs', () => ({
+        existsSync: jest.fn(() => false),
+        readFileSync: jest.fn(),
+      }));
+
+      const { loadRawInsights } = require('../../src/services/canonical-insights');
+
+      expect(() => loadRawInsights()).toThrow(/Missing canonical insights file/);
+
+    });
+  });
+
+  it('handles insight structures that omit optional fields', () => {
+    jest.isolateModules(() => {
+      jest.doMock('fs', () => ({
+        existsSync: jest.fn(() => true),
+        readFileSync: jest.fn(() =>
+          JSON.stringify({
+            generatedAt: 'now',
+            trustRecords: [
+              {
+                relative: 'trust.json',
+                owner: 'Owner Fixture',
+                masterDid: 'did:key:fixture',
+                masterCid: 'bafy-fixture',
+                structure: [{ type: 'object' }, { path: 'entry', type: 'string' }],
+              },
+            ],
+            manifests: [
+              {
+                relative: 'manifest.json',
+                keys: ['entries'],
+                structure: [{ type: 'array', sampleSize: 2 }],
+              },
+            ],
+          }),
+        ),
+      }));
+
+      const { loadCuratedInsights } = require('../../src/services/canonical-insights');
+      const curated = loadCuratedInsights();
+
+      expect(curated.trustStructures[0].structure[0]).toEqual({
+        path: '(root)',
+        type: 'object',
+        detail: '',
+      });
+      expect(curated.trustStructures[0].structure[1]).toEqual({
+        path: 'entry',
+        type: 'string',
+        detail: '',
+      });
+      expect(curated.manifestPatterns[0].structure[0]).toEqual({
+        path: '(root)',
+        type: 'array',
+        detail: '',
+      });
+
+    });
+  });
+
+  it('runs insights generation when executed as the main module', () => {
+    jest.isolateModules(() => {
+      jest.doMock('fs', () => ({
+        existsSync: jest.fn(() => true),
+        readFileSync: jest.fn(() =>
+          JSON.stringify({ generatedAt: 'now', trustRecords: [], manifests: [] }),
+        ),
+        writeFileSync: jest.fn(),
+        mkdirSync: jest.fn(),
+      }));
+
+      const insightsModulePath = '../../src/services/canonical-insights';
+      // eslint-disable-next-line global-require
+      const insights = require(insightsModulePath);
+      const writeSpy = jest
+        .spyOn(insights, 'writeInsightsFiles')
+        .mockReturnValue({ markdownPath: '', jsonPath: '' });
+
+      insights.runWhenMain({ filename: require.resolve(insightsModulePath) });
+      expect(writeSpy).toHaveBeenCalled();
+
+      writeSpy.mockRestore();
+      jest.dontMock('fs');
+    });
   });
 
   it('maps structure entries across supported entry types', () => {
